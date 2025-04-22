@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c9395d94-20c9-4cf8-bd17-f6109d3402b0: 04b7e313-e39c-4854-b4a2-59397a6d9d2c/3d1e45160363823afc3f12fcf527e581/Data/C_controller_GEO.mesh
+  Assets:
+    - !<FileMesh/c9395d94-20c9-4cf8-bd17-f6109d3402b0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 92
+        Vertices: 108
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 8.615076, y: 9.196270, z: 10.216232}
+  SourceHash: 3d1e45160363823afc3f12fcf527e581
+  FileHash: 5f5782bad382c2fe28a670d3d6944e01
+  NativePackageItems:
+    []

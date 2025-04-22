@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3c827c16-0a51-428d-9301-60821aac3359: 2793dbff-5d27-40eb-8b23-4cf07918962a/4183ffbeb825c35fe7949d74cd690dd5/Data/L_trunk_GEO.mesh
+  Assets:
+    - !<FileMesh/3c827c16-0a51-428d-9301-60821aac3359>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 156
+        Vertices: 210
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 97.847488, y: 24.684509, z: 38.245018}
+  SourceHash: 4183ffbeb825c35fe7949d74cd690dd5
+  FileHash: 2cc3062beb72c5387d6037248e53502a
+  NativePackageItems:
+    []

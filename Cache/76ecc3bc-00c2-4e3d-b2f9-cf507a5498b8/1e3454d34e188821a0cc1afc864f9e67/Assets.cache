@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ef7bb3cd-0d1f-4f6a-8064-1bce7a266f7d: 76ecc3bc-00c2-4e3d-b2f9-cf507a5498b8/1e3454d34e188821a0cc1afc864f9e67/Data/C_traffic_barrel_GEO.mesh
+  Assets:
+    - !<FileMesh/ef7bb3cd-0d1f-4f6a-8064-1bce7a266f7d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 674
+        Vertices: 548
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 37.769588, y: 68.520432, z: 38.236092}
+  SourceHash: 1e3454d34e188821a0cc1afc864f9e67
+  FileHash: 11c03550bfd63d0f527ebb55265986f5
+  NativePackageItems:
+    []

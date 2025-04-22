@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d7a98c46-124f-45da-889c-9c96abf33a1d: 8b70179b-a81d-4743-b532-4f3f0059baa9/26520c32c5318c52c9f06a4466edf0a1/Data/C_ice_GEO.mesh
+  Assets:
+    - !<FileMesh/d7a98c46-124f-45da-889c-9c96abf33a1d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 232
+        Vertices: 214
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 511.672119, y: 7.163568, z: 607.815186}
+  SourceHash: 26520c32c5318c52c9f06a4466edf0a1
+  FileHash: c0fafa652ec41f835a569e5d0f828bcc
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9e4389a9-4b4b-4253-8448-0c229ec205b7: 48932762-0cb7-4ed1-8e8e-b421a9fb0997/673113f1826efe342144820173a753af/Data/stone_color.png
+  Assets:
+    - !<FileTexture/9e4389a9-4b4b-4253-8448-0c229ec205b7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 673113f1826efe342144820173a753af
+  FileHash: 1e37d956173bcd367cd06e9b42a7f7a9
+  NativePackageItems:
+    []

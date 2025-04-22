@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    eebaf0fd-35ca-4652-a298-a90d39e5c07e: 25a08371-eec1-450f-9b87-ef538d6149ea/187feb9c512cbefa0b1e6c8f73033bbb/Data/C_sewer_grate_GEO.mesh
+  Assets:
+    - !<FileMesh/eebaf0fd-35ca-4652-a298-a90d39e5c07e>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 68
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 68.479355, y: 0.579723, z: 47.764404}
+  SourceHash: 187feb9c512cbefa0b1e6c8f73033bbb
+  FileHash: bd8e593bf95cdc5138313aa75374d8be
+  NativePackageItems:
+    []

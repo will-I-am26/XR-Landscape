@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    87d65939-2c1d-4104-9cb0-9889a6683e9f: 43d8ddbc-8160-495b-9e0e-1208bf5f85d8/98b2d77471b29451c4921ef3eb34c9de/Data/sidewalk_color.png
+  Assets:
+    - !<FileTexture/87d65939-2c1d-4104-9cb0-9889a6683e9f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 98b2d77471b29451c4921ef3eb34c9de
+  FileHash: 93e2c6764c95393af80426c2afd3bd8e
+  NativePackageItems:
+    []

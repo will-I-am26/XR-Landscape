@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    698099d3-bbc3-4c7e-bc76-950aef17300a: b4f61014-ce6e-497d-b8f5-5934c16e534b/bd776a66665a846748b5316a5905b2aa/Data/C_cart_luggage_blue_GEO.mesh
+  Assets:
+    - !<FileMesh/698099d3-bbc3-4c7e-bc76-950aef17300a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3352
+        Vertices: 3832
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 78.846893, y: 54.271198, z: 97.797112}
+  SourceHash: bd776a66665a846748b5316a5905b2aa
+  FileHash: 4af164e9e4b6083a1fee2502144a94d2
+  NativePackageItems:
+    []

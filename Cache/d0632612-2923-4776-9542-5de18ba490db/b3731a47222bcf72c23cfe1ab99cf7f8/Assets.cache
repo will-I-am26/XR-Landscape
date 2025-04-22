@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1136c8cb-e2ac-41e4-aff7-3adca5b5ee85: d0632612-2923-4776-9542-5de18ba490db/b3731a47222bcf72c23cfe1ab99cf7f8/Data/large_bouquet_flower_color.png
+  Assets:
+    - !<FileTexture/1136c8cb-e2ac-41e4-aff7-3adca5b5ee85>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: b3731a47222bcf72c23cfe1ab99cf7f8
+  FileHash: 9cb432e0eabfded91d37fbec307a0b60
+  NativePackageItems:
+    []

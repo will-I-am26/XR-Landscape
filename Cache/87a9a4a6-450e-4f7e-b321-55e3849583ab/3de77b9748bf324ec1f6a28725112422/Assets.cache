@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6e060357-2300-4e56-9ce1-89b4a3d77901: 87a9a4a6-450e-4f7e-b321-55e3849583ab/3de77b9748bf324ec1f6a28725112422/Data/dock_color.jpg
+  Assets:
+    - !<FileTexture/6e060357-2300-4e56-9ce1-89b4a3d77901>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 3de77b9748bf324ec1f6a28725112422
+  FileHash: ebe67fd39dd01cd05e371fa4adac5e51
+  NativePackageItems:
+    []

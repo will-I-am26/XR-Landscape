@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    85f4ce00-afc9-4453-90ae-1ca3198a37a4: 6961615b-9883-471e-84ca-b9261e1eb9fa/e0393a552e090817bfaccd7e0c99cbb8/Data/C_seat_GEO.mesh
+  Assets:
+    - !<FileMesh/85f4ce00-afc9-4453-90ae-1ca3198a37a4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 652
+        Vertices: 561
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 19.708155, y: 17.573158, z: 21.368509}
+  SourceHash: e0393a552e090817bfaccd7e0c99cbb8
+  FileHash: 1a98225e5ec87d422a026e66d5e8862e
+  NativePackageItems:
+    []

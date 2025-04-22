@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5f39756e-db9c-4b40-9621-c45c363ac30d: b7312b63-159c-4bcb-a1e0-612cd7f6ce09/8f6de40369a09860c4f65e1251b08f59/Data/icerink_color.png
+  Assets:
+    - !<FileTexture/5f39756e-db9c-4b40-9621-c45c363ac30d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 8f6de40369a09860c4f65e1251b08f59
+  FileHash: 570e2852c4d3d438dc6da4a7384ce087
+  NativePackageItems:
+    []

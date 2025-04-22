@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1391abbc-ad39-4a46-b98b-599b41651779: 9de66b01-b5ed-4c7f-8cd3-14b881f8dd95/11d8f259f82c2362f2122ced44d49879/Data/grass_scene_color.png
+  Assets:
+    - !<FileTexture/1391abbc-ad39-4a46-b98b-599b41651779>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 11d8f259f82c2362f2122ced44d49879
+  FileHash: f97c695900aab68b7b5f8190c5282c9e
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    79d6539e-b468-4ece-ae99-29da9c0d96d4: 5320cc64-a60e-44d3-92fc-8d58aeae74ff/884fcce89d423ec2828d556e13a1abc8/Data/sewer_grate_color.png
+  Assets:
+    - !<FileTexture/79d6539e-b468-4ece-ae99-29da9c0d96d4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 884fcce89d423ec2828d556e13a1abc8
+  FileHash: 50784cb23fdb28815a60a44a451fc305
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    809ad37f-6968-471b-aa1c-b6e469be98f5: c5161ea0-038d-4c31-973e-9e66d902dcdb/dc47f8767ac43868543aacb3380cfa4f/Data/C_handleBar_GEO.mesh
+  Assets:
+    - !<FileMesh/809ad37f-6968-471b-aa1c-b6e469be98f5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1546
+        Vertices: 1256
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 76.939713, y: 39.111778, z: 34.986603}
+  SourceHash: dc47f8767ac43868543aacb3380cfa4f
+  FileHash: b7dddaa7fcb23d00a03ee2a2a46a4b2b
+  NativePackageItems:
+    []

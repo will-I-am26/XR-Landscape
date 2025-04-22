@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    85135f75-4fec-4feb-a667-ca437cea50ce: 68389451-edaf-4ab2-8ccd-49860be52a07/ea721a52af23e5a9561af9c7660c7a49/Data/stick_pile_color.png
+  Assets:
+    - !<FileTexture/85135f75-4fec-4feb-a667-ca437cea50ce>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: ea721a52af23e5a9561af9c7660c7a49
+  FileHash: cd76287630bd3ae2b97df60ba38738a8
+  NativePackageItems:
+    []

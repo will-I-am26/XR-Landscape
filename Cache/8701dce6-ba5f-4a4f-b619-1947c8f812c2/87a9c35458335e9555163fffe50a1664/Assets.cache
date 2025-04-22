@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    07fe2890-3c89-4966-a697-69c8b28990a1: 8701dce6-ba5f-4a4f-b619-1947c8f812c2/87a9c35458335e9555163fffe50a1664/Data/C_trash_003_GEO.mesh
+  Assets:
+    - !<FileMesh/07fe2890-3c89-4966-a697-69c8b28990a1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 320
+        Vertices: 256
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 41.736855, y: 20.348820, z: 29.627514}
+  SourceHash: 87a9c35458335e9555163fffe50a1664
+  FileHash: 02fc29bdbc69759f1d0b10f08fa808f0
+  NativePackageItems:
+    []

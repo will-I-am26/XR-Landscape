@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f9586e45-4325-4bb9-a030-2434f5836fbf: b52f1a51-6bcb-4b56-9802-496e13310e0a/d27a902ad3cc5331df947720f90ce365/Data/C_wheel_RearRight_GEO.mesh
+  Assets:
+    - !<FileMesh/f9586e45-4325-4bb9-a030-2434f5836fbf>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 144
+        Vertices: 122
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 5.597555, y: 8.371820, z: 8.413727}
+  SourceHash: d27a902ad3cc5331df947720f90ce365
+  FileHash: e8432091fa1ed2657d7bc66964930c1c
+  NativePackageItems:
+    []

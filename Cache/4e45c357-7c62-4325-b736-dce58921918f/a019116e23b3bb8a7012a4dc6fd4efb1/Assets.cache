@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    13297e3e-4f4e-4fe1-9d20-c74ac5bcb33a: 4e45c357-7c62-4325-b736-dce58921918f/a019116e23b3bb8a7012a4dc6fd4efb1/Data/seesaw_color.png
+  Assets:
+    - !<FileTexture/13297e3e-4f4e-4fe1-9d20-c74ac5bcb33a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: a019116e23b3bb8a7012a4dc6fd4efb1
+  FileHash: 2c6567a610693bf5ea6dab2f0c65bb9e
+  NativePackageItems:
+    []

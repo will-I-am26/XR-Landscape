@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    aaede39a-89b6-404c-b2a6-fe862e31b2c8: e20d745b-ca56-464b-9b36-264dab53d406/f73a81c65113853cb3c6a4606cb49023/Data/tumbleweed_GEO.mesh
+  Assets:
+    - !<FileMesh/aaede39a-89b6-404c-b2a6-fe862e31b2c8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 546
+        Vertices: 406
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 21.063519, y: 20.282503, z: 21.245399}
+  SourceHash: f73a81c65113853cb3c6a4606cb49023
+  FileHash: d3bf7d4bb559365f899d6015a54b68d8
+  NativePackageItems:
+    []

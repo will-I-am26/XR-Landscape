@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f48d1922-107f-420f-9dde-adcd2aedaf0e: 89f7596e-b41c-4014-8357-e2d1edee370a/7dedebc8e781ad3e643e020d19b12c0e/Data/R_hinge_GEO.mesh
+  Assets:
+    - !<FileMesh/f48d1922-107f-420f-9dde-adcd2aedaf0e>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 96
+        Vertices: 101
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 1.804438, y: 12.038284, z: 3.827436}
+  SourceHash: 7dedebc8e781ad3e643e020d19b12c0e
+  FileHash: d25eadb68d146eb62c96662624e72de6
+  NativePackageItems:
+    []

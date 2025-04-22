@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ab9feb99-ecca-4266-9f0e-a6db1cfe7df8: 983008da-3232-4375-9e7a-d67ba3e75696/5e5fd1d8e172c7bf084a86fc39e810e2/Data/C_bin_recycle_tall_GEO.mesh
+  Assets:
+    - !<FileMesh/ab9feb99-ecca-4266-9f0e-a6db1cfe7df8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 68
+        Vertices: 118
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 42.272171, y: 58.782124, z: 27.758038}
+  SourceHash: 5e5fd1d8e172c7bf084a86fc39e810e2
+  FileHash: c4529de3f6203fa542f7fc98e2668909
+  NativePackageItems:
+    []

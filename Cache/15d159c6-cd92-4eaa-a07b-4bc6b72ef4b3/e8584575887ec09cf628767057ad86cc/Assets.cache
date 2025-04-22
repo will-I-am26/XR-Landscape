@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b0464040-91c5-4fd6-833f-8c59a6a94918: 15d159c6-cd92-4eaa-a07b-4bc6b72ef4b3/e8584575887ec09cf628767057ad86cc/Data/C_shirt_GEO.mesh
+  Assets:
+    - !<FileMesh/b0464040-91c5-4fd6-833f-8c59a6a94918>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 104
+        Vertices: 85
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 27.116018, y: 25.882187, z: 30.631073}
+  SourceHash: e8584575887ec09cf628767057ad86cc
+  FileHash: 62d56121eeec2ae6b927532562ef2f2a
+  NativePackageItems:
+    []

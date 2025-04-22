@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7d18dd95-91b3-4aa1-be13-c5eb1ee56b77: 50604020-e874-4c29-98f7-d4257af48d36/73629395a809fc2a03c6592633c80db7/Data/C_stickLower_GEO.mesh
+  Assets:
+    - !<FileMesh/7d18dd95-91b3-4aa1-be13-c5eb1ee56b77>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 34
+        Vertices: 56
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 8.114382, y: 0.963351, z: 0.916202}
+  SourceHash: 73629395a809fc2a03c6592633c80db7
+  FileHash: a4686d290ced9be0fcfd4407b743a3a6
+  NativePackageItems:
+    []

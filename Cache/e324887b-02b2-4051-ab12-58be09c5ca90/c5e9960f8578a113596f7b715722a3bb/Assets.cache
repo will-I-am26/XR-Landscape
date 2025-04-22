@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c1b94cbe-014c-48fd-bd9a-2008e55498dd: e324887b-02b2-4051-ab12-58be09c5ca90/c5e9960f8578a113596f7b715722a3bb/Data/street_lamp_color.png
+  Assets:
+    - !<FileTexture/c1b94cbe-014c-48fd-bd9a-2008e55498dd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: c5e9960f8578a113596f7b715722a3bb
+  FileHash: 278b46eedba8c75d6d8b8446c6a04ebf
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1e2af561-f829-4621-8bf2-d55b81305de3: a4a57690-6d32-4dc8-9a10-c9bd304bd759/885b2264ff94f034addcfb41b5388b1c/Data/C_sidewalk2_GEO.mesh
+  Assets:
+    - !<FileMesh/1e2af561-f829-4621-8bf2-d55b81305de3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 121.515198, y: 12.482068, z: 76.485229}
+  SourceHash: 885b2264ff94f034addcfb41b5388b1c
+  FileHash: 08ba0512f549c364c965560d1d4bde07
+  NativePackageItems:
+    []

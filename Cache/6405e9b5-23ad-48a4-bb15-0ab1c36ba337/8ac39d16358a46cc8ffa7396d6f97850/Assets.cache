@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d8e5c220-36a4-47ee-b452-24145f6cb70a: 6405e9b5-23ad-48a4-bb15-0ab1c36ba337/8ac39d16358a46cc8ffa7396d6f97850/Data/C_axle_GEO.mesh
+  Assets:
+    - !<FileMesh/d8e5c220-36a4-47ee-b452-24145f6cb70a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 304
+        Vertices: 410
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 0.350776, y: 12.895111, z: 12.895111}
+  SourceHash: 8ac39d16358a46cc8ffa7396d6f97850
+  FileHash: f0a549863c6ecba1a43329990b24b2e4
+  NativePackageItems:
+    []

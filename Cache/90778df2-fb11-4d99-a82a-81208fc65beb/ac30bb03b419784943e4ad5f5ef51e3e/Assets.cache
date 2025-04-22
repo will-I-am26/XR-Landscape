@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a450c1f7-c93d-4b32-bf68-53dc1f1b47da: 90778df2-fb11-4d99-a82a-81208fc65beb/ac30bb03b419784943e4ad5f5ef51e3e/Data/C_ruler_GEO.mesh
+  Assets:
+    - !<FileMesh/a450c1f7-c93d-4b32-bf68-53dc1f1b47da>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 10.403543, y: 14.134438, z: 11.542569}
+  SourceHash: ac30bb03b419784943e4ad5f5ef51e3e
+  FileHash: 63276e68664ccc94209dba719738e9dc
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1dbfc8cc-7360-49db-839e-522d45a6f05c: 06a6e28f-6ace-448a-8a4d-d0db2d2ee9db/dd55831cc9d58b06864588fcd1a87e6d/Data/C_propellar_GEO.mesh
+  Assets:
+    - !<FileMesh/1dbfc8cc-7360-49db-839e-522d45a6f05c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 88.515747, y: 88.515747, z: 0.000000}
+  SourceHash: dd55831cc9d58b06864588fcd1a87e6d
+  FileHash: 518d6d188cf2ecf64a400ac6e50e35de
+  NativePackageItems:
+    []

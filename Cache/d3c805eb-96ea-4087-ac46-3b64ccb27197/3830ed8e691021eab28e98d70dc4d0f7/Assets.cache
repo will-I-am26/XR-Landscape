@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bbb4711b-26e4-49c1-b0a7-1d9c1b5c2619: d3c805eb-96ea-4087-ac46-3b64ccb27197/3830ed8e691021eab28e98d70dc4d0f7/Data/C_turnstile_GEO.mesh
+  Assets:
+    - !<FileMesh/bbb4711b-26e4-49c1-b0a7-1d9c1b5c2619>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 42
+        Vertices: 78
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 20.270576, y: 66.456818, z: 75.560188}
+  SourceHash: 3830ed8e691021eab28e98d70dc4d0f7
+  FileHash: 1e2c18539e563b3bcdc649de89ceba4f
+  NativePackageItems:
+    []

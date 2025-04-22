@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a3f9288f-1141-4fda-9d99-9de2a1251efb: 540f751d-5ff2-417a-ab4d-445d9b506847/7985c2186683214aec4aab792bc7aaf6/Data/tree_apple_color.png
+  Assets:
+    - !<FileTexture/a3f9288f-1141-4fda-9d99-9de2a1251efb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7985c2186683214aec4aab792bc7aaf6
+  FileHash: aca29723257833ff452e34d4d963cb35
+  NativePackageItems:
+    []

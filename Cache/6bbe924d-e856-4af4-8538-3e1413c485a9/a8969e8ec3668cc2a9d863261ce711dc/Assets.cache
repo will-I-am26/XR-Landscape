@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    48338a5e-88d1-4fce-9351-7fcff422d3e8: 6bbe924d-e856-4af4-8538-3e1413c485a9/a8969e8ec3668cc2a9d863261ce711dc/Data/C_sidewalk_crack_GEO.mesh
+  Assets:
+    - !<FileMesh/48338a5e-88d1-4fce-9351-7fcff422d3e8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 27
+        Vertices: 39
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 18.024082, y: 3.127208, z: 50.180550}
+  SourceHash: a8969e8ec3668cc2a9d863261ce711dc
+  FileHash: 7a6889e2e7395e22adfae907be07661e
+  NativePackageItems:
+    []

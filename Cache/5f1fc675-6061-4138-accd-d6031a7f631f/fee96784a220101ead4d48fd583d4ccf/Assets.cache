@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ddf0cec4-135a-4421-be05-b48064bc3de3: 5f1fc675-6061-4138-accd-d6031a7f631f/fee96784a220101ead4d48fd583d4ccf/Data/L_pedal_GEO.mesh
+  Assets:
+    - !<FileMesh/ddf0cec4-135a-4421-be05-b48064bc3de3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 52
+        Vertices: 89
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 10.378161, y: 2.010923, z: 9.917613}
+  SourceHash: fee96784a220101ead4d48fd583d4ccf
+  FileHash: 0fe74e60bb24ea823d3c8d38923b4414
+  NativePackageItems:
+    []

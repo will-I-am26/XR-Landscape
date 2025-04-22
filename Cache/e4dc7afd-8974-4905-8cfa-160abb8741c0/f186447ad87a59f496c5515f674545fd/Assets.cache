@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    76f518e8-318a-4a22-8504-1c38f1d214c3: e4dc7afd-8974-4905-8cfa-160abb8741c0/f186447ad87a59f496c5515f674545fd/Data/bin_recycle_tall_color.png
+  Assets:
+    - !<FileTexture/76f518e8-318a-4a22-8504-1c38f1d214c3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: f186447ad87a59f496c5515f674545fd
+  FileHash: 59d27d22c428524e7c3ae4a5ee5780c8
+  NativePackageItems:
+    []

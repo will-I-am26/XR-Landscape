@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7ab7ba5e-10ec-498c-b9d0-600564aef636: cd588eaa-3c08-4d26-b8de-9e54bf8d3c71/df83bc78a4625cff7648c6796d4b9c23/Data/R_wipers_GEO.mesh
+  Assets:
+    - !<FileMesh/7ab7ba5e-10ec-498c-b9d0-600564aef636>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 41.511711, y: 2.832077, z: 1.514431}
+  SourceHash: df83bc78a4625cff7648c6796d4b9c23
+  FileHash: 5c66fa212d1441628c424dace505002f
+  NativePackageItems:
+    []

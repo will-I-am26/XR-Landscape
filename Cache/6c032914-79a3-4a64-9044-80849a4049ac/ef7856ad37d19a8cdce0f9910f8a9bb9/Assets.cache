@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2205e6a4-3238-46a2-8b96-21098602de57: 6c032914-79a3-4a64-9044-80849a4049ac/ef7856ad37d19a8cdce0f9910f8a9bb9/Data/L_hood_GEO.mesh
+  Assets:
+    - !<FileMesh/2205e6a4-3238-46a2-8b96-21098602de57>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 256
+        Vertices: 284
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 96.164497, y: 33.074509, z: 92.033905}
+  SourceHash: ef7856ad37d19a8cdce0f9910f8a9bb9
+  FileHash: 7f1f3dd4a337322c15a6d5458343b8c2
+  NativePackageItems:
+    []

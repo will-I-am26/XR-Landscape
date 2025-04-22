@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5334535c-4b41-44d1-823b-c4188dffaf21: 60191617-8805-448a-b3d9-4e33613a2ecb/0a1cab877b2d3b97de6073a67ec1c8e4/Data/C_cart_luggage_red_GEO.mesh
+  Assets:
+    - !<FileMesh/5334535c-4b41-44d1-823b-c4188dffaf21>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 6440
+        Vertices: 7456
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 86.212074, y: 59.647682, z: 124.314606}
+  SourceHash: 0a1cab877b2d3b97de6073a67ec1c8e4
+  FileHash: a4210816d3c29ad3f16d1da831e35bb8
+  NativePackageItems:
+    []

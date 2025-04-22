@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2fc3b227-e2e1-4833-a455-2d87050ddad7: c7b5de9e-03e9-4e3d-90ce-357d1923f80d/8579abf5a43546f600d7be305143fd94/Data/C_hatch_Shadow_GEO.mesh
+  Assets:
+    - !<FileMesh/2fc3b227-e2e1-4833-a455-2d87050ddad7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 34
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 76.402420, y: 0.000015, z: 75.983887}
+  SourceHash: 8579abf5a43546f600d7be305143fd94
+  FileHash: 1f7fc4017106b7567880a9b68e3831ba
+  NativePackageItems:
+    []

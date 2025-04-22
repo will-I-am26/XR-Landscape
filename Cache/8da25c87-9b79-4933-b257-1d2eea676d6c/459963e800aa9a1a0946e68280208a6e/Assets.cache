@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    367c50d2-3a5f-457a-83d3-9aae285fec1c: 8da25c87-9b79-4933-b257-1d2eea676d6c/459963e800aa9a1a0946e68280208a6e/Data/C_handbag_GEO.mesh
+  Assets:
+    - !<FileMesh/367c50d2-3a5f-457a-83d3-9aae285fec1c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 108
+        Vertices: 87
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 33.422531, y: 27.440479, z: 31.894859}
+  SourceHash: 459963e800aa9a1a0946e68280208a6e
+  FileHash: d312b772d96705e11f7ecf2b25f2882c
+  NativePackageItems:
+    []

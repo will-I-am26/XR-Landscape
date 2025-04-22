@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    fac30a3f-a661-4f5d-9885-741cc6b3f015: 310a0245-086d-47a5-b28d-ae7d1eeebc08/67eae07abc91ce4025b73d5e8e16c8fc/Data/C_stone_GEO.mesh
+  Assets:
+    - !<FileMesh/fac30a3f-a661-4f5d-9885-741cc6b3f015>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 138
+        Vertices: 133
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 9.299232, y: 5.112472, z: 11.651739}
+  SourceHash: 67eae07abc91ce4025b73d5e8e16c8fc
+  FileHash: 75755d9ef46c412db9055c239a99df83
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    4ef6d237-e943-4580-81ca-c203cc6c044d: 4a07a3d4-0597-4766-9478-78a8f6c113ab/dbd9164deae4dd7af861c37b1151f3ca/Data/L_door_GEO.mesh
+  Assets:
+    - !<FileMesh/4ef6d237-e943-4580-81ca-c203cc6c044d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 128
+        Vertices: 136
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 16.636902, y: 57.862286, z: 78.439766}
+  SourceHash: dbd9164deae4dd7af861c37b1151f3ca
+  FileHash: 032339732b8bcbc2a48bb8acef5d8285
+  NativePackageItems:
+    []

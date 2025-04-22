@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d9361cc1-855d-4189-9f76-95681a1d1640: 25210095-d235-4a40-9db1-974ffa8453e8/d031b3e7493b399481f24ecb9aaf6d99/Data/C_cart_GEO.mesh
+  Assets:
+    - !<FileMesh/d9361cc1-855d-4189-9f76-95681a1d1640>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1730
+        Vertices: 1416
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 42.894245, y: 68.848167, z: 80.219498}
+  SourceHash: d031b3e7493b399481f24ecb9aaf6d99
+  FileHash: 06b8d9398e5ffafd922232fe8358c64b
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8fa298c9-49bd-4dd3-b8ab-dcb4ff2f6678: 45602fdd-8b8d-4e9e-90ff-c8653868182a/4f773448d0dcf03e3c0f49779f553c0e/Data/C_topCase_GEO.mesh
+  Assets:
+    - !<FileMesh/8fa298c9-49bd-4dd3-b8ab-dcb4ff2f6678>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 448
+        Vertices: 657
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 41.261829, y: 28.063740, z: 28.475132}
+  SourceHash: 4f773448d0dcf03e3c0f49779f553c0e
+  FileHash: b8b53d8b600dcab440dd587c9b091d4c
+  NativePackageItems:
+    []

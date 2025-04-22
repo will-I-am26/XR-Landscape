@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    091975f8-69c8-41f4-a135-5d51d172037d: e70f4b9e-2fe2-4d70-9eb5-f769477a4018/31bea5a2bbb6855f9a8473cf4a45b7ae/Data/C_sleeve_RearRight_GEO.mesh
+  Assets:
+    - !<FileMesh/091975f8-69c8-41f4-a135-5d51d172037d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 84
+        Vertices: 94
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 5.086042, y: 7.200815, z: 8.572511}
+  SourceHash: 31bea5a2bbb6855f9a8473cf4a45b7ae
+  FileHash: 23ab84f2b4043b7e43578fd275925eaa
+  NativePackageItems:
+    []

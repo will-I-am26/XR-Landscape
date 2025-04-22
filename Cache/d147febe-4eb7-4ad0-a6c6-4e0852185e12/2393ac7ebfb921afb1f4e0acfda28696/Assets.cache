@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1e40cfc9-5aa8-4bf7-976a-3ae2678f6c1c: d147febe-4eb7-4ad0-a6c6-4e0852185e12/2393ac7ebfb921afb1f4e0acfda28696/Data/stick_color.png
+  Assets:
+    - !<FileTexture/1e40cfc9-5aa8-4bf7-976a-3ae2678f6c1c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 2393ac7ebfb921afb1f4e0acfda28696
+  FileHash: da7763071bb0152c2526a4c58a172020
+  NativePackageItems:
+    []

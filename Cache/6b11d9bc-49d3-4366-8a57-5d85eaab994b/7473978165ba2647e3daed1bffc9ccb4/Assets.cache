@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1c888327-1a37-4164-964e-6b0aad0f5a7c: 6b11d9bc-49d3-4366-8a57-5d85eaab994b/7473978165ba2647e3daed1bffc9ccb4/Data/L_steeringWheel_GEO.mesh
+  Assets:
+    - !<FileMesh/1c888327-1a37-4164-964e-6b0aad0f5a7c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 484
+        Vertices: 362
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 29.819633, y: 29.133804, z: 10.914158}
+  SourceHash: 7473978165ba2647e3daed1bffc9ccb4
+  FileHash: 49138b8ff7ff715beead8248e47c5171
+  NativePackageItems:
+    []

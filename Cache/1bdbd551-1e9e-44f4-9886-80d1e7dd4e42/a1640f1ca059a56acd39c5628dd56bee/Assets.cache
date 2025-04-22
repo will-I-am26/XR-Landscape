@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    254f9eda-32f6-4c29-978c-bbef1e46c1f2: 1bdbd551-1e9e-44f4-9886-80d1e7dd4e42/a1640f1ca059a56acd39c5628dd56bee/Data/plane_bi_color.png
+  Assets:
+    - !<FileTexture/254f9eda-32f6-4c29-978c-bbef1e46c1f2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: a1640f1ca059a56acd39c5628dd56bee
+  FileHash: 578da62e20ea3e871293f25d48224020
+  NativePackageItems:
+    []

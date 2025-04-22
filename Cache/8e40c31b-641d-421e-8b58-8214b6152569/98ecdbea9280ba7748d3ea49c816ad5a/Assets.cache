@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8f5627f3-efd8-49a9-a452-acabd7b3d10d: 8e40c31b-641d-421e-8b58-8214b6152569/98ecdbea9280ba7748d3ea49c816ad5a/Data/C_turnstileCoin_GEO.mesh
+  Assets:
+    - !<FileMesh/8f5627f3-efd8-49a9-a452-acabd7b3d10d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 58
+        Vertices: 102
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 20.270576, y: 66.456818, z: 75.560188}
+  SourceHash: 98ecdbea9280ba7748d3ea49c816ad5a
+  FileHash: 95b23b7e38e76760e2481d48feb640dd
+  NativePackageItems:
+    []

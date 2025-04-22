@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    81cb728d-93f9-47fd-b710-56bfb9695448: 81d972e9-cefe-4a49-84ab-1a6b66b8207c/17ef8ce1f1c3a1dd453b9fe0328f172c/Data/C_street_lamp_GEO.mesh
+  Assets:
+    - !<FileMesh/81cb728d-93f9-47fd-b710-56bfb9695448>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 324
+        Vertices: 290
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 13.034450, y: 212.467651, z: 121.874237}
+  SourceHash: 17ef8ce1f1c3a1dd453b9fe0328f172c
+  FileHash: 320a6c704862693c3038a743bd721b76
+  NativePackageItems:
+    []

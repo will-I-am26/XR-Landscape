@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    78a33b51-8f17-4c28-a994-2cf78efadef7: c5720454-c4fd-4856-b848-b88ed43bfc6a/e1325fb457aacfbf540d2e3e2ad63850/Data/tumbleweed_color.png
+  Assets:
+    - !<FileTexture/78a33b51-8f17-4c28-a994-2cf78efadef7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: e1325fb457aacfbf540d2e3e2ad63850
+  FileHash: cd8c23cff882f5938adc10ea2d21f2b3
+  NativePackageItems:
+    []

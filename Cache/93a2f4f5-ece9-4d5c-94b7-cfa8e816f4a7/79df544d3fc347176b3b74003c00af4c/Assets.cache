@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    4dbd3f6e-46f0-4923-80fd-6603040964af: 93a2f4f5-ece9-4d5c-94b7-cfa8e816f4a7/79df544d3fc347176b3b74003c00af4c/Data/C_plane_bi_GEO.mesh
+  Assets:
+    - !<FileMesh/4dbd3f6e-46f0-4923-80fd-6603040964af>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3244
+        Vertices: 2325
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 205.173706, y: 115.029732, z: 247.519745}
+  SourceHash: 79df544d3fc347176b3b74003c00af4c
+  FileHash: 0d0990dca57661a361bc5ba6ed90efe3
+  NativePackageItems:
+    []

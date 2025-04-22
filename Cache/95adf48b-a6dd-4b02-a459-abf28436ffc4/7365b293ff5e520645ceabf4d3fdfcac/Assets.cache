@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ef382f98-ab11-4adc-a240-bc588761fad9: 95adf48b-a6dd-4b02-a459-abf28436ffc4/7365b293ff5e520645ceabf4d3fdfcac/Data/R_door_GEO.mesh
+  Assets:
+    - !<FileMesh/ef382f98-ab11-4adc-a240-bc588761fad9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 128
+        Vertices: 136
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 16.636902, y: 57.862289, z: 78.439774}
+  SourceHash: 7365b293ff5e520645ceabf4d3fdfcac
+  FileHash: 4b54dba8c3f67fc875a347f327e60f09
+  NativePackageItems:
+    []

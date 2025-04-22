@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0d0668cf-cdbe-494e-abee-54bf3332aaed: 5a08ba28-ef2f-49d2-83c3-f69bebe64efb/8708824a35c55603b44dd62a927276c0/Data/C_backAxle_GEO.mesh
+  Assets:
+    - !<FileMesh/0d0668cf-cdbe-494e-abee-54bf3332aaed>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 14
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 126.432060, y: 12.907116, z: 14.903854}
+  SourceHash: 8708824a35c55603b44dd62a927276c0
+  FileHash: 8ea1a9f3a00a2cd8aeeb84a8687d1a53
+  NativePackageItems:
+    []

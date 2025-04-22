@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a1223f98-9f63-475d-8507-6c332ee74e41: bbbf1048-6e61-4371-bc1b-1e3e98e927ba/573075a011c14bcd22d81246167e2cff/Data/shopping_cart_trash_color.png
+  Assets:
+    - !<FileTexture/a1223f98-9f63-475d-8507-6c332ee74e41>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 573075a011c14bcd22d81246167e2cff
+  FileHash: c77fff930f517c28e472a401e90d8f0b
+  NativePackageItems:
+    []

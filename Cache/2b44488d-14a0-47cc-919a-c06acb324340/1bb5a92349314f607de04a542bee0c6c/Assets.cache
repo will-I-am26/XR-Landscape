@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    79fc6f82-a10d-4332-8601-5f293e1be9aa: 2b44488d-14a0-47cc-919a-c06acb324340/1bb5a92349314f607de04a542bee0c6c/Data/turnstile_color.png
+  Assets:
+    - !<FileTexture/79fc6f82-a10d-4332-8601-5f293e1be9aa>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 1bb5a92349314f607de04a542bee0c6c
+  FileHash: 8ef411ac7b14b014ab97b5796a4b4b6c
+  NativePackageItems:
+    []

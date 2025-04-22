@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    bc4f2113-01aa-48bf-bbb1-b0ba0fce837f: 58961e74-9d14-40c3-8316-d4c982c08fe4/c1497ad051f5731e6c70997333b389d7/Data/stick_kindle_color.png
+  Assets:
+    - !<FileTexture/bc4f2113-01aa-48bf-bbb1-b0ba0fce837f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: c1497ad051f5731e6c70997333b389d7
+  FileHash: 746650e155c6b52be4cc4abc2accb247
+  NativePackageItems:
+    []

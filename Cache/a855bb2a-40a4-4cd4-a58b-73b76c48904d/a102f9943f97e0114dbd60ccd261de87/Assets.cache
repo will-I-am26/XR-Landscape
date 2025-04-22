@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    76608e8f-6652-4ee4-bc3c-9630d4b5ced6: a855bb2a-40a4-4cd4-a58b-73b76c48904d/a102f9943f97e0114dbd60ccd261de87/Data/car_prop_color.png
+  Assets:
+    - !<FileTexture/76608e8f-6652-4ee4-bc3c-9630d4b5ced6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: a102f9943f97e0114dbd60ccd261de87
+  FileHash: 10957bf9c0db5bde3141d48bab3a801e
+  NativePackageItems:
+    []

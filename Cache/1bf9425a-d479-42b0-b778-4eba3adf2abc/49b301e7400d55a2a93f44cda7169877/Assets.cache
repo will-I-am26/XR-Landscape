@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    25268dcf-8e97-4ef3-8486-774c53acd85f: 1bf9425a-d479-42b0-b778-4eba3adf2abc/49b301e7400d55a2a93f44cda7169877/Data/traffic_barrel_color.png
+  Assets:
+    - !<FileTexture/25268dcf-8e97-4ef3-8486-774c53acd85f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 49b301e7400d55a2a93f44cda7169877
+  FileHash: c79ad91a4ac67a6acc26f82fbcdea61c
+  NativePackageItems:
+    []

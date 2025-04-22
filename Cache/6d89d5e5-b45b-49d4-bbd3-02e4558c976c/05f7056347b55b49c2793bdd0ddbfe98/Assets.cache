@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    51208344-6577-462e-bd26-e4d32a89f555: 6d89d5e5-b45b-49d4-bbd3-02e4558c976c/05f7056347b55b49c2793bdd0ddbfe98/Data/daffodil_color.png
+  Assets:
+    - !<FileTexture/51208344-6577-462e-bd26-e4d32a89f555>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 05f7056347b55b49c2793bdd0ddbfe98
+  FileHash: 7cf39653ff8a0095a9427e991f4a5016
+  NativePackageItems:
+    []

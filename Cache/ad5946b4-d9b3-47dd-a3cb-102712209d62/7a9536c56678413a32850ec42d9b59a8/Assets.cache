@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1f7b2acb-0494-4b3d-a848-104d9bf4c92a: ad5946b4-d9b3-47dd-a3cb-102712209d62/7a9536c56678413a32850ec42d9b59a8/Data/bike_color.png
+  Assets:
+    - !<FileTexture/1f7b2acb-0494-4b3d-a848-104d9bf4c92a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7a9536c56678413a32850ec42d9b59a8
+  FileHash: 11e00f1cc78a8b727bab788a75eaa3d7
+  NativePackageItems:
+    []

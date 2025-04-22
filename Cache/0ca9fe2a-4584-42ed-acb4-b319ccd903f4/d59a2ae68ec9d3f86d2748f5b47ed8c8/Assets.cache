@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c16217c3-8407-4c95-9561-0f4476aa4c56: 0ca9fe2a-4584-42ed-acb4-b319ccd903f4/d59a2ae68ec9d3f86d2748f5b47ed8c8/Data/C_wheel_FrontRight_GEO.mesh
+  Assets:
+    - !<FileMesh/c16217c3-8407-4c95-9561-0f4476aa4c56>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 144
+        Vertices: 122
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 5.597553, y: 8.371820, z: 8.413727}
+  SourceHash: d59a2ae68ec9d3f86d2748f5b47ed8c8
+  FileHash: 9d86f73dc272d4dbf7eadda75f0fbfa3
+  NativePackageItems:
+    []

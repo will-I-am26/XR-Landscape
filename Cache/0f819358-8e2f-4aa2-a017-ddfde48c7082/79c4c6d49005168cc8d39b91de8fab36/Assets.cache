@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2498017e-2d11-4123-9e2c-547510b2276c: 0f819358-8e2f-4aa2-a017-ddfde48c7082/79c4c6d49005168cc8d39b91de8fab36/Data/env_sewer_hole_color.png
+  Assets:
+    - !<FileTexture/2498017e-2d11-4123-9e2c-547510b2276c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 79c4c6d49005168cc8d39b91de8fab36
+  FileHash: 2cefb7d7553d7455e125f554d334f40e
+  NativePackageItems:
+    []

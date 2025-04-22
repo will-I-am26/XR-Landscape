@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    4d8edc2d-655e-4b41-b793-56b4707ce81a: ec5164fb-e0ee-468f-ad45-3912223e3ec5/9bf8f3464cbd3133ee4dbfebb0b1b82a/Data/C_daffodil_GEO.mesh
+  Assets:
+    - !<FileMesh/4d8edc2d-655e-4b41-b793-56b4707ce81a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 492
+        Vertices: 393
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 6.846000, y: 14.386642, z: 6.872631}
+  SourceHash: 9bf8f3464cbd3133ee4dbfebb0b1b82a
+  FileHash: 0b5509fb19cd32235f5c5b355246dc64
+  NativePackageItems:
+    []

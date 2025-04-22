@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    03f1065e-156f-446c-b90c-be0c9c9b32d6: 61341f0f-1a79-433e-a9d3-a7b3d1228c50/e228823208b27b409577981c3610ec62/Data/cart_luggage_color.png
+  Assets:
+    - !<FileTexture/03f1065e-156f-446c-b90c-be0c9c9b32d6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: e228823208b27b409577981c3610ec62
+  FileHash: 3e72e582b70ceb0c58274eb6d773bbdd
+  NativePackageItems:
+    []

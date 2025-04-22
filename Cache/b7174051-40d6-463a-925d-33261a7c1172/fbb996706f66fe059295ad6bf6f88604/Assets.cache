@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    fb011d34-4bd8-45a5-b73b-890a3decf337: b7174051-40d6-463a-925d-33261a7c1172/fbb996706f66fe059295ad6bf6f88604/Data/L_window_GEO.mesh
+  Assets:
+    - !<FileMesh/fb011d34-4bd8-45a5-b73b-890a3decf337>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 48
+        Vertices: 62
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 97.140495, y: 26.939583, z: 16.568581}
+  SourceHash: fbb996706f66fe059295ad6bf6f88604
+  FileHash: c24bcd937f99453549b973b515f47b40
+  NativePackageItems:
+    []

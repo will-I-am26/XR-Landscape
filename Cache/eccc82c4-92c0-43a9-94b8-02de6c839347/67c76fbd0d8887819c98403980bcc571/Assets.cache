@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    bdc43c7c-030a-495f-a5dd-5be8aa392c1d: eccc82c4-92c0-43a9-94b8-02de6c839347/67c76fbd0d8887819c98403980bcc571/Data/bin_trash_tall_color.png
+  Assets:
+    - !<FileTexture/bdc43c7c-030a-495f-a5dd-5be8aa392c1d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 67c76fbd0d8887819c98403980bcc571
+  FileHash: de8b863902c183cf1577199295bc444e
+  NativePackageItems:
+    []

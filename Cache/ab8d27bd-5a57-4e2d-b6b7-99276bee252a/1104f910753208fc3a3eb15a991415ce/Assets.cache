@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    86e89f9f-4091-42b8-b9b2-1f658a156c68: ab8d27bd-5a57-4e2d-b6b7-99276bee252a/1104f910753208fc3a3eb15a991415ce/Data/L_backWheel_GEO.mesh
+  Assets:
+    - !<FileMesh/86e89f9f-4091-42b8-b9b2-1f658a156c68>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 336
+        Vertices: 302
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 19.140934, y: 47.764149, z: 47.764156}
+  SourceHash: 1104f910753208fc3a3eb15a991415ce
+  FileHash: b7259caea4d393218dc336e4c90110ab
+  NativePackageItems:
+    []

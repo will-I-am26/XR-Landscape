@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5ab6c54d-cc53-4f42-aa50-bb97d67a984a: f3f2cc7d-ddf2-4bf2-9941-633ea538c9c8/d481e33ae6b36320f2ac74e306473c8e/Data/C_large_bouquet_flower_GEO.mesh
+  Assets:
+    - !<FileMesh/5ab6c54d-cc53-4f42-aa50-bb97d67a984a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 40
+        Vertices: 36
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 8.688614, y: 1.697784, z: 8.332180}
+  SourceHash: d481e33ae6b36320f2ac74e306473c8e
+  FileHash: 79797b87bbf2f1a197e8a0e3441dc26b
+  NativePackageItems:
+    []

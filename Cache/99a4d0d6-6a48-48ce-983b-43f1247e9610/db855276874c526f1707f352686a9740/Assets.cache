@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f3eee1b1-92f9-4936-9554-922e0ee692f8: 99a4d0d6-6a48-48ce-983b-43f1247e9610/db855276874c526f1707f352686a9740/Data/L_frontWheel_GEO.mesh
+  Assets:
+    - !<FileMesh/f3eee1b1-92f9-4936-9554-922e0ee692f8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 336
+        Vertices: 302
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 19.140938, y: 47.764153, z: 47.764145}
+  SourceHash: db855276874c526f1707f352686a9740
+  FileHash: 65f5032cb785fca7b01e4c878dae8127
+  NativePackageItems:
+    []

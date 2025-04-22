@@ -1,0 +1,825 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 819
+    values:
+      - Base.png
+      - Echopark.hdr
+      - Nature Pack
+      - Nature Pack/.hidden
+      - Nature Pack/.hidden/daffodil.ss_graph
+      - Nature Pack/.hidden/large_bouquet_flower_pink.ss_graph
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Material0/daffodil.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes/C_daffodil_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Material0/grass_scene.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes/C_grass_scene_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Material0/icerink.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_iceHole_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_ice_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_occluder_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_snow_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_water_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/large_bouquet_flower
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/large_bouquet_flower/Materials
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/large_bouquet_flower/Materials/large_bouquet_flower_pink.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/large_bouquet_flower/Materials/large_bouquet_flower_white.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/large_bouquet_flower/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/large_bouquet_flower/Meshes/C_large_bouquet_flower_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick/Material0/stick.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick/Meshes/C_stickLower_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick/Meshes/C_stickUpper_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_kindle
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_kindle/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_kindle/Material0/stick_kindle.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_kindle/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_kindle/Meshes/C_stick_kindle_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_pile
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_pile/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_pile/Material0/stick_pile.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_pile/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stick_pile/Meshes/C_stick_pile_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stone
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stone/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stone/Material0/stone.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stone/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/stone/Meshes/C_stone_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Material0/tree_apple.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Meshes/C_tree_apple_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed/Material0
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed/Material0/tumbleweed.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed/Meshes
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed/Meshes/tumbleweed_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/daffodil_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/grass_scene_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/icerink_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/large_bouquet_flower_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/stick_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/stick_kindle_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/stick_pile_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/stone_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
+      - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
+      - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
+      - Spatial Image.lsc
+      - SpectaclesInteractionKit
+      - SpectaclesInteractionKit/Assets/Audio
+      - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
+      - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
+      - SpectaclesInteractionKit/Assets/Audio/TriggerStartAudioTrack.wav
+      - SpectaclesInteractionKit/Assets/Materials
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerTipGlow.mat
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/HandOccluderLeft.mat
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/HandOccluderRight.mat
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/RadialGradientOcclusion.mat
+      - SpectaclesInteractionKit/Assets/Materials/BitmojiMaterial.mat
+      - SpectaclesInteractionKit/Assets/Materials/ContainerImageMaterial.mat
+      - SpectaclesInteractionKit/Assets/Materials/LogoMaterial.mat
+      - SpectaclesInteractionKit/Assets/Materials/NormalBasedTargetOutline.mat
+      - SpectaclesInteractionKit/Assets/Materials/PinchButtonDarkInactive.mat
+      - SpectaclesInteractionKit/Assets/Materials/PinchButtonDarkRadial.mat
+      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOffIcon.mat
+      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnDefault.mat
+      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnIcon.mat
+      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnSelect.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ButtonHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ButtonIdle.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ButtonPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/CapsuleButtonHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/CapsuleButtonIdle.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/CapsuleButtonPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonGlowHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonGlowIdle.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonGlowPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButton_Idle.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ScrollBackground.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ScrollButtonHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ScrollButtonIdle.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ScrollButtonPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/Slider_Platform.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/StateButtonToggledHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/StateButtonToggledPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ToggleButtonToggledHover.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ToggleButtonToggledIdle.mat
+      - SpectaclesInteractionKit/Assets/Materials/PlatformUI/ToggleButtonToggledPinched.mat
+      - SpectaclesInteractionKit/Assets/Materials/ScaleBasedTargetOutline.mat
+      - SpectaclesInteractionKit/Assets/Materials/ScrollBarButton.mat
+      - SpectaclesInteractionKit/Assets/Materials/ScrollBarSlider.mat
+      - SpectaclesInteractionKit/Assets/Materials/SimplePBRMaterial.mat
+      - SpectaclesInteractionKit/Assets/Materials/SliderMat
+      - SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonDarkDefault.mat
+      - SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonOnSelect.mat
+      - SpectaclesInteractionKit/Assets/Materials/SliderMat/SliderMat.mat
+      - SpectaclesInteractionKit/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
+      - SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
+      - SpectaclesInteractionKit/Assets/Materials/TargetOutlineMaterial.mat
+      - SpectaclesInteractionKit/Assets/Materials/Text3DDefault.mat
+      - SpectaclesInteractionKit/Assets/Meshes
+      - SpectaclesInteractionKit/Assets/Meshes/BoxMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/ButtonCapsuleMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/ButtonSphereMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/Check.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/ImageMaterial.mat
+      - SpectaclesInteractionKit/Assets/Meshes/LeftHandMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlaneMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/PlatformCapsuleButton.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/PlatformSphereButton.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/RoundButton.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/RoundButtonGlow.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/ScrollBarKnobMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/ScrollBarMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/PlatformUI/Slider.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/RightHandMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/ScrollBarSlider.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/SliderSphereKnob.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/SliderTrack.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/SnapGhost_Mesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/SphereMesh.mesh
+      - SpectaclesInteractionKit/Assets/Meshes/Uncheck.mesh
+      - SpectaclesInteractionKit/Assets/Shaders
+      - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders
+      - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerHighlight.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerTipGlow.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/HandOccluder.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/RadialGradientOcclusion.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/NormalBasedTargetOutline.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PinchButton-ActiveOrInActive.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PinchDarkRadial.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ButtonHover.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ButtonIdle.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ButtonPinched.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/CapsuleButtonHover.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/CapsuleButtonIdle.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/CapsuleButtonPinched.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonGlowHover.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonGlowIdle.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonGlowPinched.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonHover.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonPinched.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButton_Idle.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollBackground.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollButtonHover.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollButtonIdle.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollButtonPinched.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/Slider_Platform.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/StateButtonToggledHover.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/PlatformUI/StateButtonToggledPinched.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/ScaleBasedTargetOutline.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/ScrollBarSlider.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/SliderShaders
+      - SpectaclesInteractionKit/Assets/Shaders/SliderShaders/PinchButton-Default.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/SliderShaders/Slider.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/SpritePreset.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/TargetOutline.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/Text3DDefault.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/ToggleOff.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/ToggleOn.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/ToggleOnSelect.ss_graph
+      - SpectaclesInteractionKit/Assets/Shaders/simple_pbr.ss_graph
+      - SpectaclesInteractionKit/Assets/Textures
+      - SpectaclesInteractionKit/Assets/Textures/2DBitmojiAvatar.png
+      - SpectaclesInteractionKit/Assets/Textures/Base.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/Glow.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshNewMask.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshNewMaskColored.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshPinchTexture.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshTapTexture.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_fingertip.jpg
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_fingertip_colored.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_outline.jpg
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_outline_colored.png
+      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/occlusionGradient.png
+      - SpectaclesInteractionKit/Assets/Textures/MaterialParams.png
+      - SpectaclesInteractionKit/Assets/Textures/Normal.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/ArrowDown.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/ArrowUp.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/Close.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/FollowIconBlack.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/FollowIconWhite.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/Image.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/Mask_simple_reflection_ellipse.png
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleIdle.jpg
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleIdle_05.jpg
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleRefl_02.jpg
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleRefl_05.jpg
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleRefl_06.jpg
+      - SpectaclesInteractionKit/Assets/Textures/PlatformUI/UI_glow.jpg
+      - SpectaclesInteractionKit/Assets/Textures/Rectangle-Active.png
+      - SpectaclesInteractionKit/Assets/Textures/Rectangle-Inactive.png
+      - SpectaclesInteractionKit/Assets/Textures/Rectangle.png
+      - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
+      - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
+      - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
+      - SpectaclesInteractionKit/Components/Helpers/ButtonFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
+      - SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/InteractableColorFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/InteractableOutlineFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/InteractableSquishFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/ScreenTransformAdapter.ts
+      - SpectaclesInteractionKit/Components/Helpers/ScrollBarFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/SliderFeedback.ts
+      - SpectaclesInteractionKit/Components/Helpers/ToggleFeedback.ts
+      - SpectaclesInteractionKit/Components/Interaction/Billboard
+      - SpectaclesInteractionKit/Components/Interaction/Billboard/Billboard.ts
+      - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardController.ts
+      - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardRotationCalculator.ts
+      - SpectaclesInteractionKit/Components/Interaction/HandVisual
+      - SpectaclesInteractionKit/Components/Interaction/HandVisual/GlowEffectView.ts
+      - SpectaclesInteractionKit/Components/Interaction/HandVisual/GlowEffectViewModel.ts
+      - SpectaclesInteractionKit/Components/Interaction/HandVisual/HandVisual.ts
+      - SpectaclesInteractionKit/Components/Interaction/HandVisual/RadialOcclusionView.ts
+      - SpectaclesInteractionKit/Components/Interaction/Headlock
+      - SpectaclesInteractionKit/Components/Interaction/Headlock/Headlock.ts
+      - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockController.ts
+      - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockRotationCalculator.ts
+      - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockTranslationCalculator.ts
+      - SpectaclesInteractionKit/Components/Interaction/Interactable
+      - SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation/InteractableManipulation.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractionPlane
+      - SpectaclesInteractionKit/Components/Interaction/InteractionPlane/InteractionPlane.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CircleVisual.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/Cursor.mat
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CursorController.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CursorMat.ss_graph
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CursorViewModel.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/InteractorCursor.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/ManipulateLineMat.ss_graph
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/ManipulateLineMaterial.mat
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/Plane.mesh
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/disabled.png
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/scale-tl.png
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/scale-tr.png
+      - SpectaclesInteractionKit/Components/Interaction/InteractorCursor/translate.png
+      - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual
+      - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMat.ss_graph
+      - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
+      - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
+      - SpectaclesInteractionKit/Components/UI
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.mat
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.ss_graph
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Ghost Material.mat
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Ghost Material.ss_graph
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Image.mat
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Label.mat
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/container-button.mat
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/container-button.ss_graph
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/flat.ss_graph
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/Frame.mesh
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/Frame_High.mesh
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/Frame_Mid.mesh
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/SphereButton.mesh
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/SysSettings_settings_button.mesh
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/pinch-depth-button.mesh
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/FramePrefab.prefab
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/container-button.prefab
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/README.md
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/close-icon-1.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/close-icon.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/container-button-matcap.jpg
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/follow-black.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/follow-white-shadow.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/follow-white.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/reflection-map-1-cube.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/reflection-map-1.jpg
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/soft-reflection.jpg
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/container-ui.png
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/CursorHandler.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/ForceContainerParent.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/FrameInputHandler.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/HoverBehavior.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/LabeledPinchButton.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual/SimpleLODRenderMeshVisual.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SmoothFollow.ts
+      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SnappableBehavior.ts
+      - SpectaclesInteractionKit/Components/UI/PinchButton
+      - SpectaclesInteractionKit/Components/UI/PinchButton/PinchButton.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollBar
+      - SpectaclesInteractionKit/Components/UI/ScrollBar/ScrollBar.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView
+      - SpectaclesInteractionKit/Components/UI/ScrollView/GridContentCreator.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/ScrollArea.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/ScrollProvider.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/ScrollView.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider
+      - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/BoundariesProvider.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/BufferedBoundariesProvider.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/SceneObjectBoundariesProvider.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/ScreenTransformBoundariesProvider.ts
+      - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/VisualBoundariesProvider.ts
+      - SpectaclesInteractionKit/Components/UI/Slider
+      - SpectaclesInteractionKit/Components/UI/Slider/Slider.ts
+      - SpectaclesInteractionKit/Components/UI/ToggleButton
+      - SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
+      - SpectaclesInteractionKit/Core/ConfigurationValidator
+      - SpectaclesInteractionKit/Core/ConfigurationValidator/ConfigurationValidator.ts
+      - SpectaclesInteractionKit/Core/HandInteractor
+      - SpectaclesInteractionKit/Core/HandInteractor/HandInteractor.ts
+      - SpectaclesInteractionKit/Core/InteractionManager
+      - SpectaclesInteractionKit/Core/InteractionManager/EventDispatcher.ts
+      - SpectaclesInteractionKit/Core/InteractionManager/InteractionManager.ts
+      - SpectaclesInteractionKit/Core/Interactor/BaseInteractor.ts
+      - SpectaclesInteractionKit/Core/Interactor/ColliderTargetProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/DirectTargetProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/DragProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/HandRayProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/IndirectTargetProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/Interactor.ts
+      - SpectaclesInteractionKit/Core/Interactor/InteractorEvent.ts
+      - SpectaclesInteractionKit/Core/Interactor/MobileRayProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/MouseTargetProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/PokeTargetProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/RayProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/TouchRayProvider.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/AxisAngle.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/ContinousIrInteractionTransition.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/IrInteractionTransition.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/PinchJumpSuppressor.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastAnchorHead.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastAnchorVariableShoulder.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastBase.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastLegacySingleCamera.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastProxy.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RgbIrTransitionJumpSuppressor.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/SwitchIrInteractionTransition.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimeDataContainer.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimeScalarContainer.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimedVec2Container.ts
+      - SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimedVec3Container.ts
+      - SpectaclesInteractionKit/Core/LogLevelConfiguration
+      - SpectaclesInteractionKit/Core/LogLevelConfiguration/LogLevelConfiguration.ts
+      - SpectaclesInteractionKit/Core/LogLevelConfiguration/SIKLogLevelConfiguration.ts
+      - SpectaclesInteractionKit/Core/MobileInteractor
+      - SpectaclesInteractionKit/Core/MobileInteractor/MobileInteractor.ts
+      - SpectaclesInteractionKit/Core/MouseInteractor
+      - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
+      - SpectaclesInteractionKit/Decorators
+      - SpectaclesInteractionKit/Decorators/Singleton.ts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernFins_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernNoseCone_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SleekBodyTube_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SleekFins_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SleekNoseCone_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SpaceAgeBodyTube_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SpaceAgeFins_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SpaceAgeNoseCone_icon.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Meteor.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Planet.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Planet_rings.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Platform.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_fire.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_glass.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_glass_satellite.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_grey.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_metal.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_metal_red.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_01.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_02.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03_logo.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_white.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_white_logo.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Satellite_blue.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/.hidden
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/.hidden/Lightbake.001
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/.hidden/white
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Bases
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Materials
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Materials/Lightbake.001
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes/Circular
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes/Cubic_01
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes/Hexagon_01
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Meteor
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom2
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom3
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle2
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_bottom
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_middle
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_top
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom2
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom3
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom4
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_middle
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top2
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite1
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite2
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite3
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/SIK_Rockets
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Modern Body Tube.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Modern Fins.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Modern Nose Cone.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Sleek Body Tube.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Sleek Fins.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Sleek Nose Cone.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Space Age Body Tube.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Space Age Fins.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Space Age Nose Cone.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Body Tube Category.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Fins Category.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Body Tube.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Fins.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Nose Cone.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Nose Cone Category.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Body Tube.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Fins.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Nose Cone.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Body Tube.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Fins.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Nose Cone.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/SFX
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/SFX/ui-rocket-ignition_c-1db_stereo4824.wav
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/SFX/ui-rocket-land-cutoff-c_-1dB_stereo4824.wav
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/ExhaustControls.ts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketConfigurator.ts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketGridContentCreator.ts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketLaunchControl.ts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketScrollViewItem.ts
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Glass.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Meteor.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Planet.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Planet_rings.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Platform.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Rocket.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/A-icon.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/B-icon.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/C-icon.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Meteor_bc.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Platforms_AO.jpg
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Rockets_AO.jpg
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Snap_logo.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Space_logo_TEMP.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-A.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-B.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-C.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-A.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-B.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-C.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-A.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-B.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-C.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_ANIM_mat_landing.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_material_landing_.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/CloudsLanding.animationAsset
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/line1.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/Bones_clouds_ANIM_mat_takeoff.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/Bones_clouds_material_start_.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/CloudsStart.animationAsset
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/line1.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter/Custom Mesh Emitter.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter/Rocket_clouds_emit.vfxgraph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter/cl_goup.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Fire.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Fire_ANIM_mat.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Glow_ANIM_mat.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Glow_MAt.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/blendshapes1.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/dots.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/engine_exhaust.prefab
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/glow_plane.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/Noise00.png
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/Plane.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/RadialHeat_ANIM_mat.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/Radial_heat.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 1.animationAsset
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 2.animationAsset
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 3.animationAsset
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Rocket_sparks.mesh
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.mat
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.ss_graph
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/stripe_noise 2.png
+      - SpectaclesInteractionKit/Examples/SIK Examples.prefab
+      - SpectaclesInteractionKit/Prefabs
+      - SpectaclesInteractionKit/Prefabs/ScrollViewListItem.prefab
+      - SpectaclesInteractionKit/Prefabs/SpectaclesInteractionKit.prefab
+      - SpectaclesInteractionKit/Providers
+      - SpectaclesInteractionKit/Providers/CameraProvider
+      - SpectaclesInteractionKit/Providers/CameraProvider/ARCameraFinderProvider.ts
+      - SpectaclesInteractionKit/Providers/CameraProvider/BaseCameraFinderProvider.ts
+      - SpectaclesInteractionKit/Providers/CameraProvider/BaseWorldCameraProvider.ts
+      - SpectaclesInteractionKit/Providers/CameraProvider/CameraProvider.ts
+      - SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider.ts
+      - SpectaclesInteractionKit/Providers/CursorControllerProvider
+      - SpectaclesInteractionKit/Providers/CursorControllerProvider/CursorControllerProvider.ts
+      - SpectaclesInteractionKit/Providers/HandInputData
+      - SpectaclesInteractionKit/Providers/HandInputData/BaseHand.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/DefaultHandTrackingAssetProvider.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/GestureModuleProvider.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetection
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetection/PalmTapDetector.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetection/PalmTapDetectorStateMachine.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetectionEvent.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapEvent.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/HciPinchDetectionStrategy.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/HeuristicPinchDetectionStrategy.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/PinchDetectionStrategy.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/PinchDetector.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/PinchDetectorStateMachine.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchEventType.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/HandInputData.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/HandTrackingAssetProvider.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/HandType.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/HandVisuals.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/Joints.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/Keypoint.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/LandmarkNames.ts
+      - SpectaclesInteractionKit/Providers/HandInputData/LeftHandAsset.handTracking3D
+      - SpectaclesInteractionKit/Providers/HandInputData/RightHandAsset.handTracking3D
+      - SpectaclesInteractionKit/Providers/HandInputData/TrackedHand.ts
+      - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider
+      - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/InteractionConfigurationProvider.ts
+      - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/LogLevelProvider.ts
+      - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/SIKLogLevelProvider.ts
+      - SpectaclesInteractionKit/Providers/MobileInputData
+      - SpectaclesInteractionKit/Providers/MobileInputData/MobileInputData.ts
+      - SpectaclesInteractionKit/Providers/MobileInputData/MotionControllerProvider.ts
+      - SpectaclesInteractionKit/Providers/TargetProvider
+      - SpectaclesInteractionKit/Providers/TargetProvider/TargetProvider.ts
+      - SpectaclesInteractionKit/Providers/TargetProvider/TargetingData.ts
+      - SpectaclesInteractionKit/SIK.ts
+      - SpectaclesInteractionKit/Utils
+      - SpectaclesInteractionKit/Utils/BistableThreshold.ts
+      - SpectaclesInteractionKit/Utils/Event.ts
+      - SpectaclesInteractionKit/Utils/Filter.ts
+      - SpectaclesInteractionKit/Utils/FunctionTimingUtils.ts
+      - SpectaclesInteractionKit/Utils/InputChecker.ts
+      - SpectaclesInteractionKit/Utils/InspectorCallbacks.ts
+      - SpectaclesInteractionKit/Utils/LensConfig.ts
+      - SpectaclesInteractionKit/Utils/LogLevel.ts
+      - SpectaclesInteractionKit/Utils/MovingAverageFilter.ts
+      - SpectaclesInteractionKit/Utils/NativeLogger.ts
+      - SpectaclesInteractionKit/Utils/OneEuroFilter.ts
+      - SpectaclesInteractionKit/Utils/ReplayEvent.ts
+      - SpectaclesInteractionKit/Utils/SafeReference.ts
+      - SpectaclesInteractionKit/Utils/SampleOps.ts
+      - SpectaclesInteractionKit/Utils/SceneObjectUtils.ts
+      - SpectaclesInteractionKit/Utils/SeededRandomNumberGenerator.ts
+      - SpectaclesInteractionKit/Utils/Spatial.ts
+      - SpectaclesInteractionKit/Utils/State.ts
+      - SpectaclesInteractionKit/Utils/StateMachine.ts
+      - SpectaclesInteractionKit/Utils/UpdateDispatcher.ts
+      - SpectaclesInteractionKit/Utils/aabb.ts
+      - SpectaclesInteractionKit/Utils/algorithms.ts
+      - SpectaclesInteractionKit/Utils/animate.ts
+      - SpectaclesInteractionKit/Utils/color.ts
+      - SpectaclesInteractionKit/Utils/lazyProperty.ts
+      - SpectaclesInteractionKit/Utils/logger.ts
+      - SpectaclesInteractionKit/Utils/mathUtils.ts
+      - SpectaclesInteractionKit/Utils/notEmpty.ts
+      - SpectaclesInteractionKit/Utils/springAnimate.ts
+      - SpectaclesInteractionKit/Utils/validate.ts
+      - SpectaclesInteractionKit/Utils/views
+      - SpectaclesInteractionKit/Utils/views/LineRenderer
+      - SpectaclesInteractionKit/Utils/views/LineRenderer/LineMeshUtils.ts
+      - SpectaclesInteractionKit/Utils/views/LineRenderer/LineRenderer.ts
+      - SpectaclesInteractionKit/Utils/views/MeshView.ts
+      - SpectaclesInteractionKit/Utils/views/View.ts
+      - SpectaclesInteractionKit/package.native
+      - Untitled TypeScript 2.ts
+      - Untitled TypeScript.ts
+      - Urban Pack
+      - Urban Pack/.hidden
+      - Urban Pack/.hidden/Occluder.ss_graph
+      - Urban Pack/.hidden/bin_recycle_tall.ss_graph
+      - Urban Pack/.hidden/bin_trash_tall.ss_graph
+      - Urban Pack/.hidden/dock.ss_graph
+      - Urban Pack/.hidden/env_sewer_hole.ss_graph
+      - Urban Pack/.hidden/seesaw.ss_graph
+      - Urban Pack/.hidden/sewer_grate.ss_graph
+      - Urban Pack/.hidden/sidewalk.ss_graph
+      - Urban Pack/.hidden/traffic_barrel.ss_graph
+      - Urban Pack/.hidden/turnstile.ss_graph
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_recycle_tall
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_recycle_tall/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_recycle_tall/Material/bin_recycle_tall.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_recycle_tall/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_recycle_tall/Meshes/C_bin_recycle_tall_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_trash_tall
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_trash_tall/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_trash_tall/Material/bin_trash_tall.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_trash_tall/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/bin_trash_tall/Meshes/C_bin_trash_tall_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/dock
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/dock/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/dock/Material/dock.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/dock/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/dock/Meshes/C_dock_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Material/Occluder.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Material/env_sewer_hole.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Meshes/C_hatchLip_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Meshes/C_hatchManhole_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Meshes/C_hatchOccluder_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Meshes/C_hatchTunnel_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/env_sewer_hole/Meshes/C_hatch_Shadow_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/seesaw
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/seesaw/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/seesaw/Material/seesaw.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/seesaw/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/seesaw/Meshes/C_seesaw1_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/seesaw/Meshes/C_seesaw_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sewer_grate
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sewer_grate/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sewer_grate/Material/sewer_grate.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sewer_grate/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sewer_grate/Meshes/C_sewer_grate_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Material/sidewalk.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes/C_sidewalk1_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes/C_sidewalk2_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes/C_sidewalk3_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes/C_sidewalk4_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes/C_sidewalk5_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/sidewalk/Meshes/C_sidewalk_crack_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/street_lamp
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/street_lamp/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/street_lamp/Material/street_lamp.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/street_lamp/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/street_lamp/Meshes/C_street_lamp_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/traffic_barrel
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/traffic_barrel/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/traffic_barrel/Material/traffic_barrel.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/traffic_barrel/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/traffic_barrel/Meshes/C_traffic_barrel_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile/Material
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile/Material/turnstile.mat
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile/Meshes
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile/Meshes/C_rods_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile/Meshes/C_turnstileCoin_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Meshes/turnstile/Meshes/C_turnstile_GEO.mesh
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/bin_recycle_tall_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/bin_trash_tall_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/dock_color.jpg
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/env_sewer_hole_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/seesaw_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/sewer_grate_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/sidewalk_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/street_lamp_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/traffic_barrel_color.png
+      - Urban Pack/Bitmoji Urban Pack Resources/Textures/turnstile_color.png
+      - Urban Pack/BitmojiUrban__PLACE_IN_OBJECTS_PANEL.prefab
+      - Vehicle Pack
+      - Vehicle Pack/.hidden/bike.ss_graph
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Materials
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Materials/bike.mat
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_axle_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_backWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_frame_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_frontFrame_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_frontWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_handleBar_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/C_seat_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/L_hinge_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/L_pedal_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/R_hinge_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike/Meshes/R_pedal_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Materials
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Materials/car.mat
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/C_backAxle_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/C_frame_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/C_frontAxle_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/C_shifter_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_backWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_door_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_frontWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_hood_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_steeringWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_trunk_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_window_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/L_wipers_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/R_backWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/R_door_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/R_frontWheel_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/car/Meshes/R_wipers_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Material
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Material/cart_luggage.mat
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Meshes
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Meshes/C_cart_luggage_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Meshes/C_cart_luggage_blue_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Meshes/C_cart_luggage_gray_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/cart_luggage/Meshes/C_cart_luggage_red_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/plane_bi
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/plane_bi/Material
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/plane_bi/Material/plane_bi.mat
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/plane_bi/Meshes
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/plane_bi/Meshes/C_plane_bi_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/plane_bi/Meshes/C_propellar_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Material
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Material/shopping_cart_trash.mat
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_box_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_cart_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_controller_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_handbag_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_lock_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_package_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_ruler_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_shirt_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_sleeve_FrontLeft_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_sleeve_FrontRight_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_sleeve_RearLeft_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_sleeve_RearRight_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_stuff_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_topCase_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_trash_001_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_trash_002_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_trash_003_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_wheel_FrontLeft_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_wheel_FrontRight_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_wheel_RearLeft_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/shopping_cart_trash/Meshes/C_wheel_RearRight_GEO.mesh
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/bike_color.png
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/car_prop_color.png
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/cart_luggage_color.png
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/plane_bi_color.png
+      - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/shopping_cart_trash_color.png
+      - Vehicle Pack/BitmojiVehicle__PLACE_IN_OBJECTS_PANEL.prefab
+      - simple_pbr.ss_graph
+  options: 4
