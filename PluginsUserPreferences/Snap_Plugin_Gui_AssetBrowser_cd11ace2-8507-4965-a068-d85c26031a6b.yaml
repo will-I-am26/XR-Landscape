@@ -1,10 +1,31 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 846
+    size: 867
     values:
       - Base.png
       - Echopark.hdr
+      - Mini Basketball Court/Mini Basketball Court__ADD_TO_SCENE.prefab
+      - Mini Basketball Court/minibasketballground.fbx
+      - Mini Basketball Court/minibasketballground.fbx/.hidden
+      - Mini Basketball Court/minibasketballground.fbx/.hidden/Ball_mat
+      - Mini Basketball Court/minibasketballground.fbx/.hidden/white
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Ball_mat
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Material
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Net_mat
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Pitch
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Pole_mat
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Screen_mat
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Base
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin1
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin2
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin3
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Lines
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Sphere.001
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Sphere1.001
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Wall
+      - Mini Basketball Court/minibasketballground.fbx/minibasketballground
       - Nature Pack
       - Nature Pack/.hidden
       - Nature Pack/.hidden/daffodil.ss_graph
