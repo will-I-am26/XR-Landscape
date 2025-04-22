@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 123
+    size: 122
     values:
       - 02c183d2-d07d-4512-b14d-14022b5be20f
       - 03115fb8-037b-4672-bdc1-925bb44f3d7a
@@ -125,7 +125,6 @@ CollapsedEntities:
       - f8f3d79c-73cd-4d30-85c0-c0e2b9487c27
       - faef7c10-0fd6-42c2-b1b5-533314c4cc19
       - fd4fe6f5-4a1e-4065-9b91-2e566eab160a
-      - ffacb84b-c820-47f0-89fb-34ce718da67a
   options: 4
 PinnedEntities:
   type: uuids

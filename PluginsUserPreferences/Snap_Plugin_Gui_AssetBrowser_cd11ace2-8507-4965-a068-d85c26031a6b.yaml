@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 819
+    size: 820
     values:
       - Base.png
       - Echopark.hdr
@@ -74,6 +74,7 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
+      - SideWalk.prefab
       - Spatial Image.lsc
       - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets/Audio
