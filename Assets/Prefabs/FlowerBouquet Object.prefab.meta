@@ -1,0 +1,247 @@
+- !<AssetImportMetadata/ec109b0f-2ba7-490b-bb42-087ccaf4eaba>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 4a4abdf8-70ce-4167-8ed5-766208412418
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 4a4abdf8-70ce-4167-8ed5-766208412418
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> bb0c2713-7ee0-448b-84d6-df90a6a8f27e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/3118de10-82f8-4e65-93a5-188ba5e0628f>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    targetOutlineMaterial: true
+    hoveringColor: true
+    activatingColor: true
+    outlineWeight: true
+    meshVisuals: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7ac80b6c-979a-4a00-a694-099f296be161
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: -0.250000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/3a3a0d05-840d-4757-a55b-6a1e466ead02>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6d26372b-0847-4f4c-b2a2-8e6e1c5e835f
+  Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4fd58dd7-a32d-490f-83af-d47039e3ec56>
+  PrefabRemaps:
+    []
+  Name: FlowerBouquet
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -25.000000, y: 0.000000, z: -20.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ada93b33-2024-441b-a726-91ea6e8930b6
+    - !<own> 642935d1-8a9d-43e3-aedb-9812ce6b2fc7
+    - !<own> 3a3a0d05-840d-4757-a55b-6a1e466ead02
+    - !<own> f6c8c870-2f97-4c97-959a-230a73160274
+    - !<own> 3118de10-82f8-4e65-93a5-188ba5e0628f
+    - !<own> 81da8081-e790-45d1-9587-734368b010fb
+- !<SceneObject/5e0f53fa-e37e-4c1d-906c-46eb07c45eb4>
+  PrefabRemaps:
+    []
+  Name: FlowerBouquet Object
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -25.000000, y: 0.000000, z: -111.850502}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4fd58dd7-a32d-490f-83af-d47039e3ec56
+  Components:
+    []
+- !<ScriptComponent/642935d1-8a9d-43e3-aedb-9812ce6b2fc7>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    enableScale: true
+    enableStretchZ: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 5e0f53fa-e37e-4c1d-906c-46eb07c45eb4
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: true
+      enableStretchZ: true
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
+- !<BodyComponent/81da8081-e790-45d1-9587-734368b010fb>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<ScriptComponent/ada93b33-2024-441b-a726-91ea6e8930b6>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 3.000000
+      acceptableYDirections: !<float> 3.000000
+      acceptableZDirections: !<float> 3.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/ae0d21e3-a067-40a5-9ab0-2b44fab869eb>
+  PackagePath: ""
+  objects:
+    - !<own> 5e0f53fa-e37e-4c1d-906c-46eb07c45eb4
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/bb0c2713-7ee0-448b-84d6-df90a6a8f27e>
+  SourceRemaps:
+    - 477c3004-53a8-4ded-bf9f-b19ab686ce3f: 3a3a0d05-840d-4757-a55b-6a1e466ead02
+    - 48e5b79e-ace3-4680-a9ff-c1e7f84e119a: 642935d1-8a9d-43e3-aedb-9812ce6b2fc7
+    - 4a4abdf8-70ce-4167-8ed5-766208412418: ae0d21e3-a067-40a5-9ab0-2b44fab869eb
+    - 75b15ba6-a254-498d-a20d-a013667c1e23: 81da8081-e790-45d1-9587-734368b010fb
+    - 8ec0de4b-20df-4287-a7f7-a825d2a1d10c: f6c8c870-2f97-4c97-959a-230a73160274
+    - b978e49f-cd5c-47b2-8d90-611518f4795e: 4fd58dd7-a32d-490f-83af-d47039e3ec56
+    - d80948a5-d552-41fc-aef9-9be004471b2a: 3118de10-82f8-4e65-93a5-188ba5e0628f
+    - d934da01-2a1e-42e8-8ce2-ff26e17d6131: 5e0f53fa-e37e-4c1d-906c-46eb07c45eb4
+    - ed8e4c07-b3b5-499c-8613-a66c04652553: ada93b33-2024-441b-a726-91ea6e8930b6
+  SourceState: !<own> ae0d21e3-a067-40a5-9ab0-2b44fab869eb
+- !<ScriptComponent/f6c8c870-2f97-4c97-959a-230a73160274>
+  PrefabRemaps:
+    []
+  Name: InteractableAudioFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 1ad7da86-2c32-418c-bdf1-b7150c07c912
+  ScriptInputsDefault:
+    _playAudioOnHover: true
+    _hoverAudioTrack: true
+    _playAudioOnTriggerStart: true
+    _triggerStartAudioTrack: true
+    _playAudioOnTriggerEnd: true
+    _triggerEndAudioTrack: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      _playAudioOnHover: false
+      _hoverAudioTrack: !<reference.AudioTrackAsset> 97bf97ae-b2da-47d7-bde6-003f597fe888
+      _playAudioOnTriggerStart: true
+      _triggerStartAudioTrack: !<reference.AudioTrackAsset> edad7d53-55da-40b1-9025-fad0e7207862
+      _playAudioOnTriggerEnd: true
+      _triggerEndAudioTrack: !<reference.AudioTrackAsset> 82028831-1631-4d7b-b548-ff6be4e0a2ba
+  ScriptTypes:
+    "":
+      {}

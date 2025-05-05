@@ -1,10 +1,11 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 867
+    size: 880
     values:
       - Base.png
       - Echopark.hdr
+      - Mini Basketball Court
       - Mini Basketball Court/Mini Basketball Court__ADD_TO_SCENE.prefab
       - Mini Basketball Court/minibasketballground.fbx
       - Mini Basketball Court/minibasketballground.fbx/.hidden
@@ -35,12 +36,12 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Material0/daffodil.mat
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes/C_daffodil_GEO.mesh
-      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Material0/grass_scene.mat
-      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes/C_grass_scene_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Material0
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Material0/icerink.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_iceHole_GEO.mesh
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_ice_GEO.mesh
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_occluder_GEO.mesh
@@ -95,6 +96,13 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
+      - Prefabs
+      - Prefabs/Apple Tree Object.prefab
+      - Prefabs/Flower Object.prefab
+      - Prefabs/FlowerBouquet Object.prefab
+      - Prefabs/Plane Object.prefab
+      - Prefabs/Stone Object.prefab
+      - Prefabs/Water Object.prefab
       - SideWalk.prefab
       - Spatial Image.lsc
       - SpectaclesInteractionKit
@@ -670,6 +678,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - Surface Detection.lspkg
       - Surface Detection.lspkg/Audio
       - Surface Detection.lspkg/Audio/CalibrationComplete.mp3
       - "Surface Detection.lspkg/Example [DELETE ME]"
@@ -869,5 +878,9 @@ CollapsedEntities:
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/plane_bi_color.png
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/shopping_cart_trash_color.png
       - Vehicle Pack/BitmojiVehicle__PLACE_IN_OBJECTS_PANEL.prefab
+      - objectSpawner.ts
       - simple_pbr.ss_graph
+      - spawnPoints.ts
+      - stoneSpawnPoint.ts
+      - treeSpawnPoint.ts
   options: 4
