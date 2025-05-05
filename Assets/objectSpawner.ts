@@ -35,7 +35,7 @@ export class ToolPickerBehavior extends BaseScriptComponent {
     spanwAllTools () {
         this.toolSpawnPoints.forEach((value, ind) => {
             let spawnPoint = value
-            this.toolSpawnPointsT[ind] = spawnPoint.getTransform()
+            this.toolSpawnPointsT[ind] = spawnPoint.getTransform()            
             this.spawnAndReplace(ind)
         })
     }

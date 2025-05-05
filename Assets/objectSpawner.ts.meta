@@ -36,7 +36,8 @@
     - toolPrefabs: !<reference.ObjectPrefab[]>
         []
       toolSpawnPoints: !<reference.SceneObject[]>
-        []
+        - !<reference> 09d33231-5b29-40f7-84bc-17c395e9a365
+        - !<reference> 811befa6-38c4-4c42-8314-4de24c43a77b
       containerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
