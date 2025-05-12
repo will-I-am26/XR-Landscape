@@ -201,6 +201,21 @@
   MaxDistance: 0.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+- !<SceneObject/00de5fdd-2d05-45b2-9d43-d3ba2ea5619d>
+  PrefabRemaps:
+    []
+  Name: flowerBouquetSpawnPoint
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 20.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1af501f5-e100-4a2d-9471-5b6738d0d500
 - !<BodyComponent/01043090-dbba-4298-ab70-4a5f8490ad69>
   PrefabRemaps:
     []
@@ -434,7 +449,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -10.000000, y: 0.000000, z: 0.000000}
+    position: {x: -20.000000, y: 20.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -510,7 +525,6 @@
   Enabled: true
   ScriptAsset: !<reference> 94ea82ba-1d42-4617-b71f-c92262f5960b
   ScriptInputsDefault:
-    border: true
     constantPadding: true
     relativeZ: true
     allowTranslation: true
@@ -527,8 +541,8 @@
   ScriptInputs:
     "":
       autoShowHide: false
-      innerSize: !<Vec2> {x: 36.000000, y: 10.000000}
-      border: !<float> 4.000000
+      innerSize: !<Vec2> {x: 40.000000, y: 36.000000}
+      border: !<float> 8.000000
       constantPadding: !<Vec2> {x: 0.000000, y: 0.000000}
       allowScaling: false
       autoScaleContent: false
@@ -705,6 +719,26 @@
     - !<own> 8c0f65d9-5f14-4ecb-acb2-c98789f8bf4b
     - !<own> 73f3c7d5-490b-42ba-9c65-9c2754b43b21
     - !<own> 1beed169-b75c-49f8-8b5f-0103b9ae6ae5
+- !<RenderMeshVisual/1af501f5-e100-4a2d-9471-5b6738d0d500>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71dde88-df6c-46a6-8426-d07b956a747e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<ScriptComponent/1beed169-b75c-49f8-8b5f-0103b9ae6ae5>
   PrefabRemaps:
     []
@@ -2125,7 +2159,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 15.000000, y: 0.000000, z: -20.000000}
+    position: {x: 0.000000, y: -10.000000, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -2563,7 +2597,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 20.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -3070,8 +3104,8 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -25.000000, y: 0.000000, z: -20.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 0.000000, y: -5.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -3447,9 +3481,13 @@
       toolPrefabs: !<reference.ObjectPrefab[]>
         - !<reference> f955f801-9dcd-4a68-8354-89c0aa980ff4
         - !<reference> 11d210f7-d95e-4754-af71-f3c4b4d4e061
+        - !<reference> bc4fab64-420d-4220-b398-765d74ca269c
+        - !<reference> 4a4abdf8-70ce-4167-8ed5-766208412418
       toolSpawnPoints: !<reference.SceneObject[]>
         - !<reference> 09d33231-5b29-40f7-84bc-17c395e9a365
         - !<reference> 811befa6-38c4-4c42-8314-4de24c43a77b
+        - !<reference> fb108d0a-c383-4e2f-a8ae-bff6052c7f1b
+        - !<reference> 00de5fdd-2d05-45b2-9d43-d3ba2ea5619d
       containerObj: !<reference.SceneObject> bab56076-007c-4182-b013-abe2e2a5474e
   ScriptTypes:
     "":
@@ -3608,6 +3646,8 @@
   Children:
     - !<own> 09d33231-5b29-40f7-84bc-17c395e9a365
     - !<own> 811befa6-38c4-4c42-8314-4de24c43a77b
+    - !<own> fb108d0a-c383-4e2f-a8ae-bff6052c7f1b
+    - !<own> 00de5fdd-2d05-45b2-9d43-d3ba2ea5619d
   Components:
     - !<own> 0b6b17f0-1ea8-4046-9f26-57f8a89d9304
 - !<ColliderComponent/bcb431c6-ac0a-4f3a-ab87-5bf48eb00354>
@@ -3985,6 +4025,26 @@
     - !<own> 89f61dd6-c6ab-4fa8-89d4-a8556ac48bb1
   Components:
     []
+- !<RenderMeshVisual/d0226cf4-fab0-469e-bb9d-ce9c754e6b00>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71dde88-df6c-46a6-8426-d07b956a747e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/d04ffcba-c89f-425d-8d8b-8ff29d90c22e>
   PrefabRemaps:
     []
@@ -4958,6 +5018,21 @@
     - !<own> 709cdd07-09d3-440d-b8fc-ae89b0aa58f2
   Components:
     []
+- !<SceneObject/fb108d0a-c383-4e2f-a8ae-bff6052c7f1b>
+  PrefabRemaps:
+    []
+  Name: flowerSpawnPoint
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 20.000000, y: 20.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d0226cf4-fab0-469e-bb9d-ce9c754e6b00
 - !<ScriptComponent/fc99304a-7a8a-435b-8f7b-73d0fe3358f3>
   PrefabRemaps:
     []
