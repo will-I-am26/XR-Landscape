@@ -33,13 +33,15 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - lightController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+    - materialPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       dropDownMenu: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       firstObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      materialPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       icons: !<reference.Texture[]>
         []
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

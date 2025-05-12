@@ -140,7 +140,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 96e3408f-8449-4fe9-9d94-412a314cf5f9/8f22ad6644747c9c7aab4744e6c671f6/Data/cfd37fa/simple_pbr.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 96e3408f-8449-4fe9-9d94-412a314cf5f9/8f22ad6644747c9c7aab4744e6c671f6/Data/81578ed/simple_pbr.glsl
       Defines:
         []
       Properties:

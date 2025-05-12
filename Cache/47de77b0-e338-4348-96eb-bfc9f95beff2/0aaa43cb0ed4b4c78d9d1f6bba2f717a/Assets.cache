@@ -918,7 +918,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 47de77b0-e338-4348-96eb-bfc9f95beff2/0aaa43cb0ed4b4c78d9d1f6bba2f717a/Data/cfd37fa/ToggleOn.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 47de77b0-e338-4348-96eb-bfc9f95beff2/0aaa43cb0ed4b4c78d9d1f6bba2f717a/Data/81578ed/ToggleOn.glsl
       Defines:
         []
       Properties:

@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 6e188212-6e6a-48cc-a39f-dea41939dedd/5b0e22980d9a7436825c77b6949a33a4/Data/cfd37fa/dock.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 6e188212-6e6a-48cc-a39f-dea41939dedd/5b0e22980d9a7436825c77b6949a33a4/Data/81578ed/dock.glsl
       Defines:
         []
       Properties:

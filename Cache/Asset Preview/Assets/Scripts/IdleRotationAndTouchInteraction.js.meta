@@ -36,10 +36,13 @@
   DefaultScriptInputs:
     - box: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      rotationEuler: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       interactionComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      rotationEuler: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
   ScriptTypes:
     -
       {}
   SvgIcon: ""
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

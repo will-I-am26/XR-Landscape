@@ -40,38 +40,26 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - light: !<reference.SceneObject[]>
-        []
-      environmentLight: !<reference.SceneObject[]>
-        []
-      lightButtons: !<RequiredType.Image[]>
-        []
-      ligthIconBackgrounds: !<RequiredType.Image[]>
-        []
-      environmentLightBackgrounds: !<reference.SceneObject[]>
-        []
-      environmentIcon: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      iconBackgrounds: !<RequiredType.Image[]>
-        []
-      environmentIconBackgrounds: !<RequiredType.Image[]>
-        []
-      parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       leftSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      environmentLightParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      envLighSource: !<reference.LightSource> 00000000-0000-0000-0000-000000000000
-      envMapObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      iconBackgroundObjs: !<reference.Image[]>
-        []
       environmentIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       chevronIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      environmentCheckIcon: !<reference.SceneObject[]>
+      light: !<reference.SceneObject[]>
         []
-      environmentCheckObject: !<reference.SceneObject[]>
+      iconBackgroundObjs: !<reference.SceneObject[]>
+        []
+      environmentIconBackgrounds: !<reference.Image[]>
         []
       environmentCheckObjects: !<reference.SceneObject[]>
         []
-      environmentButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      environmentLightParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      envMapObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      environmentLight:
+        []
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

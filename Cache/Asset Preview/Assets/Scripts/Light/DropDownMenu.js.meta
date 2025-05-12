@@ -34,12 +34,13 @@
     {}
   DefaultScriptInputs:
     - interactionComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
-      dropDownMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       hoverEventReset: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      environmentIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      mainIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dropDownMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       mainIconScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

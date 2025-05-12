@@ -160,7 +160,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 4b696754-0491-4a50-bff5-78050c11731d/1ed40eb2f594fd4d318f224086def986/Data/cfd37fa/RoundButton_Idle.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 4b696754-0491-4a50-bff5-78050c11731d/1ed40eb2f594fd4d318f224086def986/Data/81578ed/RoundButton_Idle.glsl
       Defines:
         []
       Properties:

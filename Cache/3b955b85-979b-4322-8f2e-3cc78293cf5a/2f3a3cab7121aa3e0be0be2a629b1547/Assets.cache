@@ -1446,6 +1446,7 @@
             mDefaultVal: 0.500000
             mValues:
               []
+        ShaderType: Mesh3d
       ShaderPath: 3b955b85-979b-4322-8f2e-3cc78293cf5a/2f3a3cab7121aa3e0be0be2a629b1547/Data/.hidden/cfd37fa/Lightbake.001.glsl
       Defines:
         []

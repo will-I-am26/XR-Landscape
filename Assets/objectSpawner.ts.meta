@@ -45,3 +45,6 @@
     - "// @input Asset.ObjectPrefab[] toolPrefabs"
     - "// @input SceneObject[] toolSpawnPoints"
     - // @input SceneObject containerObj
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

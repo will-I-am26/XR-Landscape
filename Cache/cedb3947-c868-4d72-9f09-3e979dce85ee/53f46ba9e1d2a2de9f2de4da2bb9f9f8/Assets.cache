@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: cedb3947-c868-4d72-9f09-3e979dce85ee/53f46ba9e1d2a2de9f2de4da2bb9f9f8/Data/cfd37fa/turnstile.glsl
+        ShaderType: Mesh3d
+      ShaderPath: cedb3947-c868-4d72-9f09-3e979dce85ee/53f46ba9e1d2a2de9f2de4da2bb9f9f8/Data/81578ed/turnstile.glsl
       Defines:
         []
       Properties:

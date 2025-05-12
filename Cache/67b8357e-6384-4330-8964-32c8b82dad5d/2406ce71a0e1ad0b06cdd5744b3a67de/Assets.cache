@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 67b8357e-6384-4330-8964-32c8b82dad5d/2406ce71a0e1ad0b06cdd5744b3a67de/Data/cfd37fa/bike.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 67b8357e-6384-4330-8964-32c8b82dad5d/2406ce71a0e1ad0b06cdd5744b3a67de/Data/81578ed/bike.glsl
       Defines:
         []
       Properties:

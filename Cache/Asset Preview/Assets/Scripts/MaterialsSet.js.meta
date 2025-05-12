@@ -37,35 +37,22 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - mystruct:
-        c: !<reference.Material> 00000000-0000-0000-0000-000000000000
-        d: false
-      mystruct2:
-        []
-      materials:
+    - iconBackgroundObjects: !<reference.SceneObject[]>
         []
       greyMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
-      backgroundImages: !<reference.Image[]>
-        []
-      greyBackgroundMaterials:
+      greyBackgroundStatus: !<bool[]>
         []
       iconMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
-      iconMaterials:
+      iconTextures: !<reference.Texture[]>
         []
       texturePreviewMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
       textureRenderMeshes: !<reference.RenderMeshVisual[]>
         []
-      highlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
-      highlightImages: !<reference.Image> 00000000-0000-0000-0000-000000000000
       hintObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      iconMaterials1: !<bool[]>
-        []
-      iconBackgroundObjects: !<reference.SceneObject[]>
-        []
-      greyBackgroundStatus: !<bool[]>
-        []
-      iconTextures: !<reference.Texture> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

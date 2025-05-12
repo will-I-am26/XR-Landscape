@@ -124,7 +124,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 248aee13-57e9-47f2-9a8a-9707bf3f8b4a/1996436db0019a32fd7ba583613db39f/Data/cfd37fa/RoundButtonGlowPinched.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 248aee13-57e9-47f2-9a8a-9707bf3f8b4a/1996436db0019a32fd7ba583613db39f/Data/81578ed/RoundButtonGlowPinched.glsl
       Defines:
         []
       Properties:

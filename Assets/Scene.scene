@@ -67,6 +67,7 @@
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/0005641c-028d-459a-0000-000000014b4d>
   PrefabRemaps:
     []
@@ -1666,7 +1667,7 @@
     "":
       handType: left
       selectVisual: Default
-      handInteractor: !<MappingBased.HandInteractor> 49007524-9216-4f60-b5d2-b61e63e146bc
+      handInteractor: !<MappingBased.AssignableType> 49007524-9216-4f60-b5d2-b61e63e146bc
       handMesh: !<reference.RenderMeshVisual> 9f7bfdb4-35b8-4a01-a982-306a7a310212
       root: !<reference.SceneObject> b8c45ac9-a34f-49fc-912b-4750c1028850
       autoJointMapping: true
@@ -3036,7 +3037,7 @@
   ScriptInputs:
     "":
       objectVisuals: !<reference.SceneObject> 60bed42c-2a49-4a7d-8fb1-8436ee0e3bbe
-      surfaceDetection: !<MappingBased.SurfaceDetection> d08bc111-45c5-4241-87fa-24f6b1897e1b
+      surfaceDetection: !<MappingBased.AssignableType> d08bc111-45c5-4241-87fa-24f6b1897e1b
   ScriptTypes:
     "":
       {}
@@ -4021,7 +4022,7 @@
     "":
       camObj: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
       visualObj: !<reference.SceneObject> 8d6fb492-a651-4712-93a6-0855d663b99c
-      animation: !<MappingBased.CircleAnimation> 7829d441-64e3-4c7e-a54e-25e74553f0f5
+      animation: !<MappingBased.AssignableType> 7829d441-64e3-4c7e-a54e-25e74553f0f5
   ScriptTypes:
     "":
       {}
@@ -4286,7 +4287,7 @@
     "":
       handType: right
       selectVisual: Default
-      handInteractor: !<MappingBased.HandInteractor> eff72c00-7540-4216-89a7-4a991a4f98b7
+      handInteractor: !<MappingBased.AssignableType> eff72c00-7540-4216-89a7-4a991a4f98b7
       handMesh: !<reference.RenderMeshVisual> 46a58d51-3a50-40bc-9529-3d0c21f1ccbf
       root: !<reference.SceneObject> affa4338-667f-48d4-a12d-afe90d46ae7d
       autoJointMapping: true
