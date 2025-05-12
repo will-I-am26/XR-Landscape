@@ -42,9 +42,11 @@
       toolbarRightSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
       toolbarMidSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
       bottomMidSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      cameraImage: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
       previewZone: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

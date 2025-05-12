@@ -536,7 +536,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: e7826f82-2a0a-4dd9-b07b-a3aea7fb5265/dfabacc6272748a6e8658e627fdc1a65/Data/cfd37fa/large_bouquet_flower_pink.glsl
+        ShaderType: Mesh3d
+      ShaderPath: e7826f82-2a0a-4dd9-b07b-a3aea7fb5265/dfabacc6272748a6e8658e627fdc1a65/Data/81578ed/large_bouquet_flower_pink.glsl
       Defines:
         []
       Properties:

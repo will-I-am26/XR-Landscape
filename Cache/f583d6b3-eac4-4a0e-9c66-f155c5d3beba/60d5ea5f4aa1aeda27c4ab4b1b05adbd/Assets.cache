@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: f583d6b3-eac4-4a0e-9c66-f155c5d3beba/60d5ea5f4aa1aeda27c4ab4b1b05adbd/Data/cfd37fa/bin_recycle_tall.glsl
+        ShaderType: Mesh3d
+      ShaderPath: f583d6b3-eac4-4a0e-9c66-f155c5d3beba/60d5ea5f4aa1aeda27c4ab4b1b05adbd/Data/81578ed/bin_recycle_tall.glsl
       Defines:
         []
       Properties:

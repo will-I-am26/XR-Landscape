@@ -38,35 +38,23 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - channelsIcons: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      channelIcons: !<reference.Texture[]>
-        []
-      mappingObjs: !<reference.SceneObject[]>
-        []
-      textureMats: !<reference.Material[]>
-        []
-      channelIconImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      mappingIconImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      mappingIcons: !<reference.Texture[]>
-        []
-      texturePreviewMats: !<reference.Material[]>
-        []
-      fovController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      texturePreview: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      texturePreview3d: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      textureLeftSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - textureLeftSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textureMiddleSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       channelIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       mappingIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      channelIconObjects: !<reference.SceneObject[]>
-        []
-      mappingIconObjects: !<reference.SceneObject[]>
-        []
+      fovController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       channelBackgroundObjects: !<reference.SceneObject[]>
         []
       mappingBackgroundObjects: !<reference.SceneObject[]>
         []
-      textureMiddleSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mappingObjs: !<reference.SceneObject[]>
+        []
+      texturePreviewMats: !<reference.Material[]>
+        []
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

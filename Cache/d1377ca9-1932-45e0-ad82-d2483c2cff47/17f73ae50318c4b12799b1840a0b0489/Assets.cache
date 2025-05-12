@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: d1377ca9-1932-45e0-ad82-d2483c2cff47/17f73ae50318c4b12799b1840a0b0489/Data/cfd37fa/sewer_grate.glsl
+        ShaderType: Mesh3d
+      ShaderPath: d1377ca9-1932-45e0-ad82-d2483c2cff47/17f73ae50318c4b12799b1840a0b0489/Data/81578ed/sewer_grate.glsl
       Defines:
         []
       Properties:

@@ -1,10 +1,32 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 820
+    size: 878
     values:
       - Base.png
       - Echopark.hdr
+      - Mini Basketball Court
+      - Mini Basketball Court/Mini Basketball Court__ADD_TO_SCENE.prefab
+      - Mini Basketball Court/minibasketballground.fbx
+      - Mini Basketball Court/minibasketballground.fbx/.hidden
+      - Mini Basketball Court/minibasketballground.fbx/.hidden/Ball_mat
+      - Mini Basketball Court/minibasketballground.fbx/.hidden/white
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Ball_mat
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Material
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Net_mat
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Pitch
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Pole_mat
+      - Mini Basketball Court/minibasketballground.fbx/Materials/Screen_mat
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Base
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin1
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin2
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Bin3
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Lines
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Sphere.001
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Sphere1.001
+      - Mini Basketball Court/minibasketballground.fbx/Meshes/Wall
+      - Mini Basketball Court/minibasketballground.fbx/minibasketballground
       - Nature Pack
       - Nature Pack/.hidden
       - Nature Pack/.hidden/daffodil.ss_graph
@@ -14,12 +36,12 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Material0/daffodil.mat
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes/C_daffodil_GEO.mesh
-      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Material0/grass_scene.mat
-      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes/C_grass_scene_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Material0
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Material0/icerink.mat
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_iceHole_GEO.mesh
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_ice_GEO.mesh
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink/Meshes/C_occluder_GEO.mesh
@@ -74,7 +96,12 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
-      - SideWalk.prefab
+      - Prefabs/Apple Tree Object.prefab
+      - Prefabs/Flower Object.prefab
+      - Prefabs/FlowerBouquet Object.prefab
+      - Prefabs/Plane Object.prefab
+      - Prefabs/Stone Object.prefab
+      - Prefabs/Water Object.prefab
       - Spatial Image.lsc
       - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets/Audio
@@ -649,6 +676,33 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - Surface Detection.lspkg
+      - Surface Detection.lspkg/Audio
+      - Surface Detection.lspkg/Audio/CalibrationComplete.mp3
+      - "Surface Detection.lspkg/Example [DELETE ME]"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Example Script [EDIT].ts"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Materials"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Materials/Uber PBR.mat"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Meshes"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Meshes/Box.mesh"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Shaders"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Shaders/uber_pbr.ss_graph"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures/Base.png"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures/Normal.png"
+      - Surface Detection.lspkg/Materials
+      - Surface Detection.lspkg/Materials/CalibrationMat.mat
+      - Surface Detection.lspkg/Meshes
+      - Surface Detection.lspkg/Meshes/Unit Plane.mesh
+      - Surface Detection.lspkg/Scripts
+      - Surface Detection.lspkg/Scripts/CircleAnimation.ts
+      - Surface Detection.lspkg/Scripts/SurfaceDetection.ts
+      - Surface Detection.lspkg/Shaders
+      - Surface Detection.lspkg/Shaders/CalibrationShader.ss_graph
+      - Surface Detection.lspkg/SurfaceDetection__ADD_TO_SCENE.prefab
+      - Surface Detection.lspkg/Textures
+      - Surface Detection.lspkg/Textures/groundIcon.png
+      - Surface Detection.lspkg/package.native
       - Untitled TypeScript 2.ts
       - Untitled TypeScript.ts
       - Urban Pack
@@ -822,5 +876,9 @@ CollapsedEntities:
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/plane_bi_color.png
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/shopping_cart_trash_color.png
       - Vehicle Pack/BitmojiVehicle__PLACE_IN_OBJECTS_PANEL.prefab
+      - objectSpawner.ts
       - simple_pbr.ss_graph
+      - spawnPoints.ts
+      - stoneSpawnPoint.ts
+      - treeSpawnPoint.ts
   options: 4

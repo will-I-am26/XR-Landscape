@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 895122f1-6efd-4298-a3e9-9e6341cb9355/2406ce71a0e1ad0b06cdd5744b3a67de/Data/cfd37fa/daffodil.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 895122f1-6efd-4298-a3e9-9e6341cb9355/2406ce71a0e1ad0b06cdd5744b3a67de/Data/81578ed/daffodil.glsl
       Defines:
         []
       Properties:

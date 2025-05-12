@@ -34,8 +34,11 @@
   DefaultScriptInputs:
     - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
       texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      previewZone: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      previewZone: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

@@ -124,7 +124,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 70656dce-d1c1-476d-b2c5-f5ea16379618/009f2b75f97c92c1c5089e1e0705067f/Data/cfd37fa/RoundButtonGlowHover.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 70656dce-d1c1-476d-b2c5-f5ea16379618/009f2b75f97c92c1c5089e1e0705067f/Data/81578ed/RoundButtonGlowHover.glsl
       Defines:
         []
       Properties:

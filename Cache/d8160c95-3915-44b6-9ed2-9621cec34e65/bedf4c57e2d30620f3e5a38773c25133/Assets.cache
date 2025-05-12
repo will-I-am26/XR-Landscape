@@ -23,6 +23,7 @@
           []
         PassBindings:
           []
+        ShaderType: Mesh3d
   SourceHash: bedf4c57e2d30620f3e5a38773c25133
   FileHash: f5c3b7b4418f70c640f3347734a0d15a
   NativePackageItems:

@@ -32,12 +32,11 @@
     {}
   DefaultScriptInputs:
     - parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
-      slider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      sliderScriptObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      sliderScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       fovController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

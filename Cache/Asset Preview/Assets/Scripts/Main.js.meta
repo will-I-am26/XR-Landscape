@@ -39,11 +39,14 @@
     - texturePreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       materialPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       meshPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      placementScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       vfxPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       otherObjectsPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       gridController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      placementScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

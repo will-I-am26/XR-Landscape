@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 6036caf9-1cd8-41d9-bd08-6d95c240951c/ce7fc58d29dab19b7b7510d9903c3a1f/Data/cfd37fa/traffic_barrel.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 6036caf9-1cd8-41d9-bd08-6d95c240951c/ce7fc58d29dab19b7b7510d9903c3a1f/Data/81578ed/traffic_barrel.glsl
       Defines:
         []
       Properties:

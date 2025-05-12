@@ -32,14 +32,13 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - hint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      hoverColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-      centerPos: !<Vec2> {x: 0.000000, y: 0.000000}
-      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      text: !<reference.TextInputModule> 00000000-0000-0000-0000-000000000000
+    - hintParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       leftRightPosition: !<Vec2> {x: 0.000000, y: 0.000000}
-      hintParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintText: ""
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""
