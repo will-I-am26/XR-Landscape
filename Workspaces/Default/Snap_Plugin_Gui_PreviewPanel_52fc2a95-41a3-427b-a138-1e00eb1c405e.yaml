@@ -24,11 +24,11 @@ fullscreenSpectaclesSimulation:
   options: 4
 lastPosition:
   type: vec3
-  value: {x: -61.758186, y: 57.363956, z: -135.276413}
+  value: {x: -188.748199, y: 27.000000, z: -118.082031}
   options: 4
 lastRotation:
   type: vec3
-  value: {x: 162.900269, y: -46.798058, z: -180.000000}
+  value: {x: -8.099807, y: -82.786316, z: 0.012653}
   options: 4
 mirrorHorizontally:
   type: bool
