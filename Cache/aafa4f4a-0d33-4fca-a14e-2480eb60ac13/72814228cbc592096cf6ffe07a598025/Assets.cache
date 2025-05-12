@@ -281,7 +281,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: aafa4f4a-0d33-4fca-a14e-2480eb60ac13/72814228cbc592096cf6ffe07a598025/Data/cfd37fa/ScrollButtonIdle.glsl
+        ShaderType: Mesh3d
+      ShaderPath: aafa4f4a-0d33-4fca-a14e-2480eb60ac13/72814228cbc592096cf6ffe07a598025/Data/81578ed/ScrollButtonIdle.glsl
       Defines:
         []
       Properties:

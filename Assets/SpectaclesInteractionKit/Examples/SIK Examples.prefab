@@ -4417,7 +4417,7 @@
     {}
   ScriptInputs:
     "":
-      rocketConfigurator: !<MappingBased.RocketConfigurator> dce8ac2d-1cca-4db4-9d7e-3a2d77598a8f
+      rocketConfigurator: !<MappingBased.AssignableType> dce8ac2d-1cca-4db4-9d7e-3a2d77598a8f
       objectPrefabs: !<reference.ObjectPrefab[]>
         - !<reference> 6c612d5f-8b1a-4b14-9516-46e23f841a5d
         - !<reference> 35f484ab-060f-45e0-a065-e7573bce57ca
@@ -4696,6 +4696,7 @@
     LineSpacing: 1.000000
     CapitalizationOverride: None
     CapitilizationOverride: None
+  EnableBatching: false
   ShadowMode: None
 - !<RenderMeshVisual/6a83cf13-2787-4e68-846d-1f0ae9c05c0d>
   PrefabRemaps:
@@ -4903,19 +4904,19 @@
     {}
   ScriptInputs:
     "":
-      slider: !<MappingBased.Slider> f89c0785-23d5-4ad0-ba29-376bd7b27419
+      slider: !<MappingBased.AssignableType> f89c0785-23d5-4ad0-ba29-376bd7b27419
       animationAButton: !<reference.SceneObject> 4f5e90b3-c743-4580-a6d8-3fa435645183
       animationBButton: !<reference.SceneObject> 78c63af4-c800-49ae-b609-149831b30c98
       animationCButton: !<reference.SceneObject> 0a4a7312-b206-4425-a6de-3839d9620e1f
       launchButton: !<reference.SceneObject> c0f4a09a-2f9d-4f99-bc0c-baec78d26d4d
-      rocketConf: !<MappingBased.RocketConfigurator> dce8ac2d-1cca-4db4-9d7e-3a2d77598a8f
+      rocketConf: !<MappingBased.AssignableType_1> dce8ac2d-1cca-4db4-9d7e-3a2d77598a8f
       launchSparks: !<reference.SceneObject> f4e93009-89a3-47e4-902b-8a73bfb94db2
       rocketAnimationPlayer: !<reference.AnimationPlayer> daa5b5bc-4d7e-4a0e-9811-29e82c244130
       rocketAudioComponent: !<reference.AudioComponent> c4b1e0dc-e01f-47be-98a6-c34aa0d4b9ca
       rocketLaunchSFX: !<reference.AudioTrackAsset> fa9421aa-0b52-43f6-aa63-9290ce06106d
       rocketLandSFX: !<reference.AudioTrackAsset> 516fb026-81f3-418b-9f1a-708a8605efb6
       flightPathText: !<reference.Text> e6ac815d-2b69-45b5-8f53-bbe1df64a9f7
-      launchPlatformToggleButton: !<MappingBased.ToggleButton> 3c64332c-490d-4b34-b94b-4f90350cf5db
+      launchPlatformToggleButton: !<MappingBased.AssignableType_2> 3c64332c-490d-4b34-b94b-4f90350cf5db
       launchPlatform: !<reference.SceneObject> 3bff419b-5ccf-447c-9c52-8f6f131f64f2
   ScriptTypes:
     "":
@@ -9300,6 +9301,7 @@
       PlaybackSpeed: 1.000000
       Begin: 0.000000
       End: 400.000000
+      Offset: 0.000000
       Reversed: false
       Disabled: false
       BlendMode: Default
@@ -9312,6 +9314,7 @@
       PlaybackSpeed: 1.000000
       Begin: 0.000000
       End: 420.000000
+      Offset: 0.000000
       Reversed: false
       Disabled: false
       BlendMode: Default
@@ -9324,6 +9327,7 @@
       PlaybackSpeed: 1.000000
       Begin: 0.000000
       End: 360.000000
+      Offset: 0.000000
       Reversed: false
       Disabled: false
       BlendMode: Default

@@ -35,11 +35,12 @@
   DefaultScriptInputs:
     - gridMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
       deviceCameraTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      gridButtonImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      gridObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      gridObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gridButtonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

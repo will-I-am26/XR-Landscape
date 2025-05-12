@@ -78,9 +78,12 @@
       spritePresetMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
       spritePreset1Image: !<reference.Image> 00000000-0000-0000-0000-000000000000
       spritePreset2Image: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      spritePreset1Texture: !<reference.Image> 00000000-0000-0000-0000-000000000000
-      spritePreset2Texture: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spritePreset1Texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      spritePreset2Texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""

@@ -179,7 +179,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 84bb24c6-78d5-456d-a1d3-c764dd183af5/3a01fe49f5b8ee228021da217ca57ef3/Data/cfd37fa/ButtonPinched.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 84bb24c6-78d5-456d-a1d3-c764dd183af5/3a01fe49f5b8ee228021da217ca57ef3/Data/81578ed/ButtonPinched.glsl
       Defines:
         []
       Properties:

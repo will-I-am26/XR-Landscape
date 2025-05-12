@@ -523,7 +523,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 784cdfd1-4b97-4e33-80be-85782b8de1f0/c8b6ecc7aef4760eb977d7de28dd5252/Data/cfd37fa/FrameMaterial.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 784cdfd1-4b97-4e33-80be-85782b8de1f0/c8b6ecc7aef4760eb977d7de28dd5252/Data/81578ed/FrameMaterial.glsl
       Defines:
         []
       Properties:

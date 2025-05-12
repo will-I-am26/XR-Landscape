@@ -498,6 +498,7 @@
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/0f4ab6fd-750c-4920-92da-4be274e30eb4>
   PrefabRemaps:
     []
@@ -574,7 +575,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> cecfd068-8590-489a-99c4-de1cee1a5196
+    - !<reference> 206bcf8a-620f-4f65-8277-c91cdc4626f2
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -631,9 +632,9 @@
         - !<reference> df3b25e5-9058-4468-bdbb-84097f15a300
         - !<reference> 372f3623-6054-4cd5-ab65-df14ac80ddda
       texturePreviewMats: !<reference.Material[]>
-        - !<reference> cea846ed-ee13-4dfe-aeb3-6ff982b371ee
-        - !<reference> 99fafb0e-01fb-4710-9e4f-bb392409f9f2
-        - !<reference> a5cee9de-6c61-44ec-ac33-0fe78ccff911
+        - !<reference> 83f749f1-c9bd-4bf0-aea6-59b3de4d470e
+        - !<reference> 37b2d15a-2ff7-4da2-80df-c9c39d162850
+        - !<reference> 6da7bd3a-d276-499d-bd4f-fa084c1f24c3
   ScriptTypes:
     "":
       {}
@@ -757,6 +758,7 @@
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/1e65b809-4038-43e7-95ed-cbb3c465af79>
   PrefabRemaps:
     []
@@ -899,7 +901,7 @@
       mainScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
       returnTime: !<float> 0.000000
       returnSpeed: !<float> 0.000000
-      spritePresetMaterial: !<reference.Material> 56ef3673-0b93-49cb-8c52-fe68a9900627
+      spritePresetMaterial: !<reference.Material> 9a5773de-35fe-43b2-b69d-6d3ba576561b
       spritePreset1Image: !<reference.Image> 9bacc5ab-52e3-45e7-a368-eea6cafb123d
       spritePreset2Image: !<reference.Image> 7e447f57-1d24-4451-9cf2-492210a1511f
       spritePreset1Texture: !<reference.Texture> fd212d95-67bf-4257-9cc5-5eac971b1aca
@@ -1023,7 +1025,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 1caddf4e-f502-490b-844c-b6405b8438e1
+    - !<reference> 3d07415f-fb80-42cb-b7f5-d9128312eb20
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -1088,7 +1090,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 3094edbf-b4ef-437e-a4b5-909b9491c34f
+    - !<reference> 47b18a2e-aee3-42d8-a143-18cb61cd310a
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -1138,7 +1140,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> cea846ed-ee13-4dfe-aeb3-6ff982b371ee
+    - !<reference> 83f749f1-c9bd-4bf0-aea6-59b3de4d470e
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -1267,7 +1269,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> fe326c37-1790-407e-ae48-a3d6e96f179a
+    - !<reference> 61729a9d-9551-4077-bb62-29a2e4ab78ce
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -1606,7 +1608,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> a5cee9de-6c61-44ec-ac33-0fe78ccff911
+    - !<reference> 6da7bd3a-d276-499d-bd4f-fa084c1f24c3
   Mesh: !<reference> 2920a616-b605-4699-8e31-aaf09eb01932
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -1729,7 +1731,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 938a9846-19aa-4e5b-b23a-32e3ab8a70db
+    - !<reference> ab20dba3-88b0-4c78-9812-dde3081216c5
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -2303,7 +2305,7 @@
     {}
   ScriptInputs:
     "":
-      gridMaterial: !<reference.Material> 4eb63fc7-a23a-45c0-a97a-85df6232544c
+      gridMaterial: !<reference.Material> ee8c33f4-568b-48b0-b7f4-200af1272d29
       deviceCameraTexture: !<reference.Texture> a176931b-0dbc-4546-8d1c-6af76230ecaa
       gridButtonObj: !<reference.SceneObject> 3fc3f6d8-892a-4cad-b4e0-dcaa3cd8cfb9
       gridObject: !<reference.SceneObject> 036dbf7e-9d87-4ef5-86f9-de6c670aee36
@@ -2341,7 +2343,7 @@
         - !<reference> 6039dabd-bcbd-49c2-b0f4-be7741cba4fc
         - !<reference> 83fb95fb-7400-4918-9ad3-b99201d45e33
         - !<reference> be87cd31-a943-417c-ba0a-bd30ef2a1019
-      greyMaterial: !<reference.Material> da35a32b-dc7c-46e9-bc1b-b19438166924
+      greyMaterial: !<reference.Material> ed3b422c-d42f-45fb-9ce4-10774115ea17
       greyBackgroundStatus: !<bool[]>
         - true
         - true
@@ -2361,7 +2363,7 @@
         - false
         - false
         - false
-      iconMaterial: !<reference.Material> cf7d2965-b2e4-4e96-829c-28ca4efd4e63
+      iconMaterial: !<reference.Material> 25d77b13-b3c3-49f3-a0ab-20be42fe33d1
       iconTextures: !<reference.Texture[]>
         - !<reference> 1fa69734-d0f7-4a39-bdde-68a57e32861a
         - !<reference> e6520ab5-5779-4069-9751-1667bfa633e1
@@ -2381,7 +2383,7 @@
         - !<reference> ea650b09-6f21-4c67-8f79-c3752ed8d881
         - !<reference> 28f3f301-aa35-42a0-aeb0-892445ebe5a8
         - !<reference> ea650b09-6f21-4c67-8f79-c3752ed8d881
-      texturePreviewMaterial: !<reference.Material> cea846ed-ee13-4dfe-aeb3-6ff982b371ee
+      texturePreviewMaterial: !<reference.Material> 83f749f1-c9bd-4bf0-aea6-59b3de4d470e
       textureRenderMeshes: !<reference.RenderMeshVisual[]>
         - !<reference> e326c1cf-da04-4fb4-8908-de0698c3d041
         - !<reference> 3963c49d-f91c-482b-b73d-766d4a422eaa
@@ -2486,7 +2488,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 1caddf4e-f502-490b-844c-b6405b8438e1
+    - !<reference> 3d07415f-fb80-42cb-b7f5-d9128312eb20
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -2575,7 +2577,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> e4822831-ebff-47ad-b1d2-cfa34237d7fd
+    - !<reference> e726deb1-d297-40e9-b5ed-39d6ffd16a5a
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -3105,7 +3107,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 33ec1782-6c61-4477-8129-e5c292c07947
+    - !<reference> 54f6b2bc-70e2-4ebe-8a6d-5f64ebdc3adb
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -4058,7 +4060,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> fe326c37-1790-407e-ae48-a3d6e96f179a
+    - !<reference> 61729a9d-9551-4077-bb62-29a2e4ab78ce
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -4209,7 +4211,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 4eb63fc7-a23a-45c0-a97a-85df6232544c
+    - !<reference> ee8c33f4-568b-48b0-b7f4-200af1272d29
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -4297,7 +4299,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 1caddf4e-f502-490b-844c-b6405b8438e1
+    - !<reference> 3d07415f-fb80-42cb-b7f5-d9128312eb20
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -4648,7 +4650,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 56ef3673-0b93-49cb-8c52-fe68a9900627
+    - !<reference> 9a5773de-35fe-43b2-b69d-6d3ba576561b
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -5340,7 +5342,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 99fafb0e-01fb-4710-9e4f-bb392409f9f2
+    - !<reference> 37b2d15a-2ff7-4da2-80df-c9c39d162850
   Mesh: !<reference> 2920a616-b605-4699-8e31-aaf09eb01932
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -5380,7 +5382,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> e4822831-ebff-47ad-b1d2-cfa34237d7fd
+    - !<reference> e726deb1-d297-40e9-b5ed-39d6ffd16a5a
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -5708,7 +5710,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> e54c9971-23c3-4913-a3be-550dc6594df1
+    - !<reference> 97d11cda-f689-445d-944d-201544e979d1
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -5858,7 +5860,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 1caddf4e-f502-490b-844c-b6405b8438e1
+    - !<reference> 3d07415f-fb80-42cb-b7f5-d9128312eb20
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -6034,7 +6036,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> e54c9971-23c3-4913-a3be-550dc6594df1
+    - !<reference> 97d11cda-f689-445d-944d-201544e979d1
   FlipX: false
   FlipY: false
   RotationAngle: 0

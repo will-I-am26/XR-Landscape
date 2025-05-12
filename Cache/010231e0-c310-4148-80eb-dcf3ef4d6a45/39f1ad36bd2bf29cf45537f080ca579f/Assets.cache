@@ -269,7 +269,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 010231e0-c310-4148-80eb-dcf3ef4d6a45/39f1ad36bd2bf29cf45537f080ca579f/Data/cfd37fa/CapsuleButtonIdle.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 010231e0-c310-4148-80eb-dcf3ef4d6a45/39f1ad36bd2bf29cf45537f080ca579f/Data/81578ed/CapsuleButtonIdle.glsl
       Defines:
         []
       Properties:

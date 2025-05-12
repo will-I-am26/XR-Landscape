@@ -178,7 +178,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: f8a8bafa-5929-4869-8fb0-304e8e705b0d/33f044f348920122d6f8a51a1244f122/Data/cfd37fa/Platform.glsl
+        ShaderType: Mesh3d
+      ShaderPath: f8a8bafa-5929-4869-8fb0-304e8e705b0d/33f044f348920122d6f8a51a1244f122/Data/81578ed/Platform.glsl
       Defines:
         []
       Properties:

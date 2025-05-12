@@ -215,7 +215,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 3fc47f07-8a15-4e53-939c-b8758fb7db28/b37abc1e54c30df1b421b6626df0557c/Data/cfd37fa/ButtonIdle.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 3fc47f07-8a15-4e53-939c-b8758fb7db28/b37abc1e54c30df1b421b6626df0557c/Data/81578ed/ButtonIdle.glsl
       Defines:
         []
       Properties:

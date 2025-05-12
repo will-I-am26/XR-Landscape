@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: f7a66d08-e0ef-4c69-a980-069901fae2bb/a83eb432c4cef8e614d1fe5d119fafe3/Data/cfd37fa/sidewalk.glsl
+        ShaderType: Mesh3d
+      ShaderPath: f7a66d08-e0ef-4c69-a980-069901fae2bb/a83eb432c4cef8e614d1fe5d119fafe3/Data/81578ed/sidewalk.glsl
       Defines:
         []
       Properties:

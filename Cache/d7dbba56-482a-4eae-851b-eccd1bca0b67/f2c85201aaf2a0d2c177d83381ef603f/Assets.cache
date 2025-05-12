@@ -272,7 +272,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: d7dbba56-482a-4eae-851b-eccd1bca0b67/f2c85201aaf2a0d2c177d83381ef603f/Data/cfd37fa/CapsuleButtonHover.glsl
+        ShaderType: Mesh3d
+      ShaderPath: d7dbba56-482a-4eae-851b-eccd1bca0b67/f2c85201aaf2a0d2c177d83381ef603f/Data/81578ed/CapsuleButtonHover.glsl
       Defines:
         []
       Properties:

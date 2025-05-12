@@ -259,7 +259,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 9e114f5e-25e1-4917-9d5b-ec9dd668c281/b5b976178593585bc2945fb057f08227/Data/cfd37fa/Rocket.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 9e114f5e-25e1-4917-9d5b-ec9dd668c281/b5b976178593585bc2945fb057f08227/Data/81578ed/Rocket.glsl
       Defines:
         []
       Properties:

@@ -325,7 +325,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 02bdf8f2-520e-4c4f-8079-7b194bdbdb88/fcd69249134ae053a4fcec4a736570bc/Data/cfd37fa/Fire.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 02bdf8f2-520e-4c4f-8079-7b194bdbdb88/fcd69249134ae053a4fcec4a736570bc/Data/81578ed/Fire.glsl
       Defines:
         []
       Properties:

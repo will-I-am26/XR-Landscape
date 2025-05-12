@@ -890,7 +890,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 4a2c78b6-1fd0-4a28-b329-d8598712542d/e140bef114b79db2e1183a005fafccff/Data/cfd37fa/env_sewer_hole.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 4a2c78b6-1fd0-4a28-b329-d8598712542d/e140bef114b79db2e1183a005fafccff/Data/81578ed/env_sewer_hole.glsl
       Defines:
         []
       Properties:

@@ -91,7 +91,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 57e9231e-d805-4bb5-9db8-39238d7bda09/5b99ec5ebfc7d1308b17c9b1e5b9a53c/Data/cfd37fa/Meteor.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 57e9231e-d805-4bb5-9db8-39238d7bda09/5b99ec5ebfc7d1308b17c9b1e5b9a53c/Data/81578ed/Meteor.glsl
       Defines:
         []
       Properties:

@@ -441,7 +441,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 370dfd42-c5f8-4967-b063-24dc727c6ba9/b9db926e20b8cfcabf4598c17cad9ef0/Data/cfd37fa/CursorMat.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 370dfd42-c5f8-4967-b063-24dc727c6ba9/b9db926e20b8cfcabf4598c17cad9ef0/Data/81578ed/CursorMat.glsl
       Defines:
         []
       Properties:

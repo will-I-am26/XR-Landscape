@@ -356,7 +356,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 5eeaa159-8cd0-4faf-8232-cd3efba02d0d/1a015867ce73085f0a7b9629a3c665e7/Data/cfd37fa/ScrollButtonHover.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 5eeaa159-8cd0-4faf-8232-cd3efba02d0d/1a015867ce73085f0a7b9629a3c665e7/Data/81578ed/ScrollButtonHover.glsl
       Defines:
         []
       Properties:

@@ -58,7 +58,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: fa9b46b8-512b-409e-8584-7d88d7d5c0c4/7a40e5f886bf9845c511bf16f4d9d918/Data/cfd37fa/Occluder.glsl
+        ShaderType: Mesh3d
+      ShaderPath: fa9b46b8-512b-409e-8584-7d88d7d5c0c4/7a40e5f886bf9845c511bf16f4d9d918/Data/81578ed/Occluder.glsl
       Defines:
         []
       Properties:

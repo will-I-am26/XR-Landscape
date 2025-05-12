@@ -536,7 +536,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: afacdf55-5a38-450c-8e23-15f30f41b81f/fe2af1457971ee3dc6b5fee698adef6c/Data/cfd37fa/RadialGradientOcclusion.glsl
+        ShaderType: Mesh3d
+      ShaderPath: afacdf55-5a38-450c-8e23-15f30f41b81f/fe2af1457971ee3dc6b5fee698adef6c/Data/81578ed/RadialGradientOcclusion.glsl
       Defines:
         []
       Properties:

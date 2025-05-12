@@ -243,7 +243,8 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 5213b94e-5e91-49ee-b5a1-82a858de2353/b67c3c6658f8da3d116841de3c381242/Data/cfd37fa/Glass.glsl
+        ShaderType: Mesh3d
+      ShaderPath: 5213b94e-5e91-49ee-b5a1-82a858de2353/b67c3c6658f8da3d116841de3c381242/Data/81578ed/Glass.glsl
       Defines:
         []
       Properties:
