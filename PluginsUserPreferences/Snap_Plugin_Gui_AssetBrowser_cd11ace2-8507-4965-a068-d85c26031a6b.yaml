@@ -1,9 +1,26 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 877
+    size: 897
     values:
       - Base.png
+      - Building1.fbx
+      - Building1.fbx/.hidden
+      - Building1.fbx/.hidden/proxy_mat_general_reflective.015
+      - Building1.fbx/.hidden/white
+      - Building1.fbx/Building1
+      - Building1.fbx/Materials
+      - Building1.fbx/Materials/proxy_mat_general_reflective.015
+      - Building1.fbx/Materials/proxy_mat_grey.015
+      - Building1.fbx/Materials/proxy_mat_roof.015
+      - Building1.fbx/Materials/proxy_mat_stone.015
+      - Building1.fbx/Materials/proxy_mat_yellow.015
+      - Building1.fbx/Meshes
+      - Building1.fbx/Meshes/middle_floor_wall_01.030
+      - Building1.fbx/Meshes/middle_floor_wall_011.030
+      - Building1.fbx/Meshes/middle_floor_wall_012.030
+      - Building1.fbx/Meshes/middle_floor_wall_013.030
+      - Building1.fbx/Meshes/middle_floor_wall_014.030
       - Echopark.hdr
       - Mini Basketball Court
       - Mini Basketball Court/Mini Basketball Court__ADD_TO_SCENE.prefab
@@ -96,6 +113,7 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
+      - Prefabs
       - Prefabs/Apple Tree Object.prefab
       - Prefabs/Flower Object.prefab
       - Prefabs/FlowerBouquet Object.prefab
@@ -702,8 +720,13 @@ CollapsedEntities:
       - Surface Detection.lspkg/Textures
       - Surface Detection.lspkg/Textures/groundIcon.png
       - Surface Detection.lspkg/package.native
-      - Untitled TypeScript 2.ts
-      - Untitled TypeScript.ts
+      - TypeScripts
+      - TypeScripts/Untitled TypeScript 2.ts
+      - TypeScripts/Untitled TypeScript.ts
+      - TypeScripts/objectSpawner.ts
+      - TypeScripts/spawnPoints.ts
+      - TypeScripts/stoneSpawnPoint.ts
+      - TypeScripts/treeSpawnPoint.ts
       - Urban Pack
       - Urban Pack/.hidden
       - Urban Pack/.hidden/Occluder.ss_graph
@@ -792,6 +815,7 @@ CollapsedEntities:
       - Urban Pack/Bitmoji Urban Pack Resources/Textures/turnstile_color.png
       - Urban Pack/BitmojiUrban__PLACE_IN_OBJECTS_PANEL.prefab
       - Vehicle Pack
+      - Vehicle Pack/.hidden
       - Vehicle Pack/.hidden/bike.ss_graph
       - Vehicle Pack/Bitmoji Vehicle Pack Resources
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Meshes/bike
@@ -875,9 +899,5 @@ CollapsedEntities:
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/plane_bi_color.png
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/shopping_cart_trash_color.png
       - Vehicle Pack/BitmojiVehicle__PLACE_IN_OBJECTS_PANEL.prefab
-      - objectSpawner.ts
       - simple_pbr.ss_graph
-      - spawnPoints.ts
-      - stoneSpawnPoint.ts
-      - treeSpawnPoint.ts
   options: 4

@@ -3,8 +3,8 @@
   StudioVersion:
     major: 5
     minor: 9
-    patch: 0
-    build: 25050505
+    patch: 1
+    build: 25051422
     type: Unset
   Description: |-
     Release
@@ -25,7 +25,7 @@
   VersionMajor: 0
   VersionMinor: 11
   VersionPatch: 0
-  UpdateCheckpoint: 56
+  UpdateCheckpoint: 57
   ExportUid: 8fdb5ab6-cd65-4486-8832-10d09123ce62
   ComponentUid: 0f7a0bbe-777c-41a5-b979-0b0430f25836
   CurrentVisibility: Editable

@@ -1,0 +1,219 @@
+- !<AssetImportMetadata/999b5141-a700-4794-a612-f230cb32423b>
+  ImportedAssetIds:
+    .hidden/proxy_mat_general_reflective.015: !<reference> fbda372e-951a-42d3-9d59-f8e1b22b57a7
+    .hidden/white: !<reference> 38642e2d-7cef-49ad-b31e-bc047ce1a460
+    0bd48c7d78a691f4: !<reference> cd35b518-f077-4c60-b8dd-9f222585d5ec
+    336fae24b85feaa3: !<reference> c05130a0-bbb1-47db-b3c3-c66b1ead1c20
+    37423d14d5794936: !<reference> 73c2be84-79f5-4ac3-918a-a6aab43cdea9
+    5045af453020b679: !<reference> 09487eb4-d55e-434e-9bf3-9e8e22306f44
+    59942ad11578a215: !<reference> 285618c8-fc95-4de1-ab64-db0ef307fa67
+    7a0dd5cd69df73fa: !<reference> 33511b05-42b1-48fb-bc48-b6ac3d0f281e
+    Materials/proxy_mat_general_reflective.015: !<reference> eaaee4e7-9be5-4376-86ba-26a52be46d97
+    Materials/proxy_mat_general_reflective.015|proxy_mat_general_reflective.015|GraphPassInfo: !<reference> 13f19d04-2dba-4a30-8313-0fd146964c17
+    Materials/proxy_mat_grey.015: !<reference> 7386cd3b-4626-4b5a-9049-be495bb20750
+    Materials/proxy_mat_grey.015|proxy_mat_grey.015|GraphPassInfo: !<reference> 0e4cd46c-f611-497b-a721-703675dbef5c
+    Materials/proxy_mat_roof.015: !<reference> 77cd2ac9-68f6-420a-88bc-c4fba333a049
+    Materials/proxy_mat_roof.015|proxy_mat_roof.015|GraphPassInfo: !<reference> 17c407bc-395c-49cd-872e-4cdf0c8a6585
+    Materials/proxy_mat_stone.015: !<reference> 0376a050-2b91-4373-aec6-f7464329b429
+    Materials/proxy_mat_stone.015|proxy_mat_stone.015|GraphPassInfo: !<reference> 6e6d93ce-6d31-4aff-a262-e6a315d4ad5c
+    Materials/proxy_mat_yellow.015: !<reference> c14a1aab-9c8e-454d-818c-9d9e387df0e4
+    Materials/proxy_mat_yellow.015|proxy_mat_yellow.015|GraphPassInfo: !<reference> 5d10cc43-7e0a-4402-b2ca-45d298e1509e
+    Meshes/middle_floor_wall_01.030: !<reference> 340815af-8359-4368-9d8e-b158fd594be8
+    Meshes/middle_floor_wall_011.030: !<reference> 86cf05ae-8b60-412b-8f4f-18d6031cf421
+    Meshes/middle_floor_wall_012.030: !<reference> 10c8fdaf-b048-4c26-863b-a378da4adf77
+    Meshes/middle_floor_wall_013.030: !<reference> 500761dc-1123-402a-b76d-14d736ff2281
+    Meshes/middle_floor_wall_014.030: !<reference> 2c0bc677-c5c9-4620-8fa0-cae4f725dd25
+    Scene: !<reference> 3d156fb1-c7fc-47fa-8df0-023701662e26
+    c6e32421726b7472: !<reference> 0b6fa3a3-6099-4b88-9f83-079fcbf027b9
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 3d156fb1-c7fc-47fa-8df0-023701662e26
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> f9ecc69a-211f-443f-93cf-02d7a4990fca
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/234157fe-26ce-4969-86c3-be56204598d6>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eaaee4e7-9be5-4376-86ba-26a52be46d97
+  Mesh: !<reference> 2c0bc677-c5c9-4620-8fa0-cae4f725dd25
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/247059d2-7657-4dd4-b23b-89c77ea20d7a>
+  PackagePath: ""
+  objects:
+    - !<own> defe3e4b-599a-4d04-9b38-3f3dfdcd13ee
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/5eac2f31-a9dc-4e60-9cc3-d80eaec7a697>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c14a1aab-9c8e-454d-818c-9d9e387df0e4
+  Mesh: !<reference> 340815af-8359-4368-9d8e-b158fd594be8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6c8bb1b0-401d-49cb-9f54-e569bb24ff76>
+  PrefabRemaps:
+    []
+  Name: middle_floor_wall_01.030
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5eac2f31-a9dc-4e60-9cc3-d80eaec7a697
+    - !<own> b4491391-9ef9-4250-809a-43245a25068d
+    - !<own> e84db028-35c7-4510-9d76-70377d470cf1
+    - !<own> 838ab491-9b9d-46a0-b49b-f3a0d8385c98
+    - !<own> 234157fe-26ce-4969-86c3-be56204598d6
+- !<RenderMeshVisual/838ab491-9b9d-46a0-b49b-f3a0d8385c98>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0376a050-2b91-4373-aec6-f7464329b429
+  Mesh: !<reference> 500761dc-1123-402a-b76d-14d736ff2281
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b4491391-9ef9-4250-809a-43245a25068d>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7386cd3b-4626-4b5a-9049-be495bb20750
+  Mesh: !<reference> 86cf05ae-8b60-412b-8f4f-18d6031cf421
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/defe3e4b-599a-4d04-9b38-3f3dfdcd13ee>
+  PrefabRemaps:
+    []
+  Name: Building1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6c8bb1b0-401d-49cb-9f54-e569bb24ff76
+  Components:
+    []
+- !<RenderMeshVisual/e84db028-35c7-4510-9d76-70377d470cf1>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77cd2ac9-68f6-420a-88bc-c4fba333a049
+  Mesh: !<reference> 10c8fdaf-b048-4c26-863b-a378da4adf77
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/f9ecc69a-211f-443f-93cf-02d7a4990fca>
+  SourceRemaps:
+    - 09487eb4-d55e-434e-9bf3-9e8e22306f44: 234157fe-26ce-4969-86c3-be56204598d6
+    - 0b6fa3a3-6099-4b88-9f83-079fcbf027b9: 838ab491-9b9d-46a0-b49b-f3a0d8385c98
+    - 285618c8-fc95-4de1-ab64-db0ef307fa67: 5eac2f31-a9dc-4e60-9cc3-d80eaec7a697
+    - 33511b05-42b1-48fb-bc48-b6ac3d0f281e: defe3e4b-599a-4d04-9b38-3f3dfdcd13ee
+    - 3d156fb1-c7fc-47fa-8df0-023701662e26: 247059d2-7657-4dd4-b23b-89c77ea20d7a
+    - 73c2be84-79f5-4ac3-918a-a6aab43cdea9: 6c8bb1b0-401d-49cb-9f54-e569bb24ff76
+    - c05130a0-bbb1-47db-b3c3-c66b1ead1c20: e84db028-35c7-4510-9d76-70377d470cf1
+    - cd35b518-f077-4c60-b8dd-9f222585d5ec: b4491391-9ef9-4250-809a-43245a25068d
+  SourceState: !<own> 247059d2-7657-4dd4-b23b-89c77ea20d7a
