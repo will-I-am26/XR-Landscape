@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 730
+    size: 691
     values:
       - Base.png
       - Echopark.hdr
@@ -96,7 +96,6 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
-      - Occluder.mat
       - Prefabs
       - Prefabs/Apple Tree Object.prefab
       - Prefabs/Flower Object.prefab
@@ -104,17 +103,9 @@ CollapsedEntities:
       - Prefabs/Plane Object.prefab
       - Prefabs/Stone Object.prefab
       - Prefabs/Water Object.prefab
-      - SnapOnProximity.js
       - SpectaclesInteractionKit
-      - SpectaclesInteractionKit.lspkg/Assets
-      - SpectaclesInteractionKit.lspkg/Components/Helpers
-      - SpectaclesInteractionKit.lspkg/Components/Interaction/Billboard
-      - SpectaclesInteractionKit.lspkg/Components/Interaction/HandVisual
-      - SpectaclesInteractionKit.lspkg/Components/Interaction/Headlock
-      - SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable
-      - SpectaclesInteractionKit.lspkg/Core
+      - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/package.native
-      - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
@@ -268,8 +259,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
-      - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/ButtonFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
       - SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
@@ -280,7 +269,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Helpers/ScrollBarFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/SliderFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/ToggleFeedback.ts
-      - SpectaclesInteractionKit/Components/Interaction
       - SpectaclesInteractionKit/Components/Interaction/Billboard
       - SpectaclesInteractionKit/Components/Interaction/Billboard/Billboard.ts
       - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardController.ts
@@ -296,7 +284,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockTranslationCalculator.ts
       - SpectaclesInteractionKit/Components/Interaction/Interactable
       - SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable.ts
-      - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation
       - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation/InteractableManipulation.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractionPlane
       - SpectaclesInteractionKit/Components/Interaction/InteractionPlane/InteractionPlane.ts
@@ -383,15 +370,11 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/Slider/Slider.ts
       - SpectaclesInteractionKit/Components/UI/ToggleButton
       - SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
-      - SpectaclesInteractionKit/Core
       - SpectaclesInteractionKit/Core/ConfigurationValidator
       - SpectaclesInteractionKit/Core/ConfigurationValidator/ConfigurationValidator.ts
-      - SpectaclesInteractionKit/Core/HandInteractor
       - SpectaclesInteractionKit/Core/HandInteractor/HandInteractor.ts
-      - SpectaclesInteractionKit/Core/InteractionManager
       - SpectaclesInteractionKit/Core/InteractionManager/EventDispatcher.ts
       - SpectaclesInteractionKit/Core/InteractionManager/InteractionManager.ts
-      - SpectaclesInteractionKit/Core/Interactor
       - SpectaclesInteractionKit/Core/Interactor/BaseInteractor.ts
       - SpectaclesInteractionKit/Core/Interactor/ColliderTargetProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/DirectTargetProvider.ts
@@ -425,12 +408,10 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/MobileInteractor/MobileInteractor.ts
       - SpectaclesInteractionKit/Core/MouseInteractor
       - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
-      - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
       - SpectaclesInteractionKit/Prefabs
       - SpectaclesInteractionKit/Prefabs/ScrollViewListItem.prefab
       - SpectaclesInteractionKit/Prefabs/SpectaclesInteractionKit.prefab
-      - SpectaclesInteractionKit/Providers
       - SpectaclesInteractionKit/Providers/CameraProvider
       - SpectaclesInteractionKit/Providers/CameraProvider/ARCameraFinderProvider.ts
       - SpectaclesInteractionKit/Providers/CameraProvider/BaseCameraFinderProvider.ts
@@ -439,7 +420,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider.ts
       - SpectaclesInteractionKit/Providers/CursorControllerProvider
       - SpectaclesInteractionKit/Providers/CursorControllerProvider/CursorControllerProvider.ts
-      - SpectaclesInteractionKit/Providers/HandInputData
       - SpectaclesInteractionKit/Providers/HandInputData/BaseHand.ts
       - SpectaclesInteractionKit/Providers/HandInputData/DefaultHandTrackingAssetProvider.ts
       - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider
@@ -467,7 +447,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Providers/HandInputData/LeftHandAsset.handTracking3D
       - SpectaclesInteractionKit/Providers/HandInputData/RightHandAsset.handTracking3D
       - SpectaclesInteractionKit/Providers/HandInputData/TrackedHand.ts
-      - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider
       - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/InteractionConfigurationProvider.ts
       - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/LogLevelProvider.ts
       - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/SIKLogLevelProvider.ts
@@ -477,7 +456,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Providers/TargetProvider
       - SpectaclesInteractionKit/Providers/TargetProvider/TargetProvider.ts
       - SpectaclesInteractionKit/Providers/TargetProvider/TargetingData.ts
-      - SpectaclesInteractionKit/README.md
       - SpectaclesInteractionKit/SIK.ts
       - SpectaclesInteractionKit/Utils
       - SpectaclesInteractionKit/Utils/BistableThreshold.ts
@@ -544,13 +522,6 @@ CollapsedEntities:
       - Surface Detection.lspkg/Textures
       - Surface Detection.lspkg/Textures/groundIcon.png
       - Surface Detection.lspkg/package.native
-      - Terrain.obj
-      - Terrain.obj/Meshes
-      - Terrain.obj/Meshes/Mesh 1
-      - Terrain.obj/Terrain
-      - Untitled JavaScript.js
-      - Untitled TypeScript 2.ts
-      - Untitled TypeScript.ts
       - Urban Pack
       - Urban Pack/.hidden
       - Urban Pack/.hidden/Occluder.ss_graph
@@ -722,15 +693,5 @@ CollapsedEntities:
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/plane_bi_color.png
       - Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/shopping_cart_trash_color.png
       - Vehicle Pack/BitmojiVehicle__PLACE_IN_OBJECTS_PANEL.prefab
-      - World Mesh 2.mat
-      - World Mesh 2.worldmesh
-      - World Mesh.mat
-      - World Mesh.worldmesh
-      - objectSpawner.ts
-      - occluder.ss_graph
       - simple_pbr.ss_graph
-      - spawnPoints.ts
-      - stoneSpawnPoint.ts
-      - treeSpawnPoint.ts
-      - world_mesh.ss_graph
   options: 4

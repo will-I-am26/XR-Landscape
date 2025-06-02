@@ -6,7 +6,6 @@
     - !<own> c5e4d175-3faa-4720-94e0-4ab143cc8c2b
     - !<own> c05d42a3-2d07-4305-a978-77b8180177f4
     - !<own> 97421a39-2811-4713-a847-b1d1f05f6e55
-    - !<own> c875eb36-8638-43b7-89ea-7459d9fd5038
     - !<own> 8543031b-6943-4ff1-88e9-3cdad29da1dc
     - !<own> ab5730b6-7cd9-4bc4-b39f-c32b912fe851
     - !<own> ead6842d-96fa-4a8c-bbd3-34f5905b48ce
@@ -1722,7 +1721,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 50.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -1821,7 +1820,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 1212282d-7153-477b-b041-a61b8b24c2a4
-  Mesh: !<reference> 85d01dff-272b-438e-8fa3-a997a3ad3841
+  Mesh: !<reference> 82f26669-25b4-426d-8007-6b6742bb8abc
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -2072,7 +2071,7 @@
   Name: Physics Collider
   Enabled: true
   Shape: !<Mesh>
-    Mesh: !<reference> 85d01dff-272b-438e-8fa3-a997a3ad3841
+    Mesh: !<reference> 82f26669-25b4-426d-8007-6b6742bb8abc
     Convex: false
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3216,7 +3215,7 @@
   Name: Physics Body
   Enabled: true
   Shape: !<Mesh>
-    Mesh: !<reference> 85d01dff-272b-438e-8fa3-a997a3ad3841
+    Mesh: !<reference> 82f26669-25b4-426d-8007-6b6742bb8abc
     Convex: true
     Skin: !<reference> 00000000-0000-0000-0000-000000000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3376,6 +3375,7 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 568b7bb0-29fb-460a-8c80-bd1f4458e027
+    - !<own> c875eb36-8638-43b7-89ea-7459d9fd5038
   Components:
     []
 - !<Skin/ade20f47-0f8c-4f3a-8a1f-9f19da98a545>
@@ -3848,9 +3848,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -60.000000, y: 0.000000, z: -157.764557}
+    position: {x: -201.985229, y: 86.369415, z: -1640.830078}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 8.000000, y: 8.000000, z: 8.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 52653099-6647-49a7-9faf-f39616cf5b0b
