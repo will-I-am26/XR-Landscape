@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/84d5ecf5-3294-4db2-a714-6576f6b27973>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3b6acb86-c452-48f5-8a17-a7047e4b91f9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3b6acb86-c452-48f5-8a17-a7047e4b91f9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ceb531fe-b31c-452c-853a-724809e805da
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ceb531fe-b31c-452c-853a-724809e805da>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8223f0d9-36f5-4a70-a5d3-89494389b93a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    divisions: false
+    meshVisual: false
+    size: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - meshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      size: !<float> 1.000000
+      divisions: 100
+  ScriptTypes:
+    -
+      {}

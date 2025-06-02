@@ -1,5 +1,7 @@
 ExternalSources:
   type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
   value:
-    []
+    - 40562693-2c8b-4778-85b5-5b0904f37b82: "C:/Users/dfsnp/My project/Assets/Landscape Test.fbx"
+    - 48dbcbd7-9722-4b3b-8d6f-f427799f26d1: "C:/Users/dfsnp/My project/Assets/Landscape.fbx"
+    - cf389f6a-7512-4f71-9b33-7e925081b4c3: "C:/Users/dfsnp/Desktop/Terrain.obj"
   options: 4

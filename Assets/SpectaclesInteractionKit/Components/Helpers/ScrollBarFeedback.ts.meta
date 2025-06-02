@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/1a39ae33-f7c1-4350-bb3a-d1539b2dab43>
+- !<AssetImportMetadata/72d30677-db85-d92f-243e-fe5891796108>
   ImportedAssetIds:
     TypeScriptAsset: !<reference> 09574d71-048e-43a4-89bb-8a5016dd3e7f
   ImporterName: TypeScriptAssetImporter
@@ -35,7 +35,7 @@
     -
       {}
   InputLines:
-    - // @input SceneObject scrollbarObject
+    - '// @input SceneObject scrollbarObject {"hint":"Reference to the SceneObject containing the ScrollBar and Interactable components. This object will be monitored for interaction events to provide visual feedback on the scrollbar indicator."}'
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   SetupScript:
     code: ""

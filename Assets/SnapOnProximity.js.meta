@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/9e0a3d5c-17ec-4041-933b-803fa9c098d7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f9e41054-e237-495d-b2f3-d268b2c63259
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f9e41054-e237-495d-b2f3-d268b2c63259
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1b63aa36-d39d-4a70-88d3-a0d7c3573808
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1b63aa36-d39d-4a70-88d3-a0d7c3573808>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 14dc119d-5a85-410b-86a6-eeaca88c2bcc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    movable: false
+    snapDistance: false
+    targets: false
+    yOffset: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - movable: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targets: !<reference.SceneObject[]>
+        []
+      snapDistance: 0.100000
+      yOffset: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}

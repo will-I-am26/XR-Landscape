@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/c84908d8-313b-408e-a841-946e366eb9a1>
+- !<AssetImportMetadata/57922514-fb20-6af4-3c52-4a7d1cc97c7c>
   ImporterSettings: !<AssetImporterSettings>
     {}
   ImportedAssetIds:
@@ -40,10 +40,10 @@
     -
       {}
   InputLines:
-    - "// @input bool editEventCallbacks {\"hint\":\"Enable this to add functions from another script to this component's callback events\"}"
+    - "// @input bool editEventCallbacks {\"hint\":\"Enable this to add functions from another script to this component's pinch callback events.\"}"
     - '// @ui {"widget":"group_start", "label":"On Button Pinched Callbacks", "showIf":"editEventCallbacks"}'
-    - '// @input Component.ScriptComponent customFunctionForOnButtonPinched {"hint":"The script containing functions to be called when button is pinched"}'
-    - '// @input string[] onButtonPinchedFunctionNames = {} {"hint":"The names for the functions on the provided script, to be called on button pinch"}'
+    - '// @input Component.ScriptComponent customFunctionForOnButtonPinched {"hint":"The script containing functions to be called when button is pinched. Functions can accept an InteractorEvent parameter (optional)."}'
+    - '// @input string[] onButtonPinchedFunctionNames = {} {"hint":"The names for the functions on the provided script, to be called on button pinch. Functions can accept an InteractorEvent parameter (optional)."}'
     - '// @ui {"widget":"group_end"}'
   SvgIcon: ""
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

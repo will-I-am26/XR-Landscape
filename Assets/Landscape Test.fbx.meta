@@ -1,0 +1,80 @@
+- !<AssetImportMetadata/40562693-2c8b-4778-85b5-5b0904f37b82>
+  ImportedAssetIds:
+    7a0dd5cd69df73fa: !<reference> 834b53c4-9749-4b47-9be6-9acf25957bef
+    Scene: !<reference> 6839bf85-29b5-498c-9d82-4507121dd7ff
+    e6b4385ee8afff7e: !<reference> 8d6e15d7-1810-4985-aef1-32d964e40ae8
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 6839bf85-29b5-498c-9d82-4507121dd7ff
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 1e809df7-ea88-485f-a113-e832a5bb2435
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      {}
+    ExtensionMappings:
+      {}
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/1e809df7-ea88-485f-a113-e832a5bb2435>
+  SourceRemaps:
+    - 6839bf85-29b5-498c-9d82-4507121dd7ff: b3b0d75a-15ff-4c6b-87f4-5d75d97395bf
+    - 834b53c4-9749-4b47-9be6-9acf25957bef: 3d181674-a39c-40df-a81e-c30cf2d90c9e
+    - 8d6e15d7-1810-4985-aef1-32d964e40ae8: cefb74a6-8aba-4845-be11-38f1326b9b5d
+  SourceState: !<own> b3b0d75a-15ff-4c6b-87f4-5d75d97395bf
+- !<SceneObject/3d181674-a39c-40df-a81e-c30cf2d90c9e>
+  PrefabRemaps:
+    []
+  Name: Landscape Test
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cefb74a6-8aba-4845-be11-38f1326b9b5d
+  Components:
+    []
+- !<ObjectPrefab/b3b0d75a-15ff-4c6b-87f4-5d75d97395bf>
+  PackagePath: ""
+  objects:
+    - !<own> 3d181674-a39c-40df-a81e-c30cf2d90c9e
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/cefb74a6-8aba-4845-be11-38f1326b9b5d>
+  PrefabRemaps:
+    []
+  Name: Landscape
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

@@ -24,11 +24,11 @@ fullscreenSpectaclesSimulation:
   options: 4
 lastPosition:
   type: vec3
-  value: {x: -11.473268, y: 31.455847, z: 106.163010}
+  value: {x: -46.816944, y: -119.078575, z: -334.170532}
   options: 4
 lastRotation:
   type: vec3
-  value: {x: -4.950019, y: -9.150315, z: 0.000003}
+  value: {x: -7.301870, y: -2.100594, z: -0.018986}
   options: 4
 mirrorHorizontally:
   type: bool
@@ -36,7 +36,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: InteractiveResources.bundle/Scenes/Sunlit Room
+  value: InteractiveResources.bundle/Scenes/Plane
   options: 4
 previewTarget:
   type: int

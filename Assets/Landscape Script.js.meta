@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/bc4d29ae-a67f-4923-be9c-5e0d37af44d6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5515ce84-0ca9-4bcf-be1e-1f61e25251b0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5515ce84-0ca9-4bcf-be1e-1f61e25251b0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b151ba0a-cae1-47fb-a130-c955b6c84245
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b151ba0a-cae1-47fb-a130-c955b6c84245>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 243a7e1a-3085-4781-8b68-30829a1000c1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    brushRadius: false
+    landscapeVisual: false
+    strength: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - landscapeVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      brushRadius: 0.100000
+      strength: 0.050000
+  ScriptTypes:
+    -
+      {}

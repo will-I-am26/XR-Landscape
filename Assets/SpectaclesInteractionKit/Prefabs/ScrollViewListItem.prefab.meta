@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/f57378d8-55a0-4bcc-98de-edea4ccaea67>
+- !<AssetImportMetadata/d84b1717-8686-c3cd-e78e-ce64e63a8391>
   ImporterSettings: !<AssetImporterSettings>
     {}
   ImportedAssetIds:
@@ -435,6 +435,8 @@
     acceptableXDirections: true
     acceptableYDirections: true
     acceptableZDirections: true
+    isSynced: true
+    acceptableSyncInteractionTypes: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -443,9 +445,11 @@
       enableInstantDrag: false
       allowMultipleInteractors: true
       enablePokeDirectionality: false
-      acceptableXDirections: !<float> 3.000000
-      acceptableYDirections: !<float> 3.000000
-      acceptableZDirections: !<float> 3.000000
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      isSynced: true
+      acceptableSyncInteractionTypes: !<float> 7.000000
   ScriptTypes:
     "":
       {}

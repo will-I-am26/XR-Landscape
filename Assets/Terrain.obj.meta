@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/cf389f6a-7512-4f71-9b33-7e925081b4c3>
+  ImportedAssetIds:
+    .hidden/Material 1: !<reference> 87b16779-7623-4efd-9336-fcff7bfb87d2
+    .hidden/white: !<reference> 603548f9-ef21-43e4-ac59-92f4de172d1f
+    7a0dd5cd69df73fa: !<reference> f2204140-0437-4737-9dad-aac38187db1b
+    Materials/Material 1: !<reference> 02d4965a-e8f3-40ed-ad80-00dae8de433a
+    Materials/Material 1|Material 1|GraphPassInfo: !<reference> d40734e1-7267-4151-9477-17430b82ddf1
+    Meshes/Terrain: !<reference> b628a19e-99c4-4c49-9342-b9d43cfdfeb7
+    Scene: !<reference> 7dfc2263-09c6-4b70-84b0-fc643f5fa3b7
+    bedb694534a3ca30: !<reference> f159095e-ec11-4c25-a827-19ab251e33e4
+    fc5e87e9832cbbcf: !<reference> 7b2f07e7-4182-4119-8a86-e4396accff39
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 7dfc2263-09c6-4b70-84b0-fc643f5fa3b7
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> ebf81019-b78f-42f3-83af-c3b83fd7aea5
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/4bfc83c8-b988-451b-bd95-bb19c9370d60>
+  PrefabRemaps:
+    []
+  Name: ""
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dcdbd0e1-cbfe-4194-9d89-f303bba61339
+- !<SceneObject/a282e1ba-b531-4d9b-a908-57b0cd26bbd7>
+  PrefabRemaps:
+    []
+  Name: Terrain
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4bfc83c8-b988-451b-bd95-bb19c9370d60
+  Components:
+    []
+- !<ObjectPrefab/d7bf483c-faf5-4a00-9791-d351d6b29c67>
+  PackagePath: ""
+  objects:
+    - !<own> a282e1ba-b531-4d9b-a908-57b0cd26bbd7
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/dcdbd0e1-cbfe-4194-9d89-f303bba61339>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 85d01dff-272b-438e-8fa3-a997a3ad3841
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/ebf81019-b78f-42f3-83af-c3b83fd7aea5>
+  SourceRemaps:
+    - 7dfc2263-09c6-4b70-84b0-fc643f5fa3b7: d7bf483c-faf5-4a00-9791-d351d6b29c67
+    - b7969b45-38ad-4d1f-97c8-b3f88e6ebd41: dcdbd0e1-cbfe-4194-9d89-f303bba61339
+    - f2204140-0437-4737-9dad-aac38187db1b: a282e1ba-b531-4d9b-a908-57b0cd26bbd7
+    - f8fc2dcd-66f2-4fc9-904b-2af986133aff: 4bfc83c8-b988-451b-bd95-bb19c9370d60
+  SourceState: !<own> d7bf483c-faf5-4a00-9791-d351d6b29c67

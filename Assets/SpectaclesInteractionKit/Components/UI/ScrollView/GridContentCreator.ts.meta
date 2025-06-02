@@ -1,4 +1,4 @@
-- !<AssetImportMetadata/e39a273a-d107-456d-9375-0e7332414ebb>
+- !<AssetImportMetadata/0e725abf-99c9-d719-1a2c-3d2d7e51ec71>
   ImporterSettings: !<AssetImporterSettings>
     {}
   ImportedAssetIds:
@@ -37,8 +37,8 @@
     -
       {}
   InputLines:
-    - // @input Asset.ObjectPrefab itemPrefab
-    - // @input float itemsCount = 10
+    - '// @input Asset.ObjectPrefab itemPrefab {"hint":"The prefab object that will be instantiated for each grid item."}'
+    - '// @input float itemsCount = 10 {"hint":"Number of grid items to instantiate and display."}'
   SvgIcon: ""
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   SetupScript:
