@@ -1,3 +1,6 @@
+//credits to the developers of Throwlabs for code below
+// https://github.com/Snapchat/Spectacles-Sample/tree/main/Throw%20Lab
+
 import { InteractableManipulation } from "SpectaclesInteractionKit/Components/Interaction/InteractableManipulation/InteractableManipulation"
 import { ContainerFrame } from "SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame"
 

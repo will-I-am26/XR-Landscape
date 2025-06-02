@@ -3,8 +3,8 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> eed46642-4cd6-496e-ae33-eb266a595e70
-    - !<own> c5e4d175-3faa-4720-94e0-4ab143cc8c2b
     - !<own> c05d42a3-2d07-4305-a978-77b8180177f4
+    - !<own> c5e4d175-3faa-4720-94e0-4ab143cc8c2b
     - !<own> 97421a39-2811-4713-a847-b1d1f05f6e55
     - !<own> c875eb36-8638-43b7-89ea-7459d9fd5038
     - !<own> 8543031b-6943-4ff1-88e9-3cdad29da1dc
@@ -2646,7 +2646,7 @@
     - d37f1352-2c57-43f3-9077-c129aed16ef1: 8646afc0-1bbd-4cf2-8455-a3b3369b87e6
     - f4fcdf35-3c08-4042-bad6-028ab32463e2: fc1ca1e2-f114-42b8-b8bc-ea0666250317
   Name: Stone Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -10.000000, y: 0.000000, z: -20.000000}
@@ -3024,7 +3024,7 @@
     - d1a613be-ffb6-4349-871c-fa3adfb84093: 4775ef0d-eaf8-44ff-8cfc-eb08bf85cb6a
     - f1118ce7-e264-417e-8cb3-420c2a86284c: f7605260-f9ef-4de5-b54a-6d124ed3ebc4
   Name: Plane Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 60.000000, y: 0.000000, z: -137.677460}
@@ -3339,7 +3339,7 @@
     - d1736990-b2cd-436b-94b3-86194eaeda2b: 75b15ba6-a254-498d-a20d-a013667c1e23
     - ded73773-e028-433f-9bda-8763b36e24a1: d80948a5-d552-41fc-aef9-9be004471b2a
   Name: FlowerBouquet Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -25.000000, y: 0.000000, z: -111.850502}
@@ -3744,7 +3744,7 @@
     - ccf77a5a-5dab-4185-8729-e4665339cfcb: 1ac33f1b-c727-4864-b63a-142a8aa2b29c
     - cdb2e3a3-3626-4b4e-b23d-2c2f63282dff: 9db3293e-5494-4acc-994c-471041eae800
   Name: Flower Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 15.000000, y: 0.000000, z: -109.242950}
@@ -3801,12 +3801,12 @@
     - c5e4d175-3faa-4720-94e0-4ab143cc8c2b: cdc0de93-e027-470a-8ee8-233f9c5df571
     - ca6e7890-52ec-463a-91f0-dd88a207066a: 8b23dc09-fa67-4555-bc1f-75b74c858902
   Name: Apple Tree Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: -90.901314}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    position: {x: -0.000003, y: -0.000001, z: -90.901321}
+    rotation: {x: -0.000002, y: -0.000007, z: -0.000014}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000001}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 1a2239d6-91bf-4e6d-9a69-171d35163309
@@ -3823,7 +3823,7 @@
     - e848a4b1-9b0c-405e-a8d5-3ed5536be678: da0f1633-5c6e-4833-822f-da64652710bd
     - f240f0d8-8d41-4287-ab00-bc9db8d20211: c004f275-5285-4df9-a512-a768b8e712c1
   Name: Water Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -60.000000, y: 0.000000, z: -157.764557}

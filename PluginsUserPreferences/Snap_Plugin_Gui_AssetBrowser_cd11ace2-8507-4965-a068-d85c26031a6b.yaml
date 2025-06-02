@@ -1,21 +1,18 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 897
+    size: 890
     values:
       - Base.png
-      - Building1.fbx
       - Building1.fbx/.hidden
       - Building1.fbx/.hidden/proxy_mat_general_reflective.015
       - Building1.fbx/.hidden/white
       - Building1.fbx/Building1
-      - Building1.fbx/Materials
       - Building1.fbx/Materials/proxy_mat_general_reflective.015
       - Building1.fbx/Materials/proxy_mat_grey.015
       - Building1.fbx/Materials/proxy_mat_roof.015
       - Building1.fbx/Materials/proxy_mat_stone.015
       - Building1.fbx/Materials/proxy_mat_yellow.015
-      - Building1.fbx/Meshes
       - Building1.fbx/Meshes/middle_floor_wall_01.030
       - Building1.fbx/Meshes/middle_floor_wall_011.030
       - Building1.fbx/Meshes/middle_floor_wall_012.030
@@ -304,6 +301,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockTranslationCalculator.ts
       - SpectaclesInteractionKit/Components/Interaction/Interactable
       - SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable.ts
+      - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation
       - SpectaclesInteractionKit/Components/Interaction/InteractableManipulation/InteractableManipulation.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractionPlane
       - SpectaclesInteractionKit/Components/Interaction/InteractionPlane/InteractionPlane.ts
@@ -392,11 +390,10 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
       - SpectaclesInteractionKit/Core/ConfigurationValidator
       - SpectaclesInteractionKit/Core/ConfigurationValidator/ConfigurationValidator.ts
-      - SpectaclesInteractionKit/Core/HandInteractor
       - SpectaclesInteractionKit/Core/HandInteractor/HandInteractor.ts
-      - SpectaclesInteractionKit/Core/InteractionManager
       - SpectaclesInteractionKit/Core/InteractionManager/EventDispatcher.ts
       - SpectaclesInteractionKit/Core/InteractionManager/InteractionManager.ts
+      - SpectaclesInteractionKit/Core/Interactor
       - SpectaclesInteractionKit/Core/Interactor/BaseInteractor.ts
       - SpectaclesInteractionKit/Core/Interactor/ColliderTargetProvider.ts
       - SpectaclesInteractionKit/Core/Interactor/DirectTargetProvider.ts
@@ -433,7 +430,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/MobileInteractor/MobileInteractor.ts
       - SpectaclesInteractionKit/Core/MouseInteractor
       - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
-      - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
@@ -607,7 +603,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Prefabs
       - SpectaclesInteractionKit/Prefabs/ScrollViewListItem.prefab
       - SpectaclesInteractionKit/Prefabs/SpectaclesInteractionKit.prefab
-      - SpectaclesInteractionKit/Providers
       - SpectaclesInteractionKit/Providers/CameraProvider
       - SpectaclesInteractionKit/Providers/CameraProvider/ARCameraFinderProvider.ts
       - SpectaclesInteractionKit/Providers/CameraProvider/BaseCameraFinderProvider.ts
@@ -616,7 +611,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider.ts
       - SpectaclesInteractionKit/Providers/CursorControllerProvider
       - SpectaclesInteractionKit/Providers/CursorControllerProvider/CursorControllerProvider.ts
-      - SpectaclesInteractionKit/Providers/HandInputData
       - SpectaclesInteractionKit/Providers/HandInputData/BaseHand.ts
       - SpectaclesInteractionKit/Providers/HandInputData/DefaultHandTrackingAssetProvider.ts
       - SpectaclesInteractionKit/Providers/HandInputData/GestureProvider
@@ -644,7 +638,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Providers/HandInputData/LeftHandAsset.handTracking3D
       - SpectaclesInteractionKit/Providers/HandInputData/RightHandAsset.handTracking3D
       - SpectaclesInteractionKit/Providers/HandInputData/TrackedHand.ts
-      - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider
       - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/InteractionConfigurationProvider.ts
       - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/LogLevelProvider.ts
       - SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/SIKLogLevelProvider.ts
