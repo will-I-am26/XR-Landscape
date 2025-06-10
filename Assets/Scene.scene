@@ -11,7 +11,6 @@
     - !<own> ead6842d-96fa-4a8c-bbd3-34f5905b48ce
     - !<own> 86450005-9f81-4f80-be67-70855634164c
     - !<own> 27eb260f-f885-4189-92c2-2da938ba2add
-    - !<own> 67d4430d-2424-4cea-91c1-5f6dc918c515
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -1722,7 +1721,7 @@
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -2172,21 +2171,6 @@
     - !<own> cdb2e3a3-3626-4b4e-b23d-2c2f63282dff
     - !<own> 760f2cb1-afef-467a-be07-8407c30b5279
     - !<own> 9e8820db-fadb-426b-942b-06ef8896f9a2
-- !<SceneObject/67d4430d-2424-4cea-91c1-5f6dc918c515>
-  PrefabRemaps:
-    []
-  Name: World Mesh
-  Enabled: false
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> cde7ef1c-c582-4c89-88e0-82fd63d42b10
 - !<SceneObject/681042d0-58e1-428f-b5ca-07128ba57d91>
   PrefabRemaps:
     []
@@ -2615,7 +2599,7 @@
     - d37f1352-2c57-43f3-9077-c129aed16ef1: 8646afc0-1bbd-4cf2-8455-a3b3369b87e6
     - f4fcdf35-3c08-4042-bad6-028ab32463e2: fc1ca1e2-f114-42b8-b8bc-ea0666250317
   Name: Stone Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -10.000000, y: 0.000000, z: -20.000000}
@@ -2653,7 +2637,7 @@
     - f028db5c-e7cf-4abc-a167-42d486fdc15c: 87c2f1f9-5215-4077-91b1-73a8411aef50
     - fc99304a-7a8a-435b-8f7b-73d0fe3358f3: 6ef766ca-a2e8-4a96-86e4-41f600e4bb02
   Name: Mini Basketball Court
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 3.986898, z: -147.388458}
@@ -3336,7 +3320,7 @@
     - d1736990-b2cd-436b-94b3-86194eaeda2b: 75b15ba6-a254-498d-a20d-a013667c1e23
     - ded73773-e028-433f-9bda-8763b36e24a1: d80948a5-d552-41fc-aef9-9be004471b2a
   Name: FlowerBouquet Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -25.000000, y: 0.000000, z: -111.850502}
@@ -3746,7 +3730,7 @@
     - ccf77a5a-5dab-4185-8729-e4665339cfcb: 1ac33f1b-c727-4864-b63a-142a8aa2b29c
     - cdb2e3a3-3626-4b4e-b23d-2c2f63282dff: 9db3293e-5494-4acc-994c-471041eae800
   Name: Flower Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 15.000000, y: 0.000000, z: -109.242950}
@@ -3823,7 +3807,7 @@
     - c5e4d175-3faa-4720-94e0-4ab143cc8c2b: cdc0de93-e027-470a-8ee8-233f9c5df571
     - ca6e7890-52ec-463a-91f0-dd88a207066a: 8b23dc09-fa67-4555-bc1f-75b74c858902
   Name: Apple Tree Object
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: -90.901314}
@@ -4010,26 +3994,6 @@
   ScriptTypes:
     "":
       {}
-- !<RenderMeshVisual/cde7ef1c-c582-4c89-88e0-82fd63d42b10>
-  PrefabRemaps:
-    []
-  Name: Render Mesh Visual
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 0bf1faa1-cc86-4c4c-85b5-5417e6ec36ff
-  Mesh: !<reference> 6ecdc6b0-e697-4913-a9ae-59d15d420cbb
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/ce382ed0-21ad-429e-9de0-f1ebbef3fbf6>
   PrefabRemaps:
     []

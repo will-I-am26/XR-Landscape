@@ -1,0 +1,60 @@
+- !<ObjectPrefab/5146e67d-ed17-4582-868c-05f3fa5a03f8>
+  PackagePath: ""
+  objects:
+    - !<own> f31f459f-3cd3-4403-85ed-9e43653ca4a0
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/12858190-8d83-4c8d-b5fb-49b3245272ad>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 66ae5e68-4a45-49be-816f-383eaba4cb4e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/abb9dc59-179d-4b5e-b024-c4a40ca05ef9>
+  PrefabRemaps:
+    []
+  Name: traversalTS
+  Enabled: true
+  ScriptAsset: !<reference> 50b7ad32-a178-406e-b2e6-e5addbbb91b0
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera[]>
+        - !<reference> 00000000-0000-0065-0000-000000000065
+      objectScene: !<reference.SceneObject> 86450005-9f81-4f80-be67-70855634164c
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f31f459f-3cd3-4403-85ed-9e43653ca4a0>
+  PrefabRemaps:
+    []
+  Name: pinCursor
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 351.373138, y: 50.088837, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 12858190-8d83-4c8d-b5fb-49b3245272ad
+    - !<own> abb9dc59-179d-4b5e-b024-c4a40ca05ef9
