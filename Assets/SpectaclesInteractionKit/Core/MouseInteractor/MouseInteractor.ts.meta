@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/4ac58f12-c214-4d8c-2f86-38b95691ef86>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> fa8d58de-519f-43c1-a79d-1bfa5fdecfb0
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> fa8d58de-519f-43c1-a79d-1bfa5fdecfb0
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> a87395f7-1364-45eb-b950-10fed667ddb1
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a87395f7-1364-45eb-b950-10fed667ddb1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/a87395f7-1364-45eb-b950-10fed667ddb1>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -38,6 +40,8 @@
     spherecastRadii: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - _drawDebug: false
       sphereCastEnabled: false
@@ -79,8 +83,3 @@
     - '// @ui {"widget":"group_end"}'
     - '// @input bool moveInDepth {"hint":"Moves the interactor in depth to help test 3D interactions in z space."}'
     - '// @input float moveInDepthAmount = 5 {"hint":"Controls the maximum distance (in cm) that the mouse interactor will move back and forth along its ray direction     when moveInDepth is enabled. Higher values create larger depth movements, simulating interaction across a wider     z-range for testing 3D interactions.", "showIf":"moveInDepth", "showIfValue":true}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

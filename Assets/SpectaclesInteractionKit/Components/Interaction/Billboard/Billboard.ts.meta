@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/b7b3f067-c98b-a797-d631-caac2796a20e>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> 74eafc23-e98b-4073-ab18-82ca532994e3
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> 74eafc23-e98b-4073-ab18-82ca532994e3
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> cc1c0282-7975-43d8-b046-d297c4b12ac6
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> cc1c0282-7975-43d8-b046-d297c4b12ac6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/cc1c0282-7975-43d8-b046-d297c4b12ac6>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -34,6 +36,8 @@
     duration: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - _xAxisEnabled: false
       _yAxisEnabled: true
@@ -53,8 +57,3 @@
     - '// @input vec3 _axisEasing = {1,1,1} {"hint":"Controls how fast the object rotates around each axis to follow camera movement. Configurable per axis (X,Y,Z) where higher values (1.0) create instant following, while lower values (0.1) create a delayed, smoother follow effect."}'
     - '// @input float duration = 0.033 {"hint":"Deprecated. Please use the property Axis Easing to adjust the rotation speed"}'
     - '// @ui {"widget":"group_end"}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

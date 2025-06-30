@@ -1,12 +1,12 @@
 studioVersion:
   major: 5
-  minor: 9
+  minor: 10
   patch: 1
-  build: 25051422
+  build: 25061003
   type: Public
-coreVersion: 309
-clientVersion: 13.380000
-updateCheckpoint: 57
+coreVersion: 313
+clientVersion: 13.420000
+updateCheckpoint: 61
 sceneId: 1e4cae11-66fc-49fa-b479-1f6bf46388cc
 viewConfig:
   simulation:
@@ -18,6 +18,7 @@ viewConfig:
     output: Live
     stereoOutputEye: Center
     deviceTypeOverride: Unknown
+    tint: true
   cameraType: Front
 metaInfo:
   hints:

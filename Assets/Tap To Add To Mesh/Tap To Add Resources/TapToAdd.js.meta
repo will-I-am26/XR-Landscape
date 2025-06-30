@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/17f75d93-69eb-4b70-b3ad-ec6907f55c4d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c511339c-1839-426c-9745-919fecaac8e5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c511339c-1839-426c-9745-919fecaac8e5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 4oF2bB4bAsua24lOIpeyYs
+  AssetDataMap:
+    JavaScriptAsset: !<own> 847048ca-4d92-45fd-aee2-7edf5af25fb2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/847048ca-4d92-45fd-aee2-7edf5af25fb2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 76e37124-4607-4bc2-8781-3da51662ad6e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    growAnimation: false
+    growSpeed: false
+    pinObjects: false
+    scale: false
+    targetMesh: false
+    uvTexture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - uvTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      targetMesh: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      pinObjects: !<reference.SceneObject[]>
+        []
+      growAnimation: true
+      growSpeed: !<float> 1.000000
+      scale: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}

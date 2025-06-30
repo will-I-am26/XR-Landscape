@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/f65001d2-cfc9-199e-f77c-2cedc0d51938>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> ad94751b-0846-4ee3-af41-7b0eb49b2e2c
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> ad94751b-0846-4ee3-af41-7b0eb49b2e2c
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> 3f0dc5b2-8c35-4f39-90fc-f4cb6eeba3ef
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3f0dc5b2-8c35-4f39-90fc-f4cb6eeba3ef
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/3f0dc5b2-8c35-4f39-90fc-f4cb6eeba3ef>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -33,6 +35,8 @@
     pinchedColor: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - defaultColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
       hoverColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
@@ -49,8 +53,3 @@
     - '// @input vec4 pinchedColor = "{0.46, 0.46, 0.46, 1}" {"hint":"The color applied to Interactables when they are being actively pinched.", "widget":"color"}'
     - '// @input vec4 disabledColor = "{1, 1, 1, 0}" {"hint":"The color applied to Interactables when they are disabled.", "widget":"color"}'
     - '// @input Component.RenderMeshVisual[] meshVisuals = {} {"hint":"The meshes which will have their baseColor changed on pinch/hover/enable/disable events."}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

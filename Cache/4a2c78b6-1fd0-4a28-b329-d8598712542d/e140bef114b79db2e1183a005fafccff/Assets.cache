@@ -46,6 +46,12 @@
         Port_GSplatPointSize_N004:
           typeIdx: 1
           value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
         Port_Input1_N002:
           typeIdx: 1
           value: 1.000000
@@ -891,7 +897,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 4a2c78b6-1fd0-4a28-b329-d8598712542d/e140bef114b79db2e1183a005fafccff/Data/81578ed/env_sewer_hole.glsl
+      ShaderPath: 4a2c78b6-1fd0-4a28-b329-d8598712542d/e140bef114b79db2e1183a005fafccff/Data/49d8c4c/env_sewer_hole.glsl
       Defines:
         []
       Properties:

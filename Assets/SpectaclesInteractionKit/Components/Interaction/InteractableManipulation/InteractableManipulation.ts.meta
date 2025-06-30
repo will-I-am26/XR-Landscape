@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/c06a44f9-8715-6738-e66c-2882bf154e6b>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> 7663e845-55f5-41f0-b9ac-0743935809d6
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7663e845-55f5-41f0-b9ac-0743935809d6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/7663e845-55f5-41f0-b9ac-0743935809d6>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -49,6 +51,8 @@
     zStretchFactorMin: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - manipulateRootSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       minimumScaleFactor: 0.250000
@@ -98,8 +102,3 @@
     - '// @input bool showRotationProperties {"hint":"Controls the visibility of rotation options in the Inspector."}'
     - '// @input string _rotationAxis = "All" {"hint":"Controls which axes the object can rotate around. \"All\" allows free rotation in any direction, while \"X\", \"Y\", or \"Z\" constrains rotation to only that specific world axis.", "widget":"combobox", "values":[{"label":"All", "value":"All"}, {"label":"X", "value":"X"}, {"label":"Y", "value":"Y"}, {"label":"Z", "value":"Z"}], "showIf":"showRotationProperties", "showIfValue":true}'
     - '// @ui {"widget":"group_end"}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

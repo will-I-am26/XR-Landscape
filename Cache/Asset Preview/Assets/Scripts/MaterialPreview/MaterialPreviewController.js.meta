@@ -5,6 +5,8 @@
   PrimaryAsset: !<reference> 7918ce25-2e83-4ad4-aa10-0f0b175ac1b8
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
   AssetDataMap:
     JavaScriptAsset: !<own> ef1de303-845e-40a0-baff-723b9b8a1f43
   DependentFiles:
@@ -12,10 +14,10 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    {}
 - !<ScriptAssetData/ef1de303-845e-40a0-baff-723b9b8a1f43>
   SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -35,6 +37,8 @@
     rightSection: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - meshes: !<reference.RenderMesh[]>
         []
@@ -50,7 +54,3 @@
   ScriptTypes:
     -
       {}
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""

@@ -46,6 +46,12 @@
         Port_GSplatPointSize_N004:
           typeIdx: 1
           value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
         Port_Input1_N002:
           typeIdx: 1
           value: 1.000000
@@ -891,7 +897,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: d1377ca9-1932-45e0-ad82-d2483c2cff47/17f73ae50318c4b12799b1840a0b0489/Data/81578ed/sewer_grate.glsl
+      ShaderPath: d1377ca9-1932-45e0-ad82-d2483c2cff47/17f73ae50318c4b12799b1840a0b0489/Data/49d8c4c/sewer_grate.glsl
       Defines:
         []
       Properties:

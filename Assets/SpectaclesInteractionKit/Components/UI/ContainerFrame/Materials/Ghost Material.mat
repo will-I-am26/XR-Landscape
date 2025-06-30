@@ -109,5 +109,3 @@
       typeIdx: 1
       value: 0.050000
   Pass: !<reference> 53fe9ea2-5649-4d7e-8d94-c7a6c79c79a4
-  RTCaster: false
-  RTReceiver: false

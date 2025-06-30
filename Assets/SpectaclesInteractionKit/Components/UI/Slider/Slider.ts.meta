@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/20586df8-dfa1-fad4-2b77-b596de064f2a>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> 3ad001d8-1e29-46e7-9cc8-d7f0e9bc2335
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> 3ad001d8-1e29-46e7-9cc8-d7f0e9bc2335
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> 4839bcc9-7067-4d2c-b2f0-78649295e672
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4839bcc9-7067-4d2c-b2f0-78649295e672
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/4839bcc9-7067-4d2c-b2f0-78649295e672>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -52,6 +54,8 @@
     toggleDuration: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - _minValue: !<float> 0.000000
       _maxValue: !<float> 1.000000
@@ -128,8 +132,3 @@
     - '// @input Component.ScriptComponent customFunctionForOnMaxValueReached {"hint":"The script containing functions to be called on max value reached."}'
     - '// @input string[] onMaxValueReachedFunctionNames = {} {"hint":"The names for the functions on the provided script, to be called when maximum value is reached."}'
     - '// @ui {"widget":"group_end"}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

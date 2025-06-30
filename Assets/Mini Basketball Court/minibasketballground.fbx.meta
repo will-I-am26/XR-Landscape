@@ -43,6 +43,8 @@
   PrimaryAsset: !<reference> b7a7b1c7-1822-424e-a9a0-75ffb7521ed3
   PackageType: LegacyPackage
   PackagePolicy: CanBeUnpacked
+  ExtraData:
+    AssetLibraryId: 5UhWU9230cboHdnUKP9B93
   AssetDataMap:
     Scene: !<own> 507cbc4d-1734-4f10-9842-231af0c619dc
   DependentFiles:
@@ -77,8 +79,6 @@
       jpg: Performance Compression
     Overrides:
       {}
-  ExtraData:
-    AssetLibraryId: 5UhWU9230cboHdnUKP9B93
 - !<RenderMeshVisual/00871f25-e148-4c6c-b70e-591dc06943e8>
   PrefabRemaps:
     []

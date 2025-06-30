@@ -1,0 +1,17 @@
+- !<AssetImportMetadata/7fcca70c-d1a3-4355-a8c9-8d1e7a0951a1>
+  ImportedAssetIds:
+    TextLogger/TextLogger/TextLogger: !<reference> ec478c16-3c89-4181-8275-84b84800340d
+    TextLogger/TextLoggerModule: !<reference> f5b6c9ad-5972-434e-a3c4-40dcb0987719
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> ec478c16-3c89-4181-8275-84b84800340d
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

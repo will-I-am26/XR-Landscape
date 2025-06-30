@@ -1,0 +1,256 @@
+- !<ObjectPrefab/c3a4c0e2-1531-430c-bb26-bbeb9344e133>
+  PackagePath: ""
+  objects:
+    - !<own> b92c8b25-375a-4471-b99c-918bd374ad92
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/1094bf46-32aa-4e90-8adc-33aba8170e83>
+  PrefabRemaps:
+    []
+  Name: spawnPoints
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 91e7faaa-aceb-4888-a753-966fb626c68b
+    - !<own> 99c8390e-8b00-4ca6-ae32-e38268ca29e7
+    - !<own> ce6444cb-bd96-4e83-a636-6da170da4688
+    - !<own> 719dc646-1596-45e3-8cf7-2d979e7eac41
+  Components:
+    - !<own> 641e9bc9-3fb9-4036-9d1a-55f75a2b6df4
+- !<ScriptComponent/10fd2c7b-fc5a-4fd9-807f-c1d810240fed>
+  PrefabRemaps:
+    []
+  Name: objectSpawner
+  Enabled: true
+  ScriptAsset: !<reference> 14d20432-cb44-4b88-8455-f2f12ffa9397
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      toolPrefabs: !<reference.ObjectPrefab[]>
+        - !<reference> d724f4ae-02e9-4bbf-93db-0146419456af
+        - !<reference> 11d210f7-d95e-4754-af71-f3c4b4d4e061
+        - !<reference> 4a4abdf8-70ce-4167-8ed5-766208412418
+        - !<reference> 00000000-0000-0000-0000-000000000000
+      toolSpawnPoints: !<reference.SceneObject[]>
+        - !<reference> 91e7faaa-aceb-4888-a753-966fb626c68b
+        - !<reference> 99c8390e-8b00-4ca6-ae32-e38268ca29e7
+        - !<reference> ce6444cb-bd96-4e83-a636-6da170da4688
+        - !<reference> 719dc646-1596-45e3-8cf7-2d979e7eac41
+      containerObj: !<reference.SceneObject> 1094bf46-32aa-4e90-8adc-33aba8170e83
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/52f8a10c-26ef-43a3-b9d5-a1d1489a9cfa>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71dde88-df6c-46a6-8426-d07b956a747e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/58f42d3e-b05a-4ea1-ad01-fcd27ee071ee>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71dde88-df6c-46a6-8426-d07b956a747e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/641e9bc9-3fb9-4036-9d1a-55f75a2b6df4>
+  PrefabRemaps:
+    []
+  Name: ContainerFrame
+  Enabled: true
+  ScriptAsset: !<reference> 94ea82ba-1d42-4617-b71f-c92262f5960b
+  ScriptInputsDefault:
+    constantPadding: true
+    relativeZ: true
+    isContentInteractable: true
+    allowTranslation: true
+    cutOut: true
+    minimumSize: true
+    maximumSize: true
+    useSnapping: true
+    itemSnapping: true
+    worldSnapping: true
+    isFollowing: true
+    _enableInteractionPlane: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      autoShowHide: false
+      innerSize: !<Vec2> {x: 40.000000, y: 36.000000}
+      border: !<float> 8.000000
+      constantPadding: !<Vec2> {x: 0.000000, y: 0.000000}
+      allowScaling: false
+      autoScaleContent: false
+      relativeZ: false
+      isContentInteractable: false
+      allowTranslation: true
+      cutOut: false
+      minimumSize: !<Vec2> {x: 10.000000, y: 10.000000}
+      maximumSize: !<Vec2> {x: 300.000000, y: 300.000000}
+      useBillboarding: true
+      xOnTranslate: true
+      xAlways: true
+      yOnTranslate: true
+      yAlways: true
+      useSnapping: false
+      itemSnapping: false
+      worldSnapping: false
+      showFollowButton: true
+      useFOVFollow: true
+      isFollowing: false
+      showCloseButton: false
+      _enableInteractionPlane: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/719dc646-1596-45e3-8cf7-2d979e7eac41>
+  PrefabRemaps:
+    []
+  Name: flowerBouquetSpawnPoint
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 20.000000, y: 0.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7865234b-1f6c-4299-b1c0-068af5039675
+- !<RenderMeshVisual/7865234b-1f6c-4299-b1c0-068af5039675>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71dde88-df6c-46a6-8426-d07b956a747e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/91e7faaa-aceb-4888-a753-966fb626c68b>
+  PrefabRemaps:
+    []
+  Name: treeSpawnPoint
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: -20.000000, y: 20.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 52f8a10c-26ef-43a3-b9d5-a1d1489a9cfa
+- !<SceneObject/99c8390e-8b00-4ca6-ae32-e38268ca29e7>
+  PrefabRemaps:
+    []
+  Name: stoneSpawnPoint
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 20.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bc0ed29e-ce2f-4582-8b06-4f762f94ce01
+- !<SceneObject/b92c8b25-375a-4471-b99c-918bd374ad92>
+  PrefabRemaps:
+    []
+  Name: objectSpawner
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 24.861576, y: 13.296223, z: -74.730896}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1094bf46-32aa-4e90-8adc-33aba8170e83
+  Components:
+    - !<own> 10fd2c7b-fc5a-4fd9-807f-c1d810240fed
+- !<RenderMeshVisual/bc0ed29e-ce2f-4582-8b06-4f762f94ce01>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71dde88-df6c-46a6-8426-d07b956a747e
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ce6444cb-bd96-4e83-a636-6da170da4688>
+  PrefabRemaps:
+    []
+  Name: flowerSpawnPoint
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 20.000000, y: 20.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 58f42d3e-b05a-4ea1-ad01-fcd27ee071ee

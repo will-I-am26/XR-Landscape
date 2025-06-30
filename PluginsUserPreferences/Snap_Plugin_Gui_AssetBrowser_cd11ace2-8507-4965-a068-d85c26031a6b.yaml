@@ -1,10 +1,16 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 730
+    size: 777
     values:
+      - Apple Tree Object.prefab
       - Base.png
+      - Behavior.js
+      - CollisionLogger.ts
+      - CollisionMonitor.js
       - Echopark.hdr
+      - Flower Object.prefab
+      - FlowerBouquet Object.prefab
       - Mini Basketball Court
       - Mini Basketball Court/Mini Basketball Court__ADD_TO_SCENE.prefab
       - Mini Basketball Court/minibasketballground.fbx
@@ -31,11 +37,13 @@ CollapsedEntities:
       - Nature Pack/.hidden
       - Nature Pack/.hidden/daffodil.ss_graph
       - Nature Pack/.hidden/large_bouquet_flower_pink.ss_graph
+      - Nature Pack/Bitmoji Nature Pack Resources
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Material0
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Material0/daffodil.mat
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/daffodil/Meshes/C_daffodil_GEO.mesh
+      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Material0/grass_scene.mat
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/grass_scene/Meshes/C_grass_scene_GEO.mesh
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/icerink
@@ -77,7 +85,6 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Material0
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Material0/tree_apple.mat
-      - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Meshes
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tree_apple/Meshes/C_tree_apple_GEO.mesh
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed
       - Nature Pack/Bitmoji Nature Pack Resources/Meshes/tumbleweed/Material0
@@ -97,15 +104,17 @@ CollapsedEntities:
       - Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
       - Occluder.mat
-      - Prefabs
+      - Physics Filter.filter
       - Prefabs/Apple Tree Object.prefab
       - Prefabs/Flower Object.prefab
       - Prefabs/FlowerBouquet Object.prefab
       - Prefabs/Plane Object.prefab
       - Prefabs/Stone Object.prefab
       - Prefabs/Water Object.prefab
+      - SnapOnManipulation_DelayedLookup.js
       - SnapOnProximity.js
       - SpectaclesInteractionKit
+      - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/Assets
       - SpectaclesInteractionKit.lspkg/Components/Helpers
       - SpectaclesInteractionKit.lspkg/Components/Interaction/Billboard
@@ -517,6 +526,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - Stone Object.prefab
       - Surface Detection.lspkg
       - Surface Detection.lspkg/Audio
       - Surface Detection.lspkg/Audio/CalibrationComplete.mp3
@@ -544,10 +554,47 @@ CollapsedEntities:
       - Surface Detection.lspkg/Textures
       - Surface Detection.lspkg/Textures/groundIcon.png
       - Surface Detection.lspkg/package.native
+      - Tap To Add To Mesh/.hidden
+      - Tap To Add To Mesh/.hidden/Wood.ss_graph
+      - Tap To Add To Mesh/.hidden/center.ss_graph
+      - Tap To Add To Mesh/.hidden/flower1 2.ss_graph
+      - Tap To Add To Mesh/.hidden/flower1.ss_graph
+      - Tap To Add To Mesh/.hidden/leaf1.ss_graph
+      - Tap To Add To Mesh/.hidden/renderUV.ss_graph
+      - Tap To Add To Mesh/Tap To Add Resources
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/center 2.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/center.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/flower1 2.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/flower1 3.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/flower1.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/flower_inner.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/leaf1.mat
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/Cube 2.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/Cube 3.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/Cube.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/flower1 2.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/flower1.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/flower2 2.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/flower2.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Meshes/leaves1.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Textures
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Textures/MaterialParams.png
+      - Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Textures/Normal.png
+      - Tap To Add To Mesh/Tap To Add Resources/READ_ME.js
+      - Tap To Add To Mesh/Tap To Add Resources/Sphere.mesh
+      - Tap To Add To Mesh/Tap To Add Resources/TapToAdd.js
+      - Tap To Add To Mesh/Tap To Add Resources/UVSamplerRT.renderTarget
+      - Tap To Add To Mesh/Tap To Add Resources/Wood.mat
+      - Tap To Add To Mesh/Tap To Add Resources/renderUV.mat
+      - Tap To Add To Mesh/TapToAdd__PUT_IN_OBJECTS_PANEL.prefab
       - Terrain.obj
       - Terrain.obj/Meshes
       - Terrain.obj/Meshes/Mesh 1
       - Terrain.obj/Terrain
+      - Text Logger.lsc
       - Untitled JavaScript.js
       - Untitled TypeScript 2.ts
       - Untitled TypeScript.ts

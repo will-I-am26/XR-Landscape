@@ -2,10 +2,13 @@
   PackagePath: ""
   StudioVersion:
     major: 5
-    minor: 9
+    minor: 10
     patch: 1
-    build: 25051422
+    build: 25061003
     type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
   Description: Please refer to the attached README for detailed instructions and information about the Spectacles Interaction Kit (SIK).
   SvgIcon: |
     <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +58,7 @@
   VersionMajor: 0
   VersionMinor: 12
   VersionPatch: 0
-  UpdateCheckpoint: 57
+  UpdateCheckpoint: 61
   ExportUid: 381aadb7-9d6b-4d57-a651-0a7f25b2033a
   ComponentUid: 0f7a0bbe-777c-41a5-b979-0b0430f25836
   CurrentVisibility: Editable
@@ -71,5 +74,3 @@
       minor: 12
       patch: 0
       build: 0
-  coreVersion: 309
-  clientVersion: 13.380000

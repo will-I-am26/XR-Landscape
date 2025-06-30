@@ -5,6 +5,8 @@
   PrimaryAsset: !<reference> b7d6a5a5-f7ff-4475-b738-22313683beb6
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 5UhWU9230cboHdnUKP9B93
   AssetDataMap:
     ObjectPrefab: !<own> 3237024c-9764-45a6-b6a5-ce5e054f2c8a
   DependentFiles:
@@ -12,8 +14,6 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    AssetLibraryId: 5UhWU9230cboHdnUKP9B93
 - !<ColliderComponent/09c7bf82-6da7-40c5-8360-b7300bd5aeef>
   PrefabRemaps:
     []
@@ -132,6 +132,7 @@
   ScriptInputsDefault:
     targetingMode: true
     enableInstantDrag: true
+    isScrollable: true
     allowMultipleInteractors: true
     enablePokeDirectionality: true
     acceptableXDirections: true
@@ -145,6 +146,7 @@
     "":
       targetingMode: !<float> 3.000000
       enableInstantDrag: false
+      isScrollable: false
       allowMultipleInteractors: true
       enablePokeDirectionality: false
       acceptableXDirections: !<float> 0.000000

@@ -46,6 +46,12 @@
         Port_GSplatPointSize_N004:
           typeIdx: 1
           value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
         Port_Input1_N002:
           typeIdx: 1
           value: 1.000000
@@ -891,7 +897,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: f7a66d08-e0ef-4c69-a980-069901fae2bb/a83eb432c4cef8e614d1fe5d119fafe3/Data/81578ed/sidewalk.glsl
+      ShaderPath: f7a66d08-e0ef-4c69-a980-069901fae2bb/a83eb432c4cef8e614d1fe5d119fafe3/Data/49d8c4c/sidewalk.glsl
       Defines:
         []
       Properties:

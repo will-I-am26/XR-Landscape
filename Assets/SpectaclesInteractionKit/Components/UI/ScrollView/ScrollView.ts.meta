@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/f8cc61f8-dc7a-0e75-ca56-0cfd520c0a75>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> 8ba7b68a-4b25-4d72-a4a4-a57730a77680
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> 8ba7b68a-4b25-4d72-a4a4-a57730a77680
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> e98fd325-103d-4b36-835b-64373a02227c
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e98fd325-103d-4b36-835b-64373a02227c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/e98fd325-103d-4b36-835b-64373a02227c>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -35,6 +37,8 @@
     scrollAreaBounds: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - _debugDrawEnabled: false
       enableHorizontalScroll: false
@@ -54,8 +58,3 @@
     - '// @input bool enableScrollLimit = true {"hint":"When enabled, prevents content from scrolling beyond designated boundaries defined by the Scroll Limit."}'
     - "// @input float _scrollLimit = 0.3 {\"hint\":\"Controls how much content must remain visible.\\n- 0: Content can scroll completely out of view.\\n- 0.5: At least 50% of the content will remain in the visible area.\\n- 1: Content can't scroll out of view at all.\", \"widget\":\"slider\", \"min\":0, \"max\":1, \"step\":0.01, \"showIf\":\"enableScrollLimit\"}"
     - '// @input vec2 scrollAreaBounds = "{1, 1}" {"hint":"Defines the size of the interactive area in normalized local coordinates, where (1,1) uses the full component size."}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

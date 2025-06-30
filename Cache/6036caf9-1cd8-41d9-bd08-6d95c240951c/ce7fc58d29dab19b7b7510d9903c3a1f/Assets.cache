@@ -46,6 +46,12 @@
         Port_GSplatPointSize_N004:
           typeIdx: 1
           value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
         Port_Input1_N002:
           typeIdx: 1
           value: 1.000000
@@ -891,7 +897,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 6036caf9-1cd8-41d9-bd08-6d95c240951c/ce7fc58d29dab19b7b7510d9903c3a1f/Data/81578ed/traffic_barrel.glsl
+      ShaderPath: 6036caf9-1cd8-41d9-bd08-6d95c240951c/ce7fc58d29dab19b7b7510d9903c3a1f/Data/49d8c4c/traffic_barrel.glsl
       Defines:
         []
       Properties:

@@ -5,6 +5,8 @@
   PrimaryAsset: !<reference> e8516b93-6204-475e-8a67-dabd3ff55fd5
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
   AssetDataMap:
     JavaScriptAsset: !<own> 34b15795-09c8-44ff-bdb0-4777a6b0ef8f
   DependentFiles:
@@ -12,10 +14,10 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    {}
 - !<ScriptAssetData/34b15795-09c8-44ff-bdb0-4777a6b0ef8f>
   SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -39,6 +41,8 @@
     parent: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       leftSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -59,7 +63,3 @@
   ScriptTypes:
     -
       {}
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""

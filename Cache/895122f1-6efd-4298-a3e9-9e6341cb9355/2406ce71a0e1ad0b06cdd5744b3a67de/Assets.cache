@@ -46,6 +46,12 @@
         Port_GSplatPointSize_N004:
           typeIdx: 1
           value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
         Port_Input1_N002:
           typeIdx: 1
           value: 1.000000
@@ -891,7 +897,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 895122f1-6efd-4298-a3e9-9e6341cb9355/2406ce71a0e1ad0b06cdd5744b3a67de/Data/81578ed/daffodil.glsl
+      ShaderPath: 895122f1-6efd-4298-a3e9-9e6341cb9355/2406ce71a0e1ad0b06cdd5744b3a67de/Data/49d8c4c/daffodil.glsl
       Defines:
         []
       Properties:

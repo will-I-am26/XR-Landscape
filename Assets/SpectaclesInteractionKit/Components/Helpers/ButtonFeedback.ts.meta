@@ -5,6 +5,8 @@
   PrimaryAsset: !<reference> 99b48019-5088-4691-9ae6-beb39874357f
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
   AssetDataMap:
     TypeScriptAsset: !<own> e8e9c81c-0f34-40b5-b143-b0d4a262d482
   DependentFiles:
@@ -12,10 +14,10 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData:
-    {}
 - !<TypeScriptAssetData/e8e9c81c-0f34-40b5-b143-b0d4a262d482>
   SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -50,6 +52,8 @@
     useGlowMesh: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - buttonType: 0
       renderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
@@ -103,7 +107,3 @@
     - '// @ui {"widget":"separator"}'
     - '// @input Asset.Texture defaultIcon {"hint":"The texture displayed on the button in its default state (not toggled). Applied to idle, hover, and pinched materials."}'
     - '// @input Asset.Texture onIcon {"hint":"The texture displayed when the button is toggled on. Replaces defaultIcon for toggle and state buttons when activated."}'
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

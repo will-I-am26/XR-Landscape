@@ -1,7 +1,7 @@
 /**
  * @module Built-In
- * @version 5.9.0
- * For Snapchat Version: 13.38
+ * @version 5.10.0
+ * For Snapchat Version: 13.42
 */
 interface ComponentNameMap {
     "AnimationPlayer": AnimationPlayer;
@@ -501,7 +501,7 @@ declare class AnimationClip extends ScriptObject {
     animation: AnimationAsset
     
     /**
-    * Returns begin time of clip.
+    * Returns begin time of clip (in seconds).
     */
     begin: number
     
@@ -516,14 +516,14 @@ declare class AnimationClip extends ScriptObject {
     disabled: boolean
     
     /**
-    * Returns the duration of the clip which is calculated based on the begin and end times.
+    * Returns the duration of the clip which is calculated based on the begin and end times (in seconds).
     
     * @readonly
     */
     duration: number
     
     /**
-    * Returns end time of clip.
+    * Returns end time of clip (in seconds).
     */
     end: number
     
@@ -915,8 +915,6 @@ declare class AnimationTrack extends Asset {
 /**
 * Allows the Lens to incorporate voice transcription with higher quality than the {@link VoiceMlModule} and supports a vast number of different languages.
 
-
-* @wearableOnly
 */
 declare class AsrModule extends Asset {
     
@@ -942,7 +940,7 @@ declare class AsrModule extends Asset {
     
     * @wearableOnly
     */
-    stopTranscribing(): any
+    stopTranscribing(): Promise<void>
     
 }
 
@@ -1644,6 +1642,18 @@ declare class BasePlaceholder extends ScriptObject {
     protected constructor()
     
     /**
+    * The data layout of the current BasePlaceholder, which defines the order in which multidimensional data is accessed in memory. The default layout is {@link MachineLearning.DataLayout.NHWC}.
+    */
+    dataLayout: MachineLearning.DataLayout
+    
+    /**
+    * The internal data layout of the current BasePlaceholder. This layout is used by ML backend. If `dataLayout` is not the same as `internalDataLayout`, a layout conversion will happen when process models input/output.
+    
+    * @readonly
+    */
+    internalDataLayout: MachineLearning.DataLayout
+    
+    /**
     * The name of the Placeholder.
     
     * @readonly
@@ -1751,6 +1761,21 @@ declare class Bitmoji3DOptions extends ScriptObject {
     protected constructor()
     
     /**
+    * Used to set the animation params for the request type.
+    */
+    animationParams: Bitmoji3DOptions.AnimationParams
+    
+    /**
+    * Used to set the custom params for the request type. You shouldn't need to modify these values directly. Instead you can use this API via the [Bitmoji Suite](https://developers.snap.com/lens-studio/features/bitmoji-suite/overview).
+    */
+    customParams: Bitmoji3DOptions.CustomParams
+    
+    /**
+    * Options used with {@link requestBitmoji3DResourceWithOptions}
+    */
+    requestType: Bitmoji3DOptions.RequestType
+    
+    /**
     * The user which the Bitmoji should represent.
     */
     user: SnapchatUser
@@ -1760,6 +1785,238 @@ declare class Bitmoji3DOptions extends ScriptObject {
     */
     static create(): Bitmoji3DOptions
     
+}
+
+declare namespace Bitmoji3DOptions {
+    /**
+    * Used to set the animation params for the request type.
+    */
+    class AnimationParams extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Creates the animation params.
+        */
+        static create(): Bitmoji3DOptions.AnimationParams
+        
+    }
+
+}
+
+declare namespace Bitmoji3DOptions {
+    /**
+    * Enum representing avatar scope used in custom params of bitmoji3d options.
+    */
+    enum AvatarScope {
+        /**
+        * Unset scope.
+        */
+        Unset,
+        /**
+        * Full scope.
+        */
+        Full,
+        /**
+        * Head scope.
+        */
+        Head,
+        /**
+        * Body scope.
+        */
+        Body,
+        /**
+        * Hair scope.
+        */
+        Hair,
+        /**
+        * Glasses scope.
+        */
+        Glasses,
+        /**
+        * Hat hair scope.
+        */
+        Hathair,
+        /**
+        * Piercing scope.
+        */
+        Piercing,
+        /**
+        * Clothes scope.
+        */
+        Clothes,
+        /**
+        * Mannequin Head scope.
+        */
+        MannequinHead,
+        /**
+        * MannequinHeadFeatureless scope.
+        */
+        MannequinHeadFeatureless,
+        /**
+        * MannequinEarLeft scope.
+        */
+        MannequinEarLeft,
+        /**
+        * MannequinEarRight scope.
+        */
+        MannequinEarRight,
+        /**
+        * MannequinHeadFeaturelessWithBody scope.
+        */
+        MannequinHeadFeaturelessWithBody,
+        /**
+        * .GlassesWithSkeleton scope.
+        */
+        GlassesWithSkeleton
+    }
+
+}
+
+declare namespace Bitmoji3DOptions {
+    /**
+    * Enum representing different types of clothing
+    */
+    enum ClothingType {
+        /**
+        * Unset clothing type.
+        */
+        Unset,
+        /**
+        * Split clothing type.
+        */
+        SplitClothes,
+        /**
+        * Granular clothing type.
+        */
+        GranularClothes,
+        /**
+        * Full outfit type.
+        */
+        FullOutfit,
+        /**
+        * Detailed full outfit type.
+        */
+        DetailedFullOutfit
+    }
+
+}
+
+declare namespace Bitmoji3DOptions {
+    /**
+    * The custom params can be used for requesting bitmoji assets like garments. These can be set as custom params of Bitmoji3D options. 
+    */
+    class CustomParams extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * The {@link Bitmoji3DOptions.AvatarScope} to use for the request.
+        */
+        avatarScope: Bitmoji3DOptions.AvatarScope
+        
+        /**
+        * Parameter set to customize the bag of the avatar.
+        */
+        bag?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * Parameter set to customize the bottom wear of the avatar.
+        */
+        bottomWear?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * Parameter set to customize the clothing tyoe of the avatar.
+        */
+        clothingType: Bitmoji3DOptions.ClothingType
+        
+        /**
+        * Parameter set to customize the cranium of the avatar.
+        */
+        cranium?: string
+        
+        /**
+        * Parameter set to customize the foot wear of the avatar.
+        */
+        footWear?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * Parameter set to customize the glasses of the avatar.
+        */
+        glasses?: string
+        
+        /**
+        * Parameter set to customize the hat of the avatar.
+        */
+        hat?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * Parameter set to customize the outerwear of the avatar.
+        */
+        outerWear?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * Parameter set to customize the sock of the avatar.
+        */
+        sock?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * Parameter set to customize the top of the avatar.
+        */
+        top?: Bitmoji3DOptions.ParamSet
+        
+        /**
+        * The rendering options can be used for customizing bitmoj3D avatars. These can be set as overridden options of Bitmoji3D options.
+        */
+        static create(): Bitmoji3DOptions.CustomParams
+        
+    }
+
+}
+
+declare namespace Bitmoji3DOptions {
+    /**
+    * Set of parameters used to customize specific parts of avatar such as garment, outerwear etc.
+    */
+    class ParamSet extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Unique identifier of the category defined using this ParamSet.
+        */
+        optionId: string
+        
+        /**
+        * Used to set the parameters.
+        */
+        params: {[key:string]:(string|number|vec4)}
+        
+        /**
+        * Used to create the parameter set for customizing specific parts of avatar such as garment, outerwear etc.
+        */
+        static create(): Bitmoji3DOptions.ParamSet
+        
+    }
+
+}
+
+declare namespace Bitmoji3DOptions {
+    /**
+    * Enum representing different request types.
+    */
+    enum RequestType {
+        /**
+        * Used to request avatar.
+        */
+        Avatar,
+        Animation,
+        /**
+        * Used to request custom asset of avatar
+        */
+        Custom
+    }
+
 }
 
 /**
@@ -1839,7 +2096,7 @@ declare class Blob extends ScriptObject {
     
     * @CameraKit
     */
-    bytes(): any
+    bytes(): Promise<Uint8Array>
     
     /**
     * Returns a Promise that resolves with a string containing the contents of the blob, interpreted as UTF-8.
@@ -1848,7 +2105,7 @@ declare class Blob extends ScriptObject {
     
     * @CameraKit
     */
-    text(): any
+    text(): Promise<string>
     
     /**
     * The size of the blob's data in bytes.
@@ -1861,6 +2118,920 @@ declare class Blob extends ScriptObject {
     */
     size: number
     
+}
+
+declare namespace Bluetooth {
+    /**
+    * Provides access to Bluetooth GATT devices. APIs include scanning for and connecting to these devices, and reading and writing to their descriptors and characteristics.
+    */
+    class BluetoothCentralModule extends Asset {
+        
+        protected constructor()
+        
+        /**
+        * Connect to a GATT server on a given device address. 
+        
+        * `deviceAddress` Address to which to connect. Received in {@link Bluetooth.ScanResult.deviceAddress}
+        
+        * __Returns:__ Promise resolving to a {Bluetooth.BluetoothGatt} object if successful. The Promise is rejected if the connection cannot be made. 
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        connectGatt(deviceAddress: Uint8Array): Promise<Bluetooth.BluetoothGatt>
+        
+        /**
+        * Start a scan for Bluetooth GATT devices. The first device which passes the predicate will be returned, at which point the scan will stop.
+        
+        * `filters` Filters to apply to the scan. If a device passes any filter then the predicate will be invoked for that device. If no filters are passed then the predicate will be invoked for all devices.
+        
+        * `settings` {@link Bluetooth.ScanSettings} to configure the scan.
+        
+        * `predicate` Predicate to select a device. Returning true will stop the scan and return the device. 
+        
+        * __Returns:__ Promise resolving to the first device which passes the predicate. The promise is rejected if the scan times out.
+        
+        * ```javascript
+        * var scanFilter = new Bluetooth.ScanFilter();
+        * var scanSettings = new Bluetooth.ScanSettings();
+        * scanSettings.timeoutSeconds = 30;
+        * scanSettings.scanMode = Bluetooth.ScanMode.LowPower;
+        
+        * var scanResult = await script.bluetoothModule.startScan([scanFilter], scanSettings, 
+        *     function(result) {
+        *         print("Running predicate on " + result.deviceName);
+        *         return result.deviceName == "[DEVICE NAME]";
+        *     }
+        * );
+        
+        * print("Found GATT device " + scanResult.deviceName);
+        * ```
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        startScan(filters: Bluetooth.ScanFilter[], settings: Bluetooth.ScanSettings, predicate: (result: Bluetooth.ScanResult) => any): Promise<Bluetooth.ScanResult>
+        
+        /**
+        * Stop a scan for Bluetooth devices, if one is running.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        stopScan(): Promise<void>
+        
+        /**
+        * Event for Bluetooth status changes. _Currently unused_.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        onBluetoothStatusChangedEvent: event1<Bluetooth.BluetoothStatusChangedEvent, void>
+        
+        /**
+        * Get the current status of the Bluetooth adapter.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        status: Bluetooth.BluetoothStatus
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * Provides access to the Bluetooth connection.
+    */
+    class BluetoothGatt extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Terminate the Bluetooth client connection, disconnection included if applicable.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        close(): void
+        
+        /**
+        * Re-establish connection to the device. Asynchronous call: to detect when the device is connected listen on the {@link Bluetooth.BluetoothGatt.onConnectionStateChangedEvent}.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        connect(): void
+        
+        /**
+        * Unpair or disconnect from the device. Asynchronous call: to detect when the device is disconnected listen on the {@link Bluetooth.BluetoothGatt.onConnectionStateChangedEvent}.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        disconnect(): void
+        
+        /**
+        * Retrieve a specific {@link Bluetooth.BluetoothGattService} using its UUID from the GATT server.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        getService(serviceUUID: string): Bluetooth.BluetoothGattService
+        
+        /**
+        * Retrieve all available services from the GATT server.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        getServices(): Bluetooth.BluetoothGattService[]
+        
+        /**
+        * The state of the GATT connection represented as a {@link Bluetooth.ConnectionState} enum.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        connectionState: Bluetooth.ConnectionState
+        
+        /**
+        * The current Maximum Transmission Unit (MTU).
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        mtu: number
+        
+        /**
+        * Event to observe changes in connection state.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        onConnectionStateChangedEvent: event1<Bluetooth.ConnectionStateChangedEvent, void>
+        
+        /**
+        * Event to observe changes in Maximum Transmission Unit (MTU).
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        onMtuChangedEvent: event1<Bluetooth.MtuChangedEvent, void>
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * A characteristic of the Bluetooth GATT device.
+    
+    * Characteristics are the individual pieces of data within a {@link Bluetooth.BluetoothGattService} that provide specific information. For example, a heart rate sensor might have a Heart Rate service, and that service might have characteristics including "Heart Rate Measurement," "Sensor Location," etc.
+    
+    * __Value__ ({@link Bluetooth.BluetoothGattCharacteristic.readValue}, {@link Bluetooth.BluetoothGattCharacteristic.writeValue}): The actual data being exchanged.
+    
+    * __Properties__ ({@link Bluetooth.BluetoothGattCharacteristic.properties}): Define how the characteristic can be accessed (e.g., read, write, notify, indicate).
+    
+    * __Descriptors__ ({{@link Bluetooth.BluetoothGattCharacteristic.getDescriptor}, {@link Bluetooth.BluetoothGattCharacteristic.getDescriptors}): Provide additional information about the characteristic, such as its units or format.
+    
+    * __UUID__ ({@link Bluetooth.BluetoothGattCharacteristic.uuid}): A unique identifier that identifies the characteristic.
+    
+    * Common characteristics include battery level, heart rate, temperature, and device name. 
+    */
+    class BluetoothGattCharacteristic extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Retrieve a specific {@link Bluetooth.BluetoothGattDescriptor} by its UUID from this characteristic.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        getDescriptor(descriptorUUID: string): Bluetooth.BluetoothGattDescriptor
+        
+        /**
+        * Retrieve all descriptors associated with this characteristic.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        getDescriptors(): Bluetooth.BluetoothGattDescriptor[]
+        
+        /**
+        * Read and receive the current value of the characteristic.
+        
+        * __Returns:__ The value in a `Uint8Array`
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        readValue(): Promise<Uint8Array>
+        
+        /**
+        * Register the given callback to receive notifications. Registering a callback will unsubscribe any previous registration on this Characteristic.
+        
+        * `callback` The callback to register, which takes a single parameter `value` of type `Uint8Array`. 
+        
+        * ```javascript
+        * try {
+        *     const value = await characteristic.registerNotifications();
+        *     console.log("Received Uint8Array data: ", value);
+        * } catch (error) {
+        *     console.error("Failed to register notifications: ", error);
+        * }
+        * ```
+        
+        * __Returns:__ Promise resolving to void when the callback is successfully registered.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        registerNotifications(callback: (value: Uint8Array) => void): Promise<void>
+        
+        /**
+        * Unregister all notifications.
+        
+        * __Returns:__ Promise resolving to void when all notifications are successfully unregistered.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        unregisterNotifications(): Promise<void>
+        
+        /**
+        * Write a new value to the characteristic.
+        
+        * `value` The value in a `Uint8Array`
+        
+        * __Returns:__ Promise resolving to void when the value is successfully written.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        writeValue(value: Uint8Array): Promise<void>
+        
+        /**
+        * Write a new value to the characteristic without awaiting acknowledgment.
+        
+        * `value` The value in a `Uint8Array`
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        writeValueWithoutResponse(value: Uint8Array): Promise<void>
+        
+        /**
+        * The supported properties (e.g., read, write) of the characteristic, as an Array of {@link Bluetooth.CharacteristicProperty} values.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        properties: Bluetooth.CharacteristicProperty[]
+        
+        /**
+        * The unique identifier of this characteristic.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        uuid: string
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * Descriptors contain additional information and attributes of a {@link Bluetooth.BluetoothGattCharacteristic}.
+    */
+    class BluetoothGattDescriptor extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Read and receive the current value of the descriptor.
+        
+        * __Returns:__ The value in a `Uint8Array`
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        readValue(): Promise<Uint8Array>
+        
+        /**
+        * Write a new value to the descriptor.
+        
+        * `value` The value in a `Uint8Array`
+        
+        * __Returns:__ Promise resolving to void when the value is successfully written.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        writeValue(value: Uint8Array): Promise<void>
+        
+        /**
+        * The UUID of the current descriptor.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        uuid: string
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * Bluetooth GATT Services are collections of related {@link Bluetooth.BluetoothGattCharacteristic}s representing specific functions or features of a device. For example, a heart rate sensor might have a "Heart Rate" service, which in turn has characteristics like  "Heart Rate Measurement".
+    
+    */
+    class BluetoothGattService extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Retrieve a {@link Bluetooth.BluetoothGattCharacteristic} from this service using its UUID.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        getCharacteristic(characteristicUUID: string): Bluetooth.BluetoothGattCharacteristic
+        
+        /**
+        * Retrieve all {@link Bluetooth.BluetoothGattCharacteristic}s offered by this service.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        getCharacteristics(): Bluetooth.BluetoothGattCharacteristic[]
+        
+        /**
+        * The UUID of the GATT service.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        uuid: string
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * The statuses for Bluetooth availability. Currently unsupported.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    enum BluetoothStatus {
+        /**
+        * Status indicating that the Bluetooth permissions or status have not been established.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Unknown,
+        /**
+        * Status indicating that user has denied Bluetooth permissions.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        PermissionDenied,
+        /**
+        * Status indicating that Bluetooth functionality is not available.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Unavailable,
+        /**
+        * Status indicating that Bluetooth is ready for use.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Available
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * The event received when Bluetooth status has changed. Currently unsupported.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    class BluetoothStatusChangedEvent extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * The new Bluetooth status.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        status: Bluetooth.BluetoothStatus
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * Properties of a {@link Bluetooth.BluetoothGattCharacteristic}.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    enum CharacteristicProperty {
+        /**
+        * Property indicating that the characteristic supports broadcasting.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Broadcast,
+        /**
+        * Read and receive the current value of the characteristic.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Read,
+        /**
+        * Write a new value to the characteristic without awaiting acknowledgment.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        WriteWithoutResponse,
+        /**
+        * Write a new value to the characteristic and await acknowledgment.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Write,
+        /**
+        * Property indicating characteristic supports notifications.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Notify,
+        /**
+        * Property indicating characteristic can send indications
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Indicate,
+        /**
+        * Property indicating characteristic supports signed write operations.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        SignedWrite,
+        /**
+        * Property indicating characteristic has extra properties.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        ExtendedProps,
+        /**
+        * Property indicating notifications must be encrypted.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        NotifyEncryptionRequired,
+        /**
+        * Property indicating indications must be encrypted.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        IndicateEncryptionRequired
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * State of a Bluetooth connection.
+    
+    * `Disconnected` The Bluetooth device is disconnected from Spectacles.
+    
+    * `Connected` The Bluetooth device is connected and bonded with Spectacles. 
+    
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    enum ConnectionState {
+        /**
+        * State indicating that the device is disconnected.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Disconnected,
+        /**
+        * State indicating that the device is successfully connected.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Connected
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * The event received when Bluetooth connection status has changed.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    class ConnectionStateChangedEvent extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * The new state of the Bluetooth connection.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        state: Bluetooth.ConnectionState
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * The event received when Maximum Transmission Unit (MTU) of a Bluetooth device has changed.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    class MtuChangedEvent extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * The new Maximum Transmission Unit (MTU).
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        mtu: number
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * The filters to be used with {@link BluetoothCentralModule.startScan}.
+    */
+    class ScanFilter extends ScriptObject {
+        /**
+        * Construct a new filter.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        constructor()
+        
+        /**
+        * @experimental
+        
+        * @wearableOnly
+        */
+        deviceName?: string
+        
+        /**
+        * Filter for devices based on a prefix of manufacturer data. If undefined, no filtering on manufacturer data is applied.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        manufacturerDataPrefix?: Uint8Array
+        
+        /**
+        * Filter for devices based on a manufacturer ID. If undefined, no filtering on manufacturer ID is applied.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        manufacturerId?: number
+        
+        /**
+        * Filter for devices based on a service UUID. If undefined, no filtering on service UUID is applied.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        serviceUUID?: string
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * Defines how Bluetooth devices should be scanned. Used with {@link BluetoothCentralModule.startScan}.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    enum ScanMode {
+        /**
+        * The default setting.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Unset,
+        /**
+        * Scan devices opportunistically.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Opportunistic,
+        /**
+        * Scan devices with low power.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        LowPower,
+        /**
+        * Scan devices while balancing power and latency.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        Balanced,
+        /**
+        * Scan devices with low latency.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        LowLatency
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * The results of a Bluetooth scan. 
+    */
+    class ScanResult extends ScriptObject {
+        
+        protected constructor()
+        
+        /**
+        * Address of the device.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        deviceAddress: Uint8Array
+        
+        /**
+        * Name of the advertised device, if available.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        deviceName?: string
+        
+        /**
+        * Whether the device allows connections.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        isConnectable: boolean
+        
+        /**
+        * Data provided by the manufacturer, if available.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        manufacturerData: {[key:number]:Uint8Array}
+        
+        /**
+        * ID of the device's manufacturer, if available.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        manufacturerId?: number
+        
+        /**
+        * Signal strength of the received packet, measured in dBm.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        rssi?: number
+        
+        /**
+        * Data related to the services offered by the device.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        serviceData: {[key:string]:Uint8Array}
+        
+        /**
+        * Transmission power of the packet, measured in dBm.
+        
+        * @readonly
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        txPower?: number
+        
+    }
+
+}
+
+declare namespace Bluetooth {
+    /**
+    * Settings when scanning for Bluetooth devices via {@link BluetoothCentralModule.startScan}.
+    */
+    class ScanSettings extends ScriptObject {
+        /**
+        * Construct a new setting.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        constructor()
+        
+        /**
+        * Set the scanning method.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        scanMode: Bluetooth.ScanMode
+        
+        /**
+        * Set the scanning timeout duration in seconds. After the timeout period the scan will stop and the promise will resolve.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        timeoutSeconds: number
+        
+        /**
+        * Specify whether to call the predicate function only for unique devices or not.
+        
+        * @experimental
+        
+        * @wearableOnly
+        */
+        uniqueDevices: boolean
+        
+    }
+
 }
 
 /**
@@ -4614,6 +5785,53 @@ declare class DebugRender extends ScriptObject {
 }
 
 /**
+* The DeepLinkModule brings the concept of deep linking, familiar from mobile platforms like Android and iOS, to Spectacles. This module allows Lenses to send and receive deep link URIs between Spectacles and the Spectacles App.
+
+* @wearableOnly
+*/
+declare class DeepLinkModule extends Asset {
+    
+    protected constructor()
+    
+    /**
+    * Initiates a deep link request by sending a specified URI from the Lens to SnapOS, allowing dynamic interaction based on the URIs target action or content.
+    
+    * @wearableOnly
+    */
+    openUri(uri: string): Promise<void>
+    
+    /**
+    * An event triggered when a deep link request is received by the Lens from SnapOS, enabling the lens to process and respond to the incoming action or content linked by the URI.
+    
+    * @readonly
+    
+    * @wearableOnly
+    */
+    onUriReceived: event1<DeepLinkUriReceivedArgs, void>
+    
+}
+
+/**
+* Arguments used with the {@link DeepLinkModule#onUriReceived} event.
+
+* @wearableOnly
+*/
+declare class DeepLinkUriReceivedArgs extends ScriptObject {
+    
+    protected constructor()
+    
+    /**
+    * The URI string representing the deep link that has been received.
+    
+    * @readonly
+    
+    * @wearableOnly
+    */
+    uri: string
+    
+}
+
+/**
 * Used for collision meshes that can change shape or form dynamically.
 */
 declare class DeformingCollisionMesh extends CollisionMesh {
@@ -4760,6 +5978,176 @@ declare enum DepthClearOption {
 }
 
 /**
+* The depth frame data as provided by the {@link DepthFrameSession.onNewFrame}.
+
+* @experimental
+
+* @exposesUserData
+
+* @wearableOnly
+
+* @wearableOnly
+*/
+declare class DepthFrameData extends ScriptObject {
+    
+    protected constructor()
+    
+    /**
+    * The depth frame as a linear Float32Array in centimeters.
+    
+    * @readonly
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    depthFrame: Float32Array
+    
+    /**
+    * Provides information about the depth device camera.
+    
+    * @readonly
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    deviceCamera: DeviceCamera
+    
+    /**
+    * The timestamp of the start of exposure of the frame in seconds.
+    
+    * @readonly
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    timestampSeconds: number
+    
+    /**
+    * The pose of the device reference relative to the frame of reference of the tracked device position.
+    
+    * @readonly
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    toWorldTrackingOriginFromDeviceRef: mat4
+    
+}
+
+/**
+* Used for receiving {@link DepthFrameData} on Spectacles device.
+
+* @experimental
+
+* @exposesUserData
+
+* @wearableOnly
+
+* @wearableOnly
+*/
+declare class DepthFrameSession extends ScriptObject {
+    
+    protected constructor()
+    
+    /**
+    * Starts depth estimation for the {@link DepthFrameSession} on Spectacles. The {@link DepthFrameSession.onNewFrame} events will only be triggered after start has been called.
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    start(): void
+    
+    /**
+    * Stops depth estimation for the {@link DepthFrameSession} on Spectacles.
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    stop(): void
+    
+    /**
+    * Register a callback to be called whenever new {@link DepthFrameData} is available. On Spectacles, the depth update rate is different from the color frame update rate and the render update rate.
+    
+    * @readonly
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    onNewFrame: event1<DepthFrameData, void>
+    
+}
+
+/**
+* Provides access to a {@link DepthFrameSession} on Spectacles device. 
+
+* @remarks 
+* Used for requesting {@link DepthFrameData}.
+
+* @see [Depth Module](https://developers.snap.com/spectacles/about-spectacles-features/apis/depth-module) guide.
+
+* @experimental
+
+* @exposesUserData
+
+* @wearableOnly
+
+* @wearableOnly
+*/
+declare class DepthModule extends Asset {
+    
+    protected constructor()
+    
+    /**
+    * Create a {@link DepthFrameSession}.
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    createDepthFrameSession(): DepthFrameSession
+    
+}
+
+/**
 * Access to a Depth Stencil Render Target that can output depth and stencil values from a Camera in Depth24/Stencil8 format.
 */
 declare class DepthStencilRenderTargetProvider extends TextureProvider {
@@ -4790,6 +6178,16 @@ declare class DepthStencilRenderTargetProvider extends TextureProvider {
     * Texture with Depth24_Stencil8 format. Stencil8 part used in stencil clear operation in "CustomTexture" mode.
     */
     maskTexture: Texture
+    
+    /**
+    * Enable mipmaps on the current render target.
+    */
+    mipmapsEnabled: boolean
+    
+    /**
+    * The ouput resolution of the current render target.
+    */
+    outputResolution: number
     
     /**
     * Custom render target resolution, this property will use if the "outputResolution" property is a "Custom".
@@ -4910,8 +6308,6 @@ declare class DeviceInfoSystem extends ScriptObject {
     
     /**
     * Get the DeviceCamera object for the given camera ID which provides intrinsics/extrinsics of the camera. 
-    
-    * @experimental
     
     * @wearableOnly
     */
@@ -6663,6 +8059,11 @@ declare class GeoLocation {
     static createLocationService(): LocationService
     
     /**
+    * Returns the GPS position of a custom location.
+    */
+    static getGeoPositionForLocation(location: LocationAsset): Promise<GeoPosition>
+    
+    /**
     * Calculates heading based on north aligned device orientation.
     */
     static getNorthAlignedHeading(northAlignedOrientation: quat): number
@@ -6790,6 +8191,22 @@ declare class GestureModule extends Asset {
     protected constructor()
     
     /**
+    * Triggered when the thumb and index fingers of the hand in view are pinched together. Compared to `getPinchDownEvent`, this event is more robust when moving the hand.
+    
+    
+    * @wearableOnly
+    */
+    getFilteredPinchDownEvent(handType: GestureModule.HandType): event1<PinchDownArgs, void>
+    
+    /**
+    * Triggered when the thumb and index fingers of the hand in view are separated after being pinched together. Compared to `getPinchUpEvent`, this event is more robust when moving the hand.
+    
+    
+    * @wearableOnly
+    */
+    getFilteredPinchUpEvent(handType: GestureModule.HandType): event1<PinchUpArgs, void>
+    
+    /**
     * Triggered when the hand in view starts performing a grab pose, enabling interactions such as grabbing virtual objects or making a fist.
     
     * @wearableOnly
@@ -6910,6 +8327,11 @@ declare class GesturesDataArgs extends ScriptObject {
 declare class GltfAsset extends Asset {
     
     protected constructor()
+    
+    /**
+    * Use this method to get a dynamic resource for the url from the gltf extras.
+    */
+    getResourceFromExtras(url: string): DynamicResource
     
     /**
     * Try instantiating an object from the GLTF asset.
@@ -7554,7 +8976,7 @@ declare class HitTestSession extends ScriptObject {
     reset(): void
     
     /**
-    * Start the sesion. Depth computation is started once a session is started. Multiple sessions access the same depth data, thus there is no additional cost. 
+    * Start the session. Depth computation is started once a session is started. Multiple sessions access the same depth data, thus there is no additional cost. 
     
     * @wearableOnly
     */
@@ -9672,6 +11094,23 @@ declare class MachineLearning {
 
 declare namespace MachineLearning {
     /**
+    * Used with {@link BasePlaceHolder}.
+    */
+    enum DataLayout {
+        /**
+        * Layout where order is: batch, channels, height, width.
+        */
+        NCHW,
+        /**
+        * Layout where order is: batch, height, width, channels.
+        */
+        NHWC
+    }
+
+}
+
+declare namespace MachineLearning {
+    /**
     * Timing options for when MLComponent should start or stop running. Used with `MLComponent.runScheduled()`.
     * For more information, see the [MLComponent Scripting](https://developers.snap.com/lens-studio/features/snap-ml/ml-component/scripting-ml-component) guide.
     */
@@ -11203,6 +12642,13 @@ declare class MicrophoneAudioProvider extends AudioTrackProvider {
     getAudioFrame(audioFrame: Float32Array): vec3
     
     /**
+    * Retrieves the current audio frame, converts it to PCM16 (Pulse-Code Modulation) format, and writes the raw audio samples into the provided `audioFrame` as an `Int16Array`. The length of the array cant be more than `maxFrameSize`. 
+    
+    * @exposesUserData
+    */
+    getAudioFramePCM16(audioFrame: any): vec3
+    
+    /**
     * Start processing audio from microphone. Useful to avoid redundant processing.
     */
     start(): void
@@ -11225,7 +12671,7 @@ declare class MLAsset extends BinAsset {
     * Returns model metadata as JSON object. 
     
     */
-    getMetadata(): object
+    getMetadata(): any
     
 }
 
@@ -12300,6 +13746,11 @@ declare class OutputBuilder extends ScriptObject {
     setOutputMode(outputMode: MachineLearning.OutputMode): OutputBuilder
     
     /**
+    * Sets the shape of the OutputPlaceholder to be built.
+    */
+    setShape(shape: vec3): OutputBuilder
+    
+    /**
     * Sets the Transformer of the OutputPlaceholder to be built.
     */
     setTransformer(transformer: Transformer): OutputBuilder
@@ -12735,6 +14186,11 @@ declare class PersistentStorageSystem extends ScriptObject {
 declare class PersonTrackingScope extends TrackingScope {
     
     protected constructor()
+    
+    /**
+    * The scope that the current PersonTrackingScope be based on.
+    */
+    parentScope: TextureTrackingScope
     
     /**
     * The person to track. The first person is 0, the second is 1, and so on. 
@@ -13734,7 +15190,7 @@ declare class RemoteApiRequest extends ScriptObject {
     
     endpoint: string
     
-    parameters: object
+    parameters: Record<string, string>
     
     static create(): RemoteApiRequest
     
@@ -13757,7 +15213,7 @@ declare class RemoteApiResponse extends ScriptObject {
     /**
     * @readonly
     */
-    metadata: any
+    metadata: {[key:string]:string}
     
     /**
     * The integer status code of the response.
@@ -13890,7 +15346,7 @@ declare class RemoteServiceHttpRequest extends ScriptObject {
     
     * @CameraKit
     */
-    headers: any
+    headers: {[key:string]:string}
     
     /**
     * The method which should be used to send this http request.
@@ -14026,7 +15482,7 @@ declare class RemoteServiceHttpResponse extends ScriptObject {
     
     * @CameraKit
     */
-    headers: any
+    headers: {[key:string]:string}
     
     /**
     * The http response status code.
@@ -14050,6 +15506,41 @@ declare class RemoteServiceModule extends Asset {
     protected constructor()
     
     /**
+    * The createWebAPISocket(endpoint, params) method initiates a WebSocket connection with the specified `endpoint` and the specified `params` to the Snap authorized remote services. Returns a {@link WebSocket} object that can be used to send and receive messages from the server.
+    
+    * __Syntax__
+    
+    * ```js
+    * createAPIWebSocket(endpoint, params)
+    * ```
+    
+    * - `endpoint` Defines the Snap authorized remote service endpoint to which to establish the WebSocket connection.
+    * - `params` Defines the parameters that will be used to establish the connection.
+    *     
+    * __Example__
+    
+    * ```js
+    * //@input Asset.RemoteServiceModule remoteServiceModule
+    * var remoteServiceModule = script.remoteServiceModule
+    
+    * // Create WebSocket connection.
+    * let socket = script.remoteServiceModule.createAPIWebSocket("real_time", {"api-token" : "token", "api-example" : "realtime=v1", "model": "model"});
+    
+    * // Listen for the open event
+    * socket.onopen = (event) => { print("Socket opened"); };
+    
+    * // Listen for messages
+    * socket.onmessage = async (event) => { print("Socket message"); };
+    
+    * // Listen for the close event
+    * socket.onclose = (event) => { print("Socket closed"); };
+    * ```
+    
+    * @wearableOnly
+    */
+    createAPIWebSocket(endpoint: string, params: any): WebSocket
+    
+    /**
     * Get a `DynamicResource` to be used with `RemoteMediaModule` from `mediaUrl`.
     
     * @wearableOnly
@@ -14061,15 +15552,6 @@ declare class RemoteServiceModule extends Asset {
     performApiRequest(request: RemoteApiRequest, onApiResponse: (response: RemoteApiResponse) => void): void
     
     subscribeApiRequest(request: RemoteApiRequest, onApiResponse: (response: RemoteApiResponse) => void): string
-    
-    /**
-    * Deprecated. This method has been moved to {@link InternetModule}.
-    
-    * @experimental
-    
-    * @wearableOnly
-    */
-    static createWebViewOptions(resolution: vec2): WebViewOptions
     
 }
 
@@ -14395,21 +15877,21 @@ declare class Request extends ScriptObject {
     
     * @wearableOnly
     */
-    bytes(): any
+    bytes(): Promise<Uint8Array>
     
     /**
     * Retrieve the body as a json object.
     
     * @wearableOnly
     */
-    json(): any
+    json(): Promise<any>
     
     /**
     * Retrieve the body as a string.
     
     * @wearableOnly
     */
-    text(): any
+    text(): Promise<string>
     
     /**
     * True if one of the body retrieval methods has been called for this Request.
@@ -14472,21 +15954,21 @@ declare class Response extends ScriptObject {
     
     * @wearableOnly
     */
-    bytes(): any
+    bytes(): Promise<Uint8Array>
     
     /**
     * Retrieve the body as a json object.
     
     * @wearableOnly
     */
-    json(): any
+    json(): Promise<any>
     
     /**
     * Retrieve the body as a string.
     
     * @wearableOnly
     */
-    text(): any
+    text(): Promise<string>
     
     /**
     * True if one of the body retrieval methods has been called for this Response.
@@ -20369,7 +21851,7 @@ declare class WebSocket extends ScriptObject {
     
     * @CameraKit
     */
-    onclose: (event: WebSocketEvent) => void
+    onclose: (event: WebSocketCloseEvent) => void
     
     /**
     * Set a listener for the `error` event. The event passed is {@link WebSocketErrorEvent}. Equivalent to `addEventListener("error", ...)`. This listener will be run in addition to any listeners added via `addEventListener`.
@@ -20409,7 +21891,7 @@ declare class WebSocket extends ScriptObject {
     
     * @CameraKit
     */
-    onmessage: (event: WebSocketEvent) => void
+    onmessage: (event: WebSocketMessageEvent) => void
     
     /**
     * Set a listener for the `open` event. The event passed is {@link WebSocketEvent}. Equivalent to `addEventListener("open", ...)`. This listener will be run in addition to any listeners added via `addEventListener`.
@@ -20528,19 +22010,6 @@ declare class WebSocketCloseEvent extends ScriptObject {
     * @CameraKit
     */
     wasClean: boolean
-    
-}
-
-/**
-* Event type for WebSocket error events. This event indicates when a server-side error has occurred resulting in closure of the WebSocket connection. Listen for this event by using `addEventListener` with `error`, or by setting the `onerror` property.
-
-* @wearableOnly
-
-* @CameraKit
-*/
-declare class WebSocketErrorEvent extends ScriptObject {
-    
-    protected constructor()
     
 }
 
@@ -20709,6 +22178,22 @@ declare class WorldComponent extends Component {
     * Reference to world settings. If not set, use the default world settings for the project.
     */
     worldSettings: Physics.WorldSettingsAsset
+    
+}
+
+/**
+* Provides depth information of the video feed that the Lens is being applied to when available.
+*/
+declare class WorldDepthTextureProvider extends TextureProvider {
+    
+    protected constructor()
+    
+    /**
+    * Returns the depth at the passed in point (values between 0 and 1, where (0, 0) represents the top-left corner) of the physical camera. The depth returned samples raw depth captured by the camera--that is: the depth of the real world in cm. The depth will be provided as a positive number.
+    
+    * @exposesUserData
+    */
+    sampleDepthAtPoint(point: vec2): number
     
 }
 
@@ -21124,8 +22609,6 @@ declare namespace _palette {
     /**
     * Allows the Lens to incorporate voice transcription with higher quality than the {@link VoiceMlModule} and supports a vast number of different languages.
     
-    
-    * @wearableOnly
     */
     let AsrModule: AsrModule
     
@@ -21313,6 +22796,36 @@ declare namespace _palette {
     let Bitmoji3DOptions: Bitmoji3DOptions
     
     /**
+    * Used to set the animation params for the request type.
+    */
+    let Bitmoji3DOptions_AnimationParams: Bitmoji3DOptions.AnimationParams
+    
+    /**
+    * Enum representing avatar scope used in custom params of bitmoji3d options.
+    */
+    let Bitmoji3DOptions_AvatarScope: Bitmoji3DOptions.AvatarScope
+    
+    /**
+    * Enum representing different types of clothing
+    */
+    let Bitmoji3DOptions_ClothingType: Bitmoji3DOptions.ClothingType
+    
+    /**
+    * The custom params can be used for requesting bitmoji assets like garments. These can be set as custom params of Bitmoji3D options. 
+    */
+    let Bitmoji3DOptions_CustomParams: Bitmoji3DOptions.CustomParams
+    
+    /**
+    * Set of parameters used to customize specific parts of avatar such as garment, outerwear etc.
+    */
+    let Bitmoji3DOptions_ParamSet: Bitmoji3DOptions.ParamSet
+    
+    /**
+    * Enum representing different request types.
+    */
+    let Bitmoji3DOptions_RequestType: Bitmoji3DOptions.RequestType
+    
+    /**
     * Provides information about the current user's 3D Bitmoji avatar to be downloaded via the RemoteMediaModule.
     */
     let Bitmoji3DResource: Bitmoji3DResource
@@ -21336,6 +22849,127 @@ declare namespace _palette {
     * @CameraKit
     */
     let Blob: Blob
+    
+    /**
+    * Provides access to Bluetooth GATT devices. APIs include scanning for and connecting to these devices, and reading and writing to their descriptors and characteristics.
+    */
+    let Bluetooth_BluetoothCentralModule: Bluetooth.BluetoothCentralModule
+    
+    /**
+    * Provides access to the Bluetooth connection.
+    */
+    let Bluetooth_BluetoothGatt: Bluetooth.BluetoothGatt
+    
+    /**
+    * A characteristic of the Bluetooth GATT device.
+    
+    * Characteristics are the individual pieces of data within a {@link Bluetooth.BluetoothGattService} that provide specific information. For example, a heart rate sensor might have a Heart Rate service, and that service might have characteristics including "Heart Rate Measurement," "Sensor Location," etc.
+    
+    * __Value__ ({@link Bluetooth.BluetoothGattCharacteristic.readValue}, {@link Bluetooth.BluetoothGattCharacteristic.writeValue}): The actual data being exchanged.
+    
+    * __Properties__ ({@link Bluetooth.BluetoothGattCharacteristic.properties}): Define how the characteristic can be accessed (e.g., read, write, notify, indicate).
+    
+    * __Descriptors__ ({{@link Bluetooth.BluetoothGattCharacteristic.getDescriptor}, {@link Bluetooth.BluetoothGattCharacteristic.getDescriptors}): Provide additional information about the characteristic, such as its units or format.
+    
+    * __UUID__ ({@link Bluetooth.BluetoothGattCharacteristic.uuid}): A unique identifier that identifies the characteristic.
+    
+    * Common characteristics include battery level, heart rate, temperature, and device name. 
+    */
+    let Bluetooth_BluetoothGattCharacteristic: Bluetooth.BluetoothGattCharacteristic
+    
+    /**
+    * Descriptors contain additional information and attributes of a {@link Bluetooth.BluetoothGattCharacteristic}.
+    */
+    let Bluetooth_BluetoothGattDescriptor: Bluetooth.BluetoothGattDescriptor
+    
+    /**
+    * Bluetooth GATT Services are collections of related {@link Bluetooth.BluetoothGattCharacteristic}s representing specific functions or features of a device. For example, a heart rate sensor might have a "Heart Rate" service, which in turn has characteristics like  "Heart Rate Measurement".
+    
+    */
+    let Bluetooth_BluetoothGattService: Bluetooth.BluetoothGattService
+    
+    /**
+    * The statuses for Bluetooth availability. Currently unsupported.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_BluetoothStatus: Bluetooth.BluetoothStatus
+    
+    /**
+    * The event received when Bluetooth status has changed. Currently unsupported.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_BluetoothStatusChangedEvent: Bluetooth.BluetoothStatusChangedEvent
+    
+    /**
+    * Properties of a {@link Bluetooth.BluetoothGattCharacteristic}.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_CharacteristicProperty: Bluetooth.CharacteristicProperty
+    
+    /**
+    * State of a Bluetooth connection.
+    
+    * `Disconnected` The Bluetooth device is disconnected from Spectacles.
+    
+    * `Connected` The Bluetooth device is connected and bonded with Spectacles. 
+    
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_ConnectionState: Bluetooth.ConnectionState
+    
+    /**
+    * The event received when Bluetooth connection status has changed.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_ConnectionStateChangedEvent: Bluetooth.ConnectionStateChangedEvent
+    
+    /**
+    * The event received when Maximum Transmission Unit (MTU) of a Bluetooth device has changed.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_MtuChangedEvent: Bluetooth.MtuChangedEvent
+    
+    /**
+    * The filters to be used with {@link BluetoothCentralModule.startScan}.
+    */
+    let Bluetooth_ScanFilter: Bluetooth.ScanFilter
+    
+    /**
+    * Defines how Bluetooth devices should be scanned. Used with {@link BluetoothCentralModule.startScan}.
+    
+    * @experimental
+    
+    * @wearableOnly
+    */
+    let Bluetooth_ScanMode: Bluetooth.ScanMode
+    
+    /**
+    * The results of a Bluetooth scan. 
+    */
+    let Bluetooth_ScanResult: Bluetooth.ScanResult
+    
+    /**
+    * Settings when scanning for Bluetooth devices via {@link BluetoothCentralModule.startScan}.
+    */
+    let Bluetooth_ScanSettings: Bluetooth.ScanSettings
     
     /**
     * Used to analyze camera input and apply similar image artifacts to AR objects to better blend and match with the real world.
@@ -21817,6 +23451,20 @@ declare namespace _palette {
     let DebugRender: DebugRender
     
     /**
+    * The DeepLinkModule brings the concept of deep linking, familiar from mobile platforms like Android and iOS, to Spectacles. This module allows Lenses to send and receive deep link URIs between Spectacles and the Spectacles App.
+    
+    * @wearableOnly
+    */
+    let DeepLinkModule: DeepLinkModule
+    
+    /**
+    * Arguments used with the {@link DeepLinkModule#onUriReceived} event.
+    
+    * @wearableOnly
+    */
+    let DeepLinkUriReceivedArgs: DeepLinkUriReceivedArgs
+    
+    /**
     * Used for collision meshes that can change shape or form dynamically.
     */
     let DeformingCollisionMesh: DeformingCollisionMesh
@@ -21850,6 +23498,50 @@ declare namespace _palette {
     * Settings for the depth clear option modes on a DepthStencilRenderTargetProvider.
     */
     let DepthClearOption: DepthClearOption
+    
+    /**
+    * The depth frame data as provided by the {@link DepthFrameSession.onNewFrame}.
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    let DepthFrameData: DepthFrameData
+    
+    /**
+    * Used for receiving {@link DepthFrameData} on Spectacles device.
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    let DepthFrameSession: DepthFrameSession
+    
+    /**
+    * Provides access to a {@link DepthFrameSession} on Spectacles device. 
+    
+    * @remarks 
+    * Used for requesting {@link DepthFrameData}.
+    
+    * @see [Depth Module](https://developers.snap.com/spectacles/about-spectacles-features/apis/depth-module) guide.
+    
+    * @experimental
+    
+    * @exposesUserData
+    
+    * @wearableOnly
+    
+    * @wearableOnly
+    */
+    let DepthModule: DepthModule
     
     /**
     * Access to a Depth Stencil Render Target that can output depth and stencil values from a Camera in Depth24/Stencil8 format.
@@ -22667,6 +24359,11 @@ declare namespace _palette {
     * For more information, see the [Machine Learning Overview](https://developers.snap.com/lens-studio/features/snap-ml/ml-overview).
     */
     let MachineLearning: MachineLearning
+    
+    /**
+    * Used with {@link BasePlaceHolder}.
+    */
+    let MachineLearning_DataLayout: MachineLearning.DataLayout
     
     /**
     * Timing options for when MLComponent should start or stop running. Used with `MLComponent.runScheduled()`.
@@ -24406,15 +26103,6 @@ declare namespace _palette {
     let WebSocketCloseEvent: WebSocketCloseEvent
     
     /**
-    * Event type for WebSocket error events. This event indicates when a server-side error has occurred resulting in closure of the WebSocket connection. Listen for this event by using `addEventListener` with `error`, or by setting the `onerror` property.
-    
-    * @wearableOnly
-    
-    * @CameraKit
-    */
-    let WebSocketErrorEvent: WebSocketErrorEvent
-    
-    /**
     * Generic event type for WebSocket.
     
     * @wearableOnly
@@ -24471,6 +26159,11 @@ declare namespace _palette {
     * @see [World Component](https://developers.snap.com/lens-studio/features/physics/physics-component#physics-world)
     */
     let WorldComponent: WorldComponent
+    
+    /**
+    * Provides depth information of the video feed that the Lens is being applied to when available.
+    */
+    let WorldDepthTextureProvider: WorldDepthTextureProvider
     
     /**
     * Holds settings for world mesh tracking in DeviceTracking component. Accessible through DeviceTracking.worldOptions.

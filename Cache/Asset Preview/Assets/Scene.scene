@@ -581,9 +581,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/15aad8cd-06f4-413a-8b0d-2ecfc36de8bc>
   PrefabRemaps:
     []
@@ -704,8 +701,6 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 1.000000
-  UseEstimation: false
-  EstimationIntensity: !<float> 1.000000
 - !<InteractionComponent/1af3b079-435d-468d-a274-e62f29c69f13>
   PrefabRemaps:
     []
@@ -878,6 +873,8 @@
     minValue: true
     usedStep: true
     step: true
+    white: true
+    color: true
     sliderType: true
     hide: true
     hideScreenTransform: true
@@ -895,6 +892,8 @@
       maxValue: !<float> 1.000000
       usedStep: false
       step: !<float> 0.000000
+      white: !<reference.Texture> bd31dc38-178b-4055-ba7e-4948c417ee37
+      color: !<reference.Texture> 4491a2c8-6678-49e6-af30-db118120fcab
       sliderType: 0
       hide: false
       hideScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
@@ -942,9 +941,6 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
-  UseEstimation: false
-  EstimationIntensity: !<float> 1.000000
-  UseEnvMap: true
 - !<ScriptComponent/2218f4bc-0bb2-4e32-8bb8-c054ff556578>
   PrefabRemaps:
     []
@@ -1096,9 +1092,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/2aba7241-7313-4cdc-950e-3607d5a919c7>
   PrefabRemaps:
     []
@@ -1146,9 +1139,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/2d35ced7-2f3a-4d01-9d68-f06988455639>
   PrefabRemaps:
     []
@@ -1275,9 +1265,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<ScriptComponent/2f07e314-413c-410e-bd06-60bb9570e1b9>
   PrefabRemaps:
     []
@@ -1506,7 +1493,6 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
-    CapitilizationOverride: None
   DepthTest: false
   TwoSided: false
 - !<ScriptComponent/35668246-ad69-4b1e-87bb-7abf852fea84>
@@ -1737,9 +1723,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/3fabf82f-eb57-4abc-b683-3c889c5efcdc>
   PrefabRemaps:
     []
@@ -1857,8 +1840,6 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 1.000000
-  UseEstimation: false
-  EstimationIntensity: !<float> 1.000000
 - !<ScriptComponent/405c1bc1-7201-44ce-83e4-c0e984a29d3e>
   PrefabRemaps:
     []
@@ -2583,9 +2564,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/5cdd9ba1-da09-46ce-8eba-b8e2d652ef71>
   PrefabRemaps:
     []
@@ -3113,9 +3091,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/72400b43-64c9-43d1-b418-7ad72438b23f>
   PrefabRemaps:
     []
@@ -3364,9 +3339,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/7e68173e-0a99-4544-8d5b-93ee440e2d9e>
   PrefabRemaps:
     []
@@ -4012,9 +3984,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/9badfb61-2db1-436a-b260-71cf63e451a9>
   PrefabRemaps:
     []
@@ -4066,9 +4035,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/9e72a647-b1af-49ff-8515-0cdf0f232a04>
   PrefabRemaps:
     []
@@ -4217,9 +4183,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/a132a4ea-b9c0-4401-9ffa-4419d673f542>
   PrefabRemaps:
     []
@@ -4305,9 +4268,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<ScreenTransform/a467e43a-5769-48e0-8117-61837f2f883e>
   PrefabRemaps:
     []
@@ -4656,9 +4616,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<ScriptComponent/b70095ce-a72a-4dcc-a49e-e1c7680e0954>
   PrefabRemaps:
     []
@@ -5045,8 +5002,6 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 1.000000
-  UseEstimation: false
-  EstimationIntensity: !<float> 1.000000
 - !<ScreenTransform/d11a2586-91c0-49d9-9783-0cd29cb7d64c>
   PrefabRemaps:
     []
@@ -5388,9 +5343,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/e4d25096-60e7-4e09-b9c5-55c53c97dad3>
   PrefabRemaps:
     []
@@ -5582,7 +5534,6 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
-    CapitilizationOverride: None
   DepthTest: false
   TwoSided: false
 - !<ScriptComponent/e98e84e6-d620-4c55-864b-a8d8b8e16530>
@@ -5676,7 +5627,6 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
-    CapitilizationOverride: None
   DepthTest: false
   TwoSided: false
 - !<ScriptComponent/ea71cb5d-30ff-47dc-8195-b5ec857f2829>
@@ -5716,9 +5666,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/ef19f641-9223-44c7-a3d9-6c86967d2d05>
   PrefabRemaps:
     []
@@ -5866,9 +5813,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<ScreenTransform/fce77aef-bff9-4f80-a62a-75a9c3e1b537>
   PrefabRemaps:
     []
@@ -5987,9 +5931,6 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
-  UseEstimation: false
-  EstimationIntensity: !<float> 1.000000
-  UseEnvMap: true
 - !<ScreenTransform/ff278d9b-be97-4066-8fb0-5c478aff0d78>
   PrefabRemaps:
     []
@@ -6042,9 +5983,6 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
-  Size:
-    x: !<float> 1.000000
-    y: !<float> 1.000000
 - !<SceneObject/ffbbf060-349d-4e24-8d32-79c662a2d928>
   PrefabRemaps:
     []

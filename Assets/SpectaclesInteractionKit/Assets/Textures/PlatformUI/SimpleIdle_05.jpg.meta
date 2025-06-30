@@ -5,6 +5,8 @@
   PrimaryAsset: !<reference> 4be3eda0-f213-4505-a1c0-b7219f10f63b
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
   AssetDataMap:
     {}
   DependentFiles:
@@ -16,5 +18,3 @@
     CompressionSettings: !<TextureCompressionMipmapSettings>
       Level: Medium
       Mipmap: false
-  ExtraData:
-    {}

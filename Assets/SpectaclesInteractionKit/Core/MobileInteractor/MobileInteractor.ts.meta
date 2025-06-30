@@ -1,21 +1,23 @@
 - !<AssetImportMetadata/e9f1ca35-313a-5464-8ed5-04f1847eb7e7>
-  ImporterSettings: !<AssetImporterSettings>
-    {}
   ImportedAssetIds:
     TypeScriptAsset: !<reference> 7876e94e-1942-4993-ab2d-d35e572dbe74
   ImporterName: TypeScriptAssetImporter
   PrimaryAsset: !<reference> 7876e94e-1942-4993-ab2d-d35e572dbe74
   PackageType: NotAPackage
-  AssetDataMap:
-    TypeScriptAsset: !<own> 059eae64-6c0c-45cd-95e0-1adb996d46a5
   PackagePolicy: CannotBeUnpacked
-  DependentFiles:
-    []
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
     {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 059eae64-6c0c-45cd-95e0-1adb996d46a5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/059eae64-6c0c-45cd-95e0-1adb996d46a5>
-  Icon: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
@@ -38,6 +40,8 @@
     touchpadDragThreshold: false
   ScriptTypesHidden:
     {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - _drawDebug: false
       sphereCastEnabled: false
@@ -79,8 +83,3 @@
     - '// @input float _touchpadScrollSpeed = 250 {"hint":"Controls how much touchpad movement is amplified when translating touch input to 3D space.  Higher values result in faster/larger movements from small touch gestures, while lower values provide more precise control requiring larger touch gestures to achieve the same movement."}'
     - '// @input float touchpadDragThreshold = 0.05 {"hint":"Controls the minimum distance a finger must move on the touchpad to be considered a drag. Uses normalized screen coordinates (0-1), where 0.05 represents 5% of the screen width/height. Lower values make dragging more sensitive to small movements."}'
     - '// @ui {"widget":"group_end"}'
-  SvgIcon: ""
-  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
-  SetupScript:
-    code: ""
-  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
