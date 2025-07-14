@@ -1,10 +1,10 @@
 - !<AssetImportMetadata/cf389f6a-7512-4f71-9b33-7e925081b4c3>
   ImportedAssetIds:
+    18e2838e0009d923: !<reference> bcb130f2-ae29-47ff-9d1f-384c38497fe5
+    4c277c6797805bfd: !<reference> 51aac415-e087-426d-bd2c-78d80c2716b7
     7a0dd5cd69df73fa: !<reference> f2204140-0437-4737-9dad-aac38187db1b
-    Meshes/Terrain: !<reference> b628a19e-99c4-4c49-9342-b9d43cfdfeb7
+    Meshes/Mesh 1: !<reference> e36db21a-f5a7-4abf-808d-7ff446b0b955
     Scene: !<reference> 7dfc2263-09c6-4b70-84b0-fc643f5fa3b7
-    bedb694534a3ca30: !<reference> f159095e-ec11-4c25-a827-19ab251e33e4
-    fc5e87e9832cbbcf: !<reference> 7b2f07e7-4182-4119-8a86-e4396accff39
   ImporterName: ObjImporter
   PrimaryAsset: !<reference> 7dfc2263-09c6-4b70-84b0-fc643f5fa3b7
   PackageType: LegacyPackage

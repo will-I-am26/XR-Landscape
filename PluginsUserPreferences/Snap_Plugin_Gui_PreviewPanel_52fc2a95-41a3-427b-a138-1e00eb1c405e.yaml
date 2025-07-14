@@ -4,7 +4,7 @@ backCameraMultimedia:
   options: 4
 cameraType:
   type: int
-  value: 0
+  value: 1
   options: 4
 deviceType:
   type: string
@@ -36,7 +36,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: InteractiveResources.bundle/Scenes/Plane
+  value: InteractiveResources.bundle/Scenes/Colorful Home
   options: 4
 previewTarget:
   type: int
