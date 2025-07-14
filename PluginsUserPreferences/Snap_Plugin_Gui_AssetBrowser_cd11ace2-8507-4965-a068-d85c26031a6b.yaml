@@ -1,16 +1,19 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 777
+    size: 785
     values:
       - Apple Tree Object.prefab
       - Base.png
       - Behavior.js
+      - Camping Pack
+      - Camping Pack/Bitmoji Camping Pack Resources
       - CollisionLogger.ts
       - CollisionMonitor.js
       - Echopark.hdr
       - Flower Object.prefab
       - FlowerBouquet Object.prefab
+      - Lock Scale.ts
       - Mini Basketball Court
       - Mini Basketball Court/Mini Basketball Court__ADD_TO_SCENE.prefab
       - Mini Basketball Court/minibasketballground.fbx
@@ -33,6 +36,20 @@ CollapsedEntities:
       - Mini Basketball Court/minibasketballground.fbx/Meshes/Sphere1.001
       - Mini Basketball Court/minibasketballground.fbx/Meshes/Wall
       - Mini Basketball Court/minibasketballground.fbx/minibasketballground
+      - Move Along Path
+      - Move Along Path/.hidden
+      - Move Along Path/.hidden/Textures
+      - Move Along Path/.hidden/Textures/Base.png
+      - Move Along Path/.hidden/Textures/Normal.png
+      - Move Along Path/.hidden/UberDiffuse.lsmat.mat
+      - Move Along Path/.hidden/UberDiffuse1.lsmat.ss_graph
+      - Move Along Path/Move Along Path Resources/Fonts
+      - Move Along Path/Move Along Path Resources/Fonts/fredoka_one_regular.ttf
+      - Move Along Path/Move Along Path Resources/Meshes
+      - Move Along Path/Move Along Path Resources/Meshes/Box.mesh
+      - Move Along Path/Move Along Path Resources/Meshes/Sphere.mesh
+      - Move Along Path/Move Along Path Resources/Scripts/MoveAlongPath.js
+      - Move Along Path/MoveAlongPath__PLACE_IN_OBJECTS_PANEL.prefab
       - Nature Pack
       - Nature Pack/.hidden
       - Nature Pack/.hidden/daffodil.ss_graph
@@ -105,7 +122,6 @@ CollapsedEntities:
       - Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
       - Occluder.mat
       - Physics Filter.filter
-      - Prefabs/Apple Tree Object.prefab
       - Prefabs/Flower Object.prefab
       - Prefabs/FlowerBouquet Object.prefab
       - Prefabs/Plane Object.prefab
@@ -113,7 +129,6 @@ CollapsedEntities:
       - Prefabs/Water Object.prefab
       - SnapOnManipulation_DelayedLookup.js
       - SnapOnProximity.js
-      - SpectaclesInteractionKit
       - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/Assets
       - SpectaclesInteractionKit.lspkg/Components/Helpers
@@ -277,7 +292,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
       - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/ButtonFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
@@ -328,7 +342,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
-      - SpectaclesInteractionKit/Components/UI
       - SpectaclesInteractionKit/Components/UI/ContainerFrame
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
@@ -373,7 +386,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual/SimpleLODRenderMeshVisual.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SmoothFollow.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SnappableBehavior.ts
-      - SpectaclesInteractionKit/Components/UI/PinchButton
       - SpectaclesInteractionKit/Components/UI/PinchButton/PinchButton.ts
       - SpectaclesInteractionKit/Components/UI/ScrollBar
       - SpectaclesInteractionKit/Components/UI/ScrollBar/ScrollBar.ts
@@ -590,10 +602,6 @@ CollapsedEntities:
       - Tap To Add To Mesh/Tap To Add Resources/Wood.mat
       - Tap To Add To Mesh/Tap To Add Resources/renderUV.mat
       - Tap To Add To Mesh/TapToAdd__PUT_IN_OBJECTS_PANEL.prefab
-      - Terrain.obj
-      - Terrain.obj/Meshes
-      - Terrain.obj/Meshes/Mesh 1
-      - Terrain.obj/Terrain
       - Text Logger.lsc
       - Untitled JavaScript.js
       - Untitled TypeScript 2.ts

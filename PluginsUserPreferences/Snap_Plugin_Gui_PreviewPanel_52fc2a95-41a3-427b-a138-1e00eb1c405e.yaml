@@ -16,7 +16,7 @@ frameRate:
   options: 4
 frontCameraMultimedia:
   type: string
-  value: PreviewResources.bundle/Video/World/Patio.mp4
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
   options: 4
 fullscreenSpectaclesSimulation:
   type: bool
