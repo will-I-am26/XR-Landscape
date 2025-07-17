@@ -1,100 +1,46 @@
-- !<AssetImportMetadata/ec109b0f-2ba7-490b-bb42-087ccaf4eaba>
+- !<AssetImportMetadata/9a70d2af-ace6-4f0e-a64a-e2a3ad437a4b>
   ImportedAssetIds:
-    ObjectPrefab: !<reference> 4a4abdf8-70ce-4167-8ed5-766208412418
+    ObjectPrefab: !<reference> ae7cf967-f5bd-4e87-9673-7a4bafcc5acf
   ImporterName: ObjectPrefabImporter
-  PrimaryAsset: !<reference> 4a4abdf8-70ce-4167-8ed5-766208412418
+  PrimaryAsset: !<reference> ae7cf967-f5bd-4e87-9673-7a4bafcc5acf
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    ObjectPrefab: !<own> bb0c2713-7ee0-448b-84d6-df90a6a8f27e
+    ObjectPrefab: !<own> 701038b2-f43a-4b88-8354-57d057c7c496
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptComponent/3118de10-82f8-4e65-93a5-188ba5e0628f>
+- !<ScriptComponent/0b9f1158-3bb2-4c18-95fe-0ce52a32ab65>
   PrefabRemaps:
     []
-  Name: InteractableOutlineFeedback
+  Name: InteractableAudioFeedback
   Enabled: true
-  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptAsset: !<reference> 1ad7da86-2c32-418c-bdf1-b7150c07c912
   ScriptInputsDefault:
-    targetOutlineMaterial: true
-    hoveringColor: true
-    activatingColor: true
-    outlineWeight: true
-    meshVisuals: true
+    _playAudioOnHover: true
+    _hoverAudioTrack: true
+    _playAudioOnTriggerStart: true
+    _triggerStartAudioTrack: true
+    _playAudioOnTriggerEnd: true
+    _triggerEndAudioTrack: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      targetOutlineMaterial: !<reference.Material> 7ac80b6c-979a-4a00-a694-099f296be161
-      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
-      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-      outlineWeight: -0.250000
-      meshVisuals: !<reference.RenderMeshVisual[]>
-        []
+      _playAudioOnHover: false
+      _hoverAudioTrack: !<reference.AudioTrackAsset> 97bf97ae-b2da-47d7-bde6-003f597fe888
+      _playAudioOnTriggerStart: true
+      _triggerStartAudioTrack: !<reference.AudioTrackAsset> edad7d53-55da-40b1-9025-fad0e7207862
+      _playAudioOnTriggerEnd: true
+      _triggerEndAudioTrack: !<reference.AudioTrackAsset> 82028831-1631-4d7b-b548-ff6be4e0a2ba
   ScriptTypes:
     "":
       {}
-- !<RenderMeshVisual/3a3a0d05-840d-4757-a55b-6a1e466ead02>
-  PrefabRemaps:
-    []
-  Name: Render Mesh Visual
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 6d26372b-0847-4f4c-b2a2-8e6e1c5e835f
-  Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/4fd58dd7-a32d-490f-83af-d47039e3ec56>
-  PrefabRemaps:
-    []
-  Name: FlowerBouquet
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: -5.000000, z: 0.000000}
-    rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> ada93b33-2024-441b-a726-91ea6e8930b6
-    - !<own> 642935d1-8a9d-43e3-aedb-9812ce6b2fc7
-    - !<own> 3a3a0d05-840d-4757-a55b-6a1e466ead02
-    - !<own> f6c8c870-2f97-4c97-959a-230a73160274
-    - !<own> 3118de10-82f8-4e65-93a5-188ba5e0628f
-    - !<own> 81da8081-e790-45d1-9587-734368b010fb
-- !<SceneObject/5e0f53fa-e37e-4c1d-906c-46eb07c45eb4>
-  PrefabRemaps:
-    []
-  Name: FlowerBouquet Object
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: -25.000000, y: 0.000000, z: -111.850502}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 4fd58dd7-a32d-490f-83af-d47039e3ec56
-  Components:
-    []
-- !<ScriptComponent/642935d1-8a9d-43e3-aedb-9812ce6b2fc7>
+- !<ScriptComponent/1b03e98c-0d02-4e3d-98c2-b999dfb6d97d>
   PrefabRemaps:
     []
   Name: InteractableManipulation
@@ -125,7 +71,7 @@
     {}
   ScriptInputs:
     "":
-      manipulateRootSceneObject: !<reference.SceneObject> 5e0f53fa-e37e-4c1d-906c-46eb07c45eb4
+      manipulateRootSceneObject: !<reference.SceneObject> 422b7747-023d-42e4-894b-b8f8ff7925f4
       minimumScaleFactor: 0.250000
       maximumScaleFactor: !<float> 20.000000
       enableTranslation: true
@@ -149,31 +95,67 @@
   ScriptTypes:
     "":
       {}
-- !<BodyComponent/81da8081-e790-45d1-9587-734368b010fb>
+- !<RenderMeshVisual/2728d314-bd84-4d0d-a8dc-7e10e12f2468>
   PrefabRemaps:
     []
-  Name: Physics Body
+  Name: Render Mesh Visual
   Enabled: true
-  Shape: !<Mesh>
-    Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
-    Convex: false
-    Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  Matter: !<reference> 00000000-0000-0000-0000-000000000000
-  Filter: !<reference> 00000000-0000-0000-0000-000000000000
-  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
-  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
-  EnableSmoothing: false
-  PositionTension: 30.000000
-  RotationTension: 30.000000
-  ForceCompound: false
-  Intangible: false
-  ShowCollider: false
-  Dynamic: false
-  BodySetting: Density
-  BodySettingValue: 1.000000
-  Damping: 0.000000
-  AngularDamping: 0.000000
-- !<ScriptComponent/ada93b33-2024-441b-a726-91ea6e8930b6>
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6d26372b-0847-4f4c-b2a2-8e6e1c5e835f
+  Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/422b7747-023d-42e4-894b-b8f8ff7925f4>
+  PrefabRemaps:
+    []
+  Name: FlowerBouquet Object
+  Enabled: false
+  Layers: 2
+  LocalTransform:
+    position: {x: -25.000000, y: 0.000000, z: -111.850502}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c88908e4-ee75-4483-a3a8-b4f4fdc960df
+  Components:
+    []
+- !<ScriptComponent/484da7e3-6625-44e3-8881-6518e5f07cbb>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    targetOutlineMaterial: true
+    hoveringColor: true
+    activatingColor: true
+    outlineWeight: true
+    meshVisuals: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7ac80b6c-979a-4a00-a694-099f296be161
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: -0.250000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/68450b3e-89e1-4517-9a28-4631b8a54e9d>
   PrefabRemaps:
     []
   Name: Interactable
@@ -207,47 +189,107 @@
   ScriptTypes:
     "":
       {}
-- !<ObjectPrefab/ae0d21e3-a067-40a5-9ab0-2b44fab869eb>
+- !<ObjectPrefabAssetData/701038b2-f43a-4b88-8354-57d057c7c496>
+  SourceRemaps:
+    - 05c99766-3e42-4df0-bd80-36e625c33637: a5df1b27-f894-4cd4-872f-3047a0a804bf
+    - 0dcce2ae-6a9e-4806-8eb2-2c5417ad3d14: 68450b3e-89e1-4517-9a28-4631b8a54e9d
+    - 2a0770c6-dd02-4f02-b920-794df48971af: 9ec75881-23fd-494c-afa0-462aa4aa2953
+    - 3b297b24-c057-4d0f-8b75-c7c27e2fd2f8: 2728d314-bd84-4d0d-a8dc-7e10e12f2468
+    - 4c5a1e9a-b371-49e3-84c0-31cdc612687f: 422b7747-023d-42e4-894b-b8f8ff7925f4
+    - 8b95cfd9-ce9b-4061-b3b0-172de2ed41f3: 0b9f1158-3bb2-4c18-95fe-0ce52a32ab65
+    - ab28928b-aa9e-4748-abd1-0cc40bbd4ab2: 1b03e98c-0d02-4e3d-98c2-b999dfb6d97d
+    - ae7cf967-f5bd-4e87-9673-7a4bafcc5acf: 986172f0-0cce-48da-bc5d-0432ea8c48b6
+    - bed0dd87-6fa7-474d-b430-7595e735c32c: 484da7e3-6625-44e3-8881-6518e5f07cbb
+    - eec1abef-d6bc-416a-b137-d10309c5a6a3: a8b4aba8-4560-4d45-8572-d08dec0325f1
+    - f8ead36e-bca2-49d9-9cad-0330f5258037: c88908e4-ee75-4483-a3a8-b4f4fdc960df
+  SourceState: !<own> 986172f0-0cce-48da-bc5d-0432ea8c48b6
+- !<ObjectPrefab/986172f0-0cce-48da-bc5d-0432ea8c48b6>
   PackagePath: ""
   objects:
-    - !<own> 5e0f53fa-e37e-4c1d-906c-46eb07c45eb4
+    - !<own> 422b7747-023d-42e4-894b-b8f8ff7925f4
   LazyLoading: false
   RetainAssets: true
-- !<ObjectPrefabAssetData/bb0c2713-7ee0-448b-84d6-df90a6a8f27e>
-  SourceRemaps:
-    - 477c3004-53a8-4ded-bf9f-b19ab686ce3f: 3a3a0d05-840d-4757-a55b-6a1e466ead02
-    - 48e5b79e-ace3-4680-a9ff-c1e7f84e119a: 642935d1-8a9d-43e3-aedb-9812ce6b2fc7
-    - 4a4abdf8-70ce-4167-8ed5-766208412418: ae0d21e3-a067-40a5-9ab0-2b44fab869eb
-    - 75b15ba6-a254-498d-a20d-a013667c1e23: 81da8081-e790-45d1-9587-734368b010fb
-    - 8ec0de4b-20df-4287-a7f7-a825d2a1d10c: f6c8c870-2f97-4c97-959a-230a73160274
-    - b978e49f-cd5c-47b2-8d90-611518f4795e: 4fd58dd7-a32d-490f-83af-d47039e3ec56
-    - d80948a5-d552-41fc-aef9-9be004471b2a: 3118de10-82f8-4e65-93a5-188ba5e0628f
-    - d934da01-2a1e-42e8-8ce2-ff26e17d6131: 5e0f53fa-e37e-4c1d-906c-46eb07c45eb4
-    - ed8e4c07-b3b5-499c-8613-a66c04652553: ada93b33-2024-441b-a726-91ea6e8930b6
-  SourceState: !<own> ae0d21e3-a067-40a5-9ab0-2b44fab869eb
-- !<ScriptComponent/f6c8c870-2f97-4c97-959a-230a73160274>
+- !<ColliderComponent/9ec75881-23fd-494c-afa0-462aa4aa2953>
   PrefabRemaps:
     []
-  Name: InteractableAudioFeedback
+  Name: Physics Collider
   Enabled: true
-  ScriptAsset: !<reference> 1ad7da86-2c32-418c-bdf1-b7150c07c912
+  Shape: !<Mesh>
+    Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
+    Convex: true
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> e3e64725-47b8-4de7-9f98-ee6a9d8c2531
+  OverlapFilter: !<reference> e3e64725-47b8-4de7-9f98-ee6a9d8c2531
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ScriptComponent/a5df1b27-f894-4cd4-872f-3047a0a804bf>
+  PrefabRemaps:
+    []
+  Name: CollisionLogger
+  Enabled: true
+  ScriptAsset: !<reference> 9dbc2864-1499-4a16-a361-c5e1459a25bf
   ScriptInputsDefault:
-    _playAudioOnHover: true
-    _hoverAudioTrack: true
-    _playAudioOnTriggerStart: true
-    _triggerStartAudioTrack: true
-    _playAudioOnTriggerEnd: true
-    _triggerEndAudioTrack: true
+    cloudStorage: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      _playAudioOnHover: false
-      _hoverAudioTrack: !<reference.AudioTrackAsset> 97bf97ae-b2da-47d7-bde6-003f597fe888
-      _playAudioOnTriggerStart: true
-      _triggerStartAudioTrack: !<reference.AudioTrackAsset> edad7d53-55da-40b1-9025-fad0e7207862
-      _playAudioOnTriggerEnd: true
-      _triggerEndAudioTrack: !<reference.AudioTrackAsset> 82028831-1631-4d7b-b548-ff6be4e0a2ba
+      collider: !<reference.ColliderComponent> 9ec75881-23fd-494c-afa0-462aa4aa2953
+      scriptObj: !<reference.ScriptComponent> a5df1b27-f894-4cd4-872f-3047a0a804bf
+      InManip: !<MappingBased.AssignableType> 1b03e98c-0d02-4e3d-98c2-b999dfb6d97d
+      cloudStorage: !<reference.CloudStorageModule> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}
+- !<BodyComponent/a8b4aba8-4560-4d45-8572-d08dec0325f1>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 5ab6c54d-cc53-4f42-aa50-bb97d67a984a
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> e3e64725-47b8-4de7-9f98-ee6a9d8c2531
+  OverlapFilter: !<reference> e3e64725-47b8-4de7-9f98-ee6a9d8c2531
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/c88908e4-ee75-4483-a3a8-b4f4fdc960df>
+  PrefabRemaps:
+    []
+  Name: FlowerBouquet
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: -5.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 68450b3e-89e1-4517-9a28-4631b8a54e9d
+    - !<own> 1b03e98c-0d02-4e3d-98c2-b999dfb6d97d
+    - !<own> 2728d314-bd84-4d0d-a8dc-7e10e12f2468
+    - !<own> 0b9f1158-3bb2-4c18-95fe-0ce52a32ab65
+    - !<own> 484da7e3-6625-44e3-8881-6518e5f07cbb
+    - !<own> a8b4aba8-4560-4d45-8572-d08dec0325f1
+    - !<own> 9ec75881-23fd-494c-afa0-462aa4aa2953
+    - !<own> a5df1b27-f894-4cd4-872f-3047a0a804bf

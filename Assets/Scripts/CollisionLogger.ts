@@ -17,6 +17,9 @@ export class CollisionLogger extends BaseScriptComponent {
     @input
     public InManip: InteractableManipulation;
 
+    @input
+    public cloudStorage: CloudStorageModule;
+
     
     public reset: Boolean;
 

@@ -296,7 +296,7 @@
   Enabled: true
   ScriptAsset: !<reference> 9dbc2864-1499-4a16-a361-c5e1459a25bf
   ScriptInputsDefault:
-    {}
+    cloudStorage: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -304,6 +304,7 @@
       collider: !<reference.ColliderComponent> 44f3d0b3-92b5-481f-887a-cd7de7f319a5
       scriptObj: !<reference.ScriptComponent> 85a77655-cc3d-461a-85cf-2305356cdcbb
       InManip: !<MappingBased.AssignableType> a30eddb1-b410-42f4-a3bf-ba300549fd52
+      cloudStorage: !<reference.CloudStorageModule> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}
@@ -506,7 +507,7 @@
   Enabled: false
   ScriptAsset: !<reference> 9dbc2864-1499-4a16-a361-c5e1459a25bf
   ScriptInputsDefault:
-    {}
+    cloudStorage: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -514,6 +515,7 @@
       collider: !<reference.ColliderComponent> 44f3d0b3-92b5-481f-887a-cd7de7f319a5
       scriptObj: !<reference.ScriptComponent> c9893553-d742-4170-9ab6-5ae785156b54
       InManip: !<MappingBased.AssignableType> a30eddb1-b410-42f4-a3bf-ba300549fd52
+      cloudStorage: !<reference.CloudStorageModule> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

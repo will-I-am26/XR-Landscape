@@ -29,6 +29,7 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     InManip: false
+    cloudStorage: false
     collider: false
     scriptObj: false
   ScriptTypesHidden:
@@ -39,6 +40,7 @@
     - collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
       scriptObj: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       InManip: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      cloudStorage: !<reference.CloudStorageModule> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -46,3 +48,4 @@
     - // @input Component.ColliderComponent collider
     - // @input Component.ScriptComponent scriptObj
     - // @input AssignableType InManip
+    - // @input Asset.CloudStorageModule cloudStorage
