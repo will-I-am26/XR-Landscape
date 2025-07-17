@@ -17,11 +17,13 @@ export class CollisionLogger extends BaseScriptComponent {
     @input
     public InManip: InteractableManipulation;
 
-    @input
-    public cloudStorage: CloudStorageModule;
 
-    
+    @input
+    public anchorObj: SceneObject;
+
     public reset: Boolean;
+    public store = global.persistentStorageSystem.store;
+    public positionKey = this.sceneObject.name;
 
     
     onAwake(): void {
@@ -33,17 +35,16 @@ export class CollisionLogger extends BaseScriptComponent {
         if (this.InManip) {
             this.InManip.showTranslationProperties = true;
         }
-        // Each time an overlap starts, print a message and reset the collider state
-        // this.createEvent("OnStartEvent").bind(() => {
-        //     if (this.pinchButton) {
-        //         this.pinchButton.onButtonPinched.add(() => {
-        //             if (this.widget) {
-        //                 this.widget.destroy();
-        //             }
-        //             print(`I pusha da buttin me dood`);
-        //         });
-        //     }
-        // });
+        if (this.store.has(this.positionKey)) {
+            let savedRelative = this.store.getVec3(this.positionKey);
+            let anchorPos = this.anchorObj.getTransform().getWorldPosition();
+            let worldPos = new vec3(
+                savedRelative.x + anchorPos.x,
+                savedRelative.y + anchorPos.y,
+                savedRelative.z + anchorPos.z
+            );
+            this.getTransform().setWorldPosition(worldPos);
+        }
 
         if (this.collider) {
             this.collider.onOverlapEnter.add((eventArgs: any) => {
@@ -54,10 +55,22 @@ export class CollisionLogger extends BaseScriptComponent {
                     var result: Boolean
                     result = true;
                     print(`🔶 Overlapped with: ${otherName}`);
+                    print(`Anchor is at ${this.anchorObj.getTransform().getWorldPosition()}`);
+                    print(`Anchor has a rotation of ${this.anchorObj.getTransform().getWorldRotation().toEulerAngles().y}`);
 
                     if (otherName == 'Terrain' && this.InManip) {
                         this.InManip.setCanTranslate(false);
                         this.collider.enabled = false;
+
+                        let localPos = this.getTransform();
+                        let anchorPos = this.anchorObj.getTransform();
+                        let relativePos = new vec3(
+                            localPos.getWorldPosition().x - anchorPos.getWorldPosition().x,
+                            localPos.getWorldPosition().y - anchorPos.getWorldPosition().y,
+                            localPos.getWorldPosition().z - anchorPos.getWorldPosition().z
+                        );
+                        this.store.remove(this.positionKey);
+                        this.store.putVec3(this.positionKey, relativePos);
                     }
 
                     if (this.InManip) {
@@ -82,5 +95,10 @@ export class CollisionLogger extends BaseScriptComponent {
                 }
             });
         }
+    }
+
+    startPlacement() {
+
+        print(`Starting placement`);
     }
 }
