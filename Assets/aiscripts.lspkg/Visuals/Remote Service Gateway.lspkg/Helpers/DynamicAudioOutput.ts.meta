@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/7023399d-bb60-c822-52b8-753467fabbc8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 32b36655-632d-4acc-b879-e74c36e23aa4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 32b36655-632d-4acc-b879-e74c36e23aa4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6f1fd77b-6745-4714-872d-7f145af06108
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6f1fd77b-6745-4714-872d-7f145af06108>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ab48a63f-4cc3-42e4-8426-c5637832332a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    audioOutputTrack: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - audioOutputTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"This script manages audio output for generative AI models."}'
+    - '// @ui {"widget":"separator"}'
+    - // @input Asset.AudioTrackAsset audioOutputTrack
