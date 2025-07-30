@@ -1,8 +1,9 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 859
+    size: 860
     values:
+      - ""
       - Camera
       - Camera/Echopark.hdr
       - Cloud Storage Module.cloudStorageModule
