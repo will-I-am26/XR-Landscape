@@ -25,7 +25,7 @@ export class ASRQueryController extends BaseScriptComponent {
     this.activityRenderMesh.clearMaterials();
     this.activityRenderMesh.mainMaterial = this.activityMaterial;
     this.activityMaterial.mainPass.in_out = 0;
-    this.button.onButtonPinched.add(() => {
+    this.button.onButtonPinched.add(() => { 
       this.getVoiceQuery().then((query) => {
         this.onQueryEvent.invoke(query);
       });

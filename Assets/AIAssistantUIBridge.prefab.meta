@@ -1,0 +1,329 @@
+- !<AssetImportMetadata/cf852a7e-5a48-457c-b3b9-30720852742c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 727472dd-b60a-4eb7-8567-33fb7bde9fa0
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 727472dd-b60a-4eb7-8567-33fb7bde9fa0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> cc91b09f-7063-4058-afe2-f372e082646b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0bcf0a27-a7d0-44cc-9d90-756bdfc96b62>
+  PrefabRemaps:
+    []
+  Name: InteractableSnap3DGenerator
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 82f817ea-8484-48a0-ae81-7b9e43cc3eaa
+- !<ScriptComponent/13a359b3-ea0e-4cd8-ab7e-b82d72af70f1>
+  PrefabRemaps:
+    []
+  Name: GeminiAssistant
+  Enabled: true
+  ScriptAsset: !<reference> 92165df8-e84d-4feb-9209-37b3fcc1d28c
+  ScriptInputsDefault:
+    websocketRequirementsObj: true
+    dynamicAudioOutput: true
+    microphoneRecorder: true
+    instructions: true
+    haveVideoInput: true
+    haveAudioOutput: true
+    voice: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      websocketRequirementsObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dynamicAudioOutput: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      microphoneRecorder: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      instructions: You are a helpful assistant that loves to make puns
+      haveVideoInput: false
+      haveAudioOutput: false
+      voice: Puck
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/1a6b638d-4440-4229-ac2b-46bb67b0e91c>
+  PrefabRemaps:
+    []
+  Name: ASRQueryController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2275e497-ad95-4318-92fe-bb34c5fddef6
+- !<ScriptComponent/2275e497-ad95-4318-92fe-bb34c5fddef6>
+  PrefabRemaps:
+    []
+  Name: ASRQueryController
+  Enabled: true
+  ScriptAsset: !<reference> e33474ad-5f51-4fd0-9bb3-0edbb8057b34
+  ScriptInputsDefault:
+    button: true
+    activityRenderMesh: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      button: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      activityRenderMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/4e92edfd-25c2-41c2-a049-3571502771dc>
+  PrefabRemaps:
+    []
+  Name: InteractableImageGenerator
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9f723e15-1b53-47d0-b235-b613df531396
+- !<ScriptComponent/82f817ea-8484-48a0-ae81-7b9e43cc3eaa>
+  PrefabRemaps:
+    []
+  Name: InteractableSnap3DGenerator
+  Enabled: true
+  ScriptAsset: !<reference> ef89087e-e683-47db-8006-ff1dc399257c
+  ScriptInputsDefault:
+    snap3DFactory: true
+    asrQueryController: true
+    targetPosition: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      snap3DFactory: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      asrQueryController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/8b6f5636-014f-4057-8cba-ac73ff3aea65>
+  PrefabRemaps:
+    []
+  Name: SphereController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db183fdc-ac63-4dd0-a065-1074d3171eb9
+- !<SceneObject/96fb697e-8b5c-49ac-b896-4e1b91081d08>
+  PrefabRemaps:
+    []
+  Name: GeminiAssistant
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 13a359b3-ea0e-4cd8-ab7e-b82d72af70f1
+- !<ScriptComponent/9f723e15-1b53-47d0-b235-b613df531396>
+  PrefabRemaps:
+    []
+  Name: InteractableImageGenerator
+  Enabled: true
+  ScriptAsset: !<reference> 461d8cdd-50b7-4444-b866-5aab1fbc5245
+  ScriptInputsDefault:
+    modelProvider: true
+    image: true
+    textDisplay: true
+    asrQueryController: true
+    spinner: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      modelProvider: OpenAI
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      textDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      asrQueryController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/b8288c11-7f0b-46ec-ac72-fe1d001a1a19>
+  PrefabRemaps:
+    []
+  Name: AIAssistantUIBridge
+  Enabled: true
+  ScriptAsset: !<reference> 001abcab-9d29-4b02-8723-7cdc8db851b1
+  ScriptInputsDefault:
+    geminiAssistant: true
+    openAIAssistant: true
+    sphereController: true
+    snap3DInteractableFactory: true
+    hintTitle: true
+    hintText: true
+    geminiButton: true
+    openAIButton: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      geminiAssistant: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      openAIAssistant: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      sphereController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      snap3DInteractableFactory: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      hintTitle: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      geminiButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      openAIButton: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/cbe2cdb0-4168-4f90-aa23-bdc79a1e69de>
+  PrefabRemaps:
+    []
+  Name: OpenAIAssistant
+  Enabled: true
+  ScriptAsset: !<reference> 818e7a9b-9b86-4340-8101-5513478c1721
+  ScriptInputsDefault:
+    websocketRequirementsObj: true
+    dynamicAudioOutput: true
+    microphoneRecorder: true
+    instructions: true
+    haveAudioOutput: true
+    voice: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      websocketRequirementsObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dynamicAudioOutput: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      microphoneRecorder: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      instructions: You are a helpful assistant that loves to make puns
+      haveAudioOutput: false
+      voice: coral
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/cc91b09f-7063-4058-afe2-f372e082646b>
+  SourceRemaps:
+    - 02f13bf6-8921-4648-8381-8e1f20822645: 0bcf0a27-a7d0-44cc-9d90-756bdfc96b62
+    - 1737a21d-3f81-4afa-b116-bdbbb3f8d627: 96fb697e-8b5c-49ac-b896-4e1b91081d08
+    - 1784dfd5-b9e2-43a6-96a8-264d1ec82192: 82f817ea-8484-48a0-ae81-7b9e43cc3eaa
+    - 3e13e7b4-d4dc-48d5-8693-d224a06ad714: db183fdc-ac63-4dd0-a065-1074d3171eb9
+    - 4c1e012e-3b3c-40bd-880a-be6f84883126: 4e92edfd-25c2-41c2-a049-3571502771dc
+    - 541de7d2-1106-4ee6-8be1-df7b70e74ffa: cbe2cdb0-4168-4f90-aa23-bdc79a1e69de
+    - 576c2a5f-52ff-4da4-959c-1771ced66707: de1162f2-7d88-4eb6-a237-2830f604abc0
+    - 6b3cdee6-f316-46ba-a80e-fbe231ccee67: 2275e497-ad95-4318-92fe-bb34c5fddef6
+    - 727472dd-b60a-4eb7-8567-33fb7bde9fa0: eadf60b8-7379-4d3c-918f-19ce731d68ce
+    - 98bcd79d-6c8d-4e3a-9f97-a1f846a5199e: b8288c11-7f0b-46ec-ac72-fe1d001a1a19
+    - 9c320873-5594-4ec8-b34d-d109573b3317: 1a6b638d-4440-4229-ac2b-46bb67b0e91c
+    - 9e851307-d53d-40a5-a761-b4fdf64ef109: e415792f-26af-4b0a-a6ad-35bc6adae738
+    - 9f9c0f95-30e4-44ba-b491-d77b39eda70b: 9f723e15-1b53-47d0-b235-b613df531396
+    - cc60e931-ae43-4110-aba0-ddfae5641f38: 13a359b3-ea0e-4cd8-ab7e-b82d72af70f1
+    - fba25bbe-7e9e-4e5c-8eec-ad412e288a06: 8b6f5636-014f-4057-8cba-ac73ff3aea65
+  SourceState: !<own> eadf60b8-7379-4d3c-918f-19ce731d68ce
+- !<ScriptComponent/db183fdc-ac63-4dd0-a065-1074d3171eb9>
+  PrefabRemaps:
+    []
+  Name: SphereController
+  Enabled: true
+  ScriptAsset: !<reference> 6470e8c3-96d6-440f-a8c0-778618704fd5
+  ScriptInputsDefault:
+    orbInteractableObj: true
+    orbObject: true
+    orbVisualParent: true
+    orbScreenPosition: true
+    closeObj: true
+    closeButtonInteractable: true
+    worldSpaceText: true
+    screenSpaceText: true
+    uiParent: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      hoverMat: !<reference.Material> 140fbea4-2c62-46cb-9d81-4f27534d48c2
+      orbInteractableObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      orbObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      orbVisualParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      orbScreenPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      closeObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      closeButtonInteractable: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      worldSpaceText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      screenSpaceText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      uiParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/de1162f2-7d88-4eb6-a237-2830f604abc0>
+  PrefabRemaps:
+    []
+  Name: OpenAIAssistant
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cbe2cdb0-4168-4f90-aa23-bdc79a1e69de
+- !<SceneObject/e415792f-26af-4b0a-a6ad-35bc6adae738>
+  PrefabRemaps:
+    []
+  Name: AIAssistantUIBridge
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8b6f5636-014f-4057-8cba-ac73ff3aea65
+    - !<own> de1162f2-7d88-4eb6-a237-2830f604abc0
+    - !<own> 0bcf0a27-a7d0-44cc-9d90-756bdfc96b62
+    - !<own> 4e92edfd-25c2-41c2-a049-3571502771dc
+    - !<own> 96fb697e-8b5c-49ac-b896-4e1b91081d08
+    - !<own> 1a6b638d-4440-4229-ac2b-46bb67b0e91c
+  Components:
+    - !<own> b8288c11-7f0b-46ec-ac72-fe1d001a1a19
+- !<ObjectPrefab/eadf60b8-7379-4d3c-918f-19ce731d68ce>
+  PackagePath: ""
+  objects:
+    - !<own> e415792f-26af-4b0a-a6ad-35bc6adae738
+  LazyLoading: false
+  RetainAssets: true

@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/7500ef1b-4cc3-6bc7-5a49-e2df393fa300>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 73be358c-ecb1-46c7-81a1-379105904e70
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 73be358c-ecb1-46c7-81a1-379105904e70
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> eb216456-adf3-4bd2-ab1c-d7b8fe748cb2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/ae731ee0-4630-4926-aa1f-04eaf22da45c>
+  PrefabRemaps:
+    []
+  Name: LoadingSpinner
+  Enabled: true
+  ScriptAsset: !<reference> 45658feb-8acb-4531-9447-06b0dd8762d0
+  ScriptInputsDefault:
+    renderOrder: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      renderOrder: 0
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/d16fbf22-6c77-4a8e-b273-d8bf5e8cac19>
+  PackagePath: ""
+  objects:
+    - !<own> d223cd8f-55ab-4ea7-b8dd-2f2abd7690f9
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/d223cd8f-55ab-4ea7-b8dd-2f2abd7690f9>
+  PrefabRemaps:
+    []
+  Name: LoadingSpinner
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ae731ee0-4630-4926-aa1f-04eaf22da45c
+- !<ObjectPrefabAssetData/eb216456-adf3-4bd2-ab1c-d7b8fe748cb2>
+  SourceRemaps:
+    - 73be358c-ecb1-46c7-81a1-379105904e70: d16fbf22-6c77-4a8e-b273-d8bf5e8cac19
+    - 8493527c-f5eb-4591-9401-1b9142a935e2: d223cd8f-55ab-4ea7-b8dd-2f2abd7690f9
+    - a0977672-3ed1-4f24-8e90-935ee49b4324: ae731ee0-4630-4926-aa1f-04eaf22da45c
+  SourceState: !<own> d16fbf22-6c77-4a8e-b273-d8bf5e8cac19

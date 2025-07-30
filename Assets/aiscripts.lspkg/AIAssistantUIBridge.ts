@@ -43,7 +43,7 @@ export class AIAssistantUIBridge extends BaseScriptComponent {
 
   @input
   private geminiButton: PinchButton;
-  @input
+  @input 
   private openAIButton: PinchButton;
   @ui.group_end
   private textIsVisible: boolean = true;

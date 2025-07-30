@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/ecde163f-cf72-66d4-3d57-a7436d8124ec>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5a760f60-1200-4972-a19a-f6fc13f143a4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5a760f60-1200-4972-a19a-f6fc13f143a4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 85afc76a-d16d-437a-9bd6-cb0b31cc0594
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/85afc76a-d16d-437a-9bd6-cb0b31cc0594>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a2476380-fd8d-429e-8619-e83359dbe650
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    scrollbarObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - scrollbarObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject scrollbarObject {"hint":"Reference to the SceneObject containing the ScrollBar and Interactable components. This object will be monitored for interaction events to provide visual feedback on the scrollbar indicator."}'

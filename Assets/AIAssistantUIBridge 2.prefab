@@ -1,0 +1,51 @@
+- !<ObjectPrefab/e351c0d6-9c4d-4755-8ba8-bdfc0e2eaa6b>
+  PackagePath: ""
+  objects:
+    - !<own> 8040f26e-7a4f-4912-b588-788314159fb2
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/8040f26e-7a4f-4912-b588-788314159fb2>
+  PrefabRemaps:
+    []
+  Name: AIAssistantUIBridge
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e78ec93e-c5ff-443e-a29f-fe51abb5123d
+- !<ScriptComponent/e78ec93e-c5ff-443e-a29f-fe51abb5123d>
+  PrefabRemaps:
+    []
+  Name: AIAssistantUIBridge
+  Enabled: true
+  ScriptAsset: !<reference> 70c94890-c2d9-416c-b14d-a0cd0d0cfb27
+  ScriptInputsDefault:
+    geminiAssistant: true
+    openAIAssistant: true
+    sphereController: true
+    snap3DInteractableFactory: true
+    hintTitle: true
+    hintText: true
+    geminiButton: true
+    openAIButton: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      geminiAssistant: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      openAIAssistant: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      sphereController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      snap3DInteractableFactory: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      hintTitle: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      geminiButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      openAIButton: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}

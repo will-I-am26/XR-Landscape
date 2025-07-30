@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/e4a7830d-ff97-bf8b-0726-c9438bbadb62>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9c253053-d9f8-41d8-8851-cd0c73d5833e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9c253053-d9f8-41d8-8851-cd0c73d5833e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a49d8bc5-8099-4794-8f6a-eb7f449ce2a9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a49d8bc5-8099-4794-8f6a-eb7f449ce2a9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9dcdba71-9ca4-4d1f-aa77-94b17c5458cd
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    material: false
+    meshes: false
+    thresholds: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - meshes: !<reference.RenderMesh[]>
+        []
+      thresholds: !<float[]>
+        []
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input Asset.RenderMesh[] meshes = {}"
+    - "// @input float[] thresholds = {}"
+    - // @input Asset.Material material

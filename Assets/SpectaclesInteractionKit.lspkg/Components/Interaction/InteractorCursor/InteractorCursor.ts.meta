@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/1faf45ee-5a95-7626-7c7c-1d693021e33b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 634407b4-8880-4ff6-b362-95705e1e9bda
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 634407b4-8880-4ff6-b362-95705e1e9bda
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b0d2c73f-bbad-4902-8a4c-7cd42258daae
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b0d2c73f-bbad-4902-8a4c-7cd42258daae>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c99c5886-b550-4cff-98ce-d19b5696d183
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    _interactor: false
+    enableCursorHolding: false
+    enableFilter: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - enableCursorHolding: true
+      enableFilter: false
+      _interactor: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input bool enableCursorHolding = true {"hint":"Controls the \"stickiness\" of the cursor when hovering over interactable objects. When enabled, the cursor maintains its position on the target object, even when the hand moves slightly, making interaction with small targets easier. Only applies to hand-based interactions, not other input types like mouse. Disable for immediate 1:1 cursor movement that follows the hand position exactly."}'
+    - '// @input bool enableFilter {"hint":"Applies smoothing to cursor movement for hand-based interactions. When enabled, reduces jitter and makes cursor motion appear more stable, improving precision when interacting with small targets. Only applies to hand-based interactions."}'
+    - "// @input Component.ScriptComponent _interactor {\"hint\":\"Reference to the component that this cursor will visualize. The cursor will update its position and appearance based on the interactor's state.\"}"

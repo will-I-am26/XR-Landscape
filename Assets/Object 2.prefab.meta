@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/136e6573-8421-420e-b5d3-4626ea6e3551>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ac44b425-f45f-4cf8-850f-f6e4b9ef366d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ac44b425-f45f-4cf8-850f-f6e4b9ef366d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8a80cd03-6c68-4421-b424-68dcf8c79d42
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/16d4d47b-0d7e-4412-96bc-55d053af2a26>
+  PrefabRemaps:
+    []
+  Name: Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ObjectPrefab/44ce735a-6959-45d0-a970-104e1e30eda1>
+  PackagePath: ""
+  objects:
+    - !<own> 16d4d47b-0d7e-4412-96bc-55d053af2a26
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/8a80cd03-6c68-4421-b424-68dcf8c79d42>
+  SourceRemaps:
+    - ac44b425-f45f-4cf8-850f-f6e4b9ef366d: 44ce735a-6959-45d0-a970-104e1e30eda1
+    - e5e688eb-3903-4fd7-a2da-42126133c106: 16d4d47b-0d7e-4412-96bc-55d053af2a26
+  SourceState: !<own> 44ce735a-6959-45d0-a970-104e1e30eda1
