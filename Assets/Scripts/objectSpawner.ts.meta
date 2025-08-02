@@ -28,7 +28,9 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    anchorObj: false
     containerObj: false
+    parentObj: false
     toolPrefabs: false
     toolSpawnPoints: false
   ScriptTypesHidden:
@@ -41,6 +43,8 @@
       toolSpawnPoints: !<reference.SceneObject[]>
         []
       containerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      parentObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      anchorObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -48,3 +52,5 @@
     - "// @input Asset.ObjectPrefab[] toolPrefabs"
     - "// @input SceneObject[] toolSpawnPoints"
     - // @input SceneObject containerObj
+    - // @input SceneObject parentObj
+    - // @input SceneObject anchorObj

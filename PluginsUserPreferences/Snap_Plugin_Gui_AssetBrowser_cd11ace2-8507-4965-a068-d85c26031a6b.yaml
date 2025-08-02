@@ -1,16 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 859
+    size: 853
     values:
-      - Camera
       - Camera/Echopark.hdr
       - Cloud Storage Module.cloudStorageModule
-      - Filter
       - Filter/Physics Filter.filter
       - Packs
       - Packs/Camping Pack
-      - Packs/Camping Pack/Bitmoji Camping Pack Resources
       - Packs/Nature Pack
       - Packs/Nature Pack/.hidden
       - Packs/Nature Pack/.hidden/daffodil.ss_graph
@@ -81,7 +78,6 @@ CollapsedEntities:
       - Packs/Nature Pack/Bitmoji Nature Pack Resources/Textures/tree_apple_color.png
       - Packs/Nature Pack/Bitmoji Nature Pack Resources/Textures/tumbleweed_color.png
       - Packs/Nature Pack/BitmojiNature__PLACE_IN_OBJECTS_PANEL.prefab
-      - Packs/Urban Pack
       - Packs/Urban Pack/.hidden
       - Packs/Urban Pack/.hidden/Occluder.ss_graph
       - Packs/Urban Pack/.hidden/bin_recycle_tall.ss_graph
@@ -256,10 +252,10 @@ CollapsedEntities:
       - Prefabs/Plane Object.prefab
       - Prefabs/Stone Object.prefab
       - Prefabs/Water Object.prefab
-      - Scripts
       - Scripts/CollisionLogger.ts
       - Scripts/DebugScript.ts
-      - Scripts/Lock Scale.ts
+      - Scripts/DeleteButton.ts
+      - Scripts/Persistent Storage.ts
       - Scripts/objectSpawner.ts
       - Scripts/spawnPoints.ts
       - Scripts/stoneSpawnPoint.ts
@@ -674,6 +670,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - Surface Placement.lspkg
       - Surface Placement.lspkg/Decorators
       - Surface Placement.lspkg/Decorators/Singleton.ts
       - "Surface Placement.lspkg/Example Surface [DRAG ME TO SCENE].prefab"
@@ -742,7 +739,6 @@ CollapsedEntities:
       - Surface Placement.lspkg/Prefabs/TableTopPlacement.prefab
       - Surface Placement.lspkg/Prefabs/VerticalPlacement.prefab
       - Surface Placement.lspkg/README.md
-      - Surface Placement.lspkg/Scripts
       - Surface Placement.lspkg/Scripts/CircleAnimation.ts
       - Surface Placement.lspkg/Scripts/DotsLine.ts
       - Surface Placement.lspkg/Scripts/HandHintsController.ts
@@ -781,7 +777,6 @@ CollapsedEntities:
       - Surface Placement.lspkg/Textures/red_panda_normal.png
       - Surface Placement.lspkg/Textures/red_panda_param.png
       - Surface Placement.lspkg/package.native
-      - Surface Placement.lspkg/package_dependencies.json
       - Text Logger.lsc
       - Utilities
       - Utilities/Move Along Path
@@ -825,7 +820,6 @@ CollapsedEntities:
       - Utilities/Surface Detection.lspkg/Textures
       - Utilities/Surface Detection.lspkg/Textures/groundIcon.png
       - Utilities/Surface Detection.lspkg/package.native
-      - Utilities/Tap To Add To Mesh
       - Utilities/Tap To Add To Mesh/.hidden
       - Utilities/Tap To Add To Mesh/.hidden/Wood.ss_graph
       - Utilities/Tap To Add To Mesh/.hidden/center.ss_graph

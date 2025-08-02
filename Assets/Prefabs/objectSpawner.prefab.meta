@@ -267,7 +267,8 @@
   Enabled: true
   ScriptAsset: !<reference> 14d20432-cb44-4b88-8455-f2f12ffa9397
   ScriptInputsDefault:
-    {}
+    parentObj: true
+    anchorObj: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -283,6 +284,8 @@
         - !<reference> b1080702-5d03-4957-b7c3-f3a009ee66a3
         - !<reference> 336c6c3a-cc45-49e9-8216-ba9221ad3d54
       containerObj: !<reference.SceneObject> 9ac0b6b7-231c-4443-8716-2faa67314243
+      parentObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      anchorObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

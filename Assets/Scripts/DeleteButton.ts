@@ -16,6 +16,7 @@ export class NewScript extends BaseScriptComponent {
     private outlineFeedback: InteractableOutlineFeedback;
     private editOutlineMaterial: Material;
     private distanceOffset = 60;
+    private storage = global.persistentStorageSystem.store;
 
     onAwake() {
         this.createEvent("OnStartEvent").bind(this.onStart.bind(this));
@@ -26,6 +27,7 @@ export class NewScript extends BaseScriptComponent {
 
     private onStart() {
         this.deleteButton.onButtonPinched.add(() => {
+      this.storage.remove(this.sceneObject.name);
       this.sceneObject.enabled = false;
       this.sceneObject.destroy();
       
