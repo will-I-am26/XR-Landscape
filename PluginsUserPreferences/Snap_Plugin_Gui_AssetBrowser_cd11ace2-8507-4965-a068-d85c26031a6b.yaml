@@ -6,6 +6,7 @@ CollapsedEntities:
       - Camera/Echopark.hdr
       - Cloud Storage Module.cloudStorageModule
       - Filter/Physics Filter.filter
+      - MainMenu.ts
       - Packs
       - Packs/Camping Pack
       - Packs/Nature Pack
@@ -670,7 +671,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
-      - Surface Placement.lspkg
       - Surface Placement.lspkg/Decorators
       - Surface Placement.lspkg/Decorators/Singleton.ts
       - "Surface Placement.lspkg/Example Surface [DRAG ME TO SCENE].prefab"

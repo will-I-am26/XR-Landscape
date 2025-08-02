@@ -29,8 +29,10 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     autoStart: false
+    menuObject: false
     objectVisuals: false
     placementSettingMode: false
+    surfacePlacementObject: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -39,6 +41,8 @@
     - objectVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       placementSettingMode: 0
       autoStart: true
+      surfacePlacementObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      menuObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -46,3 +50,5 @@
     - // @input SceneObject objectVisuals
     - '// @input int placementSettingMode {"widget":"combobox", "values":[{"label":"Near Surface", "value":0}, {"label":"Horizontal", "value":1}, {"label":"Vertical", "value":2}]}'
     - // @input bool autoStart = true
+    - // @input SceneObject surfacePlacementObject
+    - // @input SceneObject menuObject

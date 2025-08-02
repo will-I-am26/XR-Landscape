@@ -112,19 +112,5 @@ export class ToolPickerBehavior extends BaseScriptComponent {
         
         nObject.name = ind.toString() + "_" + this.counter[ind].toString()
     }
-    // firstSpawn(ind, key) {
-    //     let nObject = this.toolPrefabs[ind].instantiate(this.containerObj)
 
-    //     let nObjectLocation = this.storage.getVec3(key)
-    //     let anchorLocation = this.anchorObj.getTransform().getWorldPosition()
-
-    //     let spawnPos = nObjectLocation.add(anchorLocation)
-
-
-    //     nObject.enabled = true
-    //     nObject.getTransform().setWorldPosition(spawnPos)
-    //     nObject.name = ind.toString() + "_" + this.counter[ind].toString() ;
-
-    //     nObject.setParent(this.parentObj)
-    // }
 }

@@ -6,4 +6,8 @@ export class PersistentStorage extends BaseScriptComponent {
     onAwake() {
 
     }
+
+    deleteData() {
+        this.store.clear();
+    }
 }

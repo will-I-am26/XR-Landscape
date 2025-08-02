@@ -1,0 +1,72 @@
+- !<AssetImportMetadata/a454a955-abbd-4517-b964-6d55c4842795>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 19b39e95-1ce0-4e97-9a2d-b3617e491a4e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 19b39e95-1ce0-4e97-9a2d-b3617e491a4e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3f296948-7fe8-4952-961b-9736fe3d2a3c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3f296948-7fe8-4952-961b-9736fe3d2a3c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f39e131c-721d-4abd-a46a-38087fe29dd9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cancelButton: false
+    cancelPinch: false
+    confirmButton: false
+    confirmPinch: false
+    confirmText: false
+    deleteButton: false
+    deletePinch: false
+    menuObject: false
+    startButton: false
+    startPinch: false
+    surfacePlacementObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - startPinch: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      startButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      deletePinch: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      deleteButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      confirmPinch: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      confirmButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cancelPinch: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      cancelButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      confirmText: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      menuObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      surfacePlacementObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType startPinch
+    - // @input SceneObject startButton
+    - // @input AssignableType_1 deletePinch
+    - // @input SceneObject deleteButton
+    - // @input AssignableType_2 confirmPinch
+    - // @input SceneObject confirmButton
+    - // @input AssignableType_3 cancelPinch
+    - // @input SceneObject cancelButton
+    - // @input SceneObject confirmText
+    - // @input SceneObject menuObject
+    - // @input SceneObject surfacePlacementObject

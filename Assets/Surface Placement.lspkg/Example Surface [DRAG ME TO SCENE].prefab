@@ -642,6 +642,8 @@
   ScriptAsset: !<reference> ed511ad2-2662-4532-a089-9f9bc4fd161b
   ScriptInputsDefault:
     autoStart: true
+    surfacePlacementObject: true
+    menuObject: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -649,6 +651,8 @@
       objectVisuals: !<reference.SceneObject> 0e9b476d-2af4-4e10-9cb8-ff3a25b0c200
       placementSettingMode: 1
       autoStart: true
+      surfacePlacementObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      menuObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

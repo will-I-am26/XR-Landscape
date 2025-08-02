@@ -23,6 +23,12 @@ export class Example extends BaseScriptComponent {
   @input
   autoStart: boolean = true;
 
+  @input
+  private surfacePlacementObject: SceneObject
+
+  @input
+  private menuObject: SceneObject
+
   private transform: Transform = null;
 
   private surfacePlacement: SurfacePlacementController =
@@ -73,8 +79,13 @@ export class Example extends BaseScriptComponent {
   }
 
   resetPlacement() {
-    //global.persistentStorageSystem.store.clear();
     this.surfacePlacement.stopSurfacePlacement();
+    //this.startPlacement();
+    this.surfacePlacementObject.enabled = false;
+    this.menuObject.enabled = true;
+  }
+
+  restartPlacement() {
     this.startPlacement();
   }
 
