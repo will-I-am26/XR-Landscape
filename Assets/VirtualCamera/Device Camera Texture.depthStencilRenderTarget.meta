@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/534c07dc-73b0-4f9c-8b01-775ab642bf6a>
+  ImportedAssetIds:
+    DepthStencilRenderTarget: !<reference> 153b3bf7-d842-4abc-a70a-2060b13f22a2
+  ImporterName: DepthStencilRenderTargetImporter
+  PrimaryAsset: !<reference> 153b3bf7-d842-4abc-a70a-2060b13f22a2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
