@@ -4161,6 +4161,7 @@
   Enabled: true
   ScriptAsset: !<reference> 7f15d1c4-11a8-4106-8954-e60757e2fa26
   ScriptInputsDefault:
+    doTextGenerationOnTap: true
     generateImageOnTap: true
     doFunctionCallingOnTap: true
   ScriptTypesDefault:
@@ -4168,8 +4169,8 @@
   ScriptInputs:
     "":
       textDisplay: !<reference.Text> fb06d0c8-4f0f-4bbc-875d-23c9136a954a
-      modelPrompt: You are a Lanscape Designer who describes the lanscapes they see and gives tips
-      textPrompt: critiuque the landscape
+      modelPrompt: accuratly descrive image you see exactly
+      imgprompt: !<reference.SceneObject> 7bfc0699-2b18-4daf-b13b-06479e4eb5f2
       doTextGenerationOnTap: true
       imgObject: !<reference.SceneObject> 7bfc0699-2b18-4daf-b13b-06479e4eb5f2
       imageGenerationPrompt: The future of augmented reality

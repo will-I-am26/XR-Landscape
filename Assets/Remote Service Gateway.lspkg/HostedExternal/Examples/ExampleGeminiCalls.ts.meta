@@ -34,9 +34,9 @@
     generateImageOnTap: false
     imageGenerationPrompt: false
     imgObject: false
+    imgprompt: false
     modelPrompt: false
     textDisplay: false
-    textPrompt: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -44,8 +44,8 @@
   DefaultScriptInputs:
     - textDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
       modelPrompt: "You are an incredibly smart but witty AI assistant who likes to answers life's greatest mysteries in under two sentences"
-      textPrompt: Hey bestie!!!
-      doTextGenerationOnTap: false
+      imgprompt: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      doTextGenerationOnTap: true
       imgObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       imageGenerationPrompt: Generate an image of a cat jumping over a shark on a jet ski.
       generateImageOnTap: false
@@ -59,7 +59,7 @@
     - '// @ui {"widget":"group_start", "label":"Text Generation Example"}'
     - // @input Component.Text textDisplay
     - "// @input string modelPrompt = \"You are an incredibly smart but witty AI assistant who likes to answers life's greatest mysteries in under two sentences\" {\"widget\":\"text_area\"}"
-    - '// @input string textPrompt = "Is a hotdog a sandwich?" {"widget":"text_area"}'
+    - // @input SceneObject imgprompt
     - '// @input bool doTextGenerationOnTap {"label":"Run On Tap"}'
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"separator"}'

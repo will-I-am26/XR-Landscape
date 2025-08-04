@@ -133,7 +133,7 @@ export class ExampleGeminiLive extends BaseScriptComponent {
       ];
 
       // Send the session setup message
-      let modelUri = `models/gemini-2.0-flash-live-preview-04-09`;
+      let modelUri = `models/gemini-2.5-flash`;
       const sessionSetupMessage: GeminiTypes.Live.Setup = {
         setup: {
           model: modelUri,
@@ -155,6 +155,12 @@ export class ExampleGeminiLive extends BaseScriptComponent {
       };
       GeminiLive.send(sessionSetupMessage);
     });
+
+
+
+
+
+
 
     let completedTextDisplay = true;
 
@@ -205,6 +211,9 @@ export class ExampleGeminiLive extends BaseScriptComponent {
 
           this.videoController.startRecording();
         }
+
+
+        
       }
 
       if (message?.serverContent) {

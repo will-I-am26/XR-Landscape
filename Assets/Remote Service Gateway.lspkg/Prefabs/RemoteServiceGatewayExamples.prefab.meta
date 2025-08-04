@@ -985,6 +985,7 @@
   ScriptAsset: !<reference> 7f15d1c4-11a8-4106-8954-e60757e2fa26
   ScriptInputsDefault:
     modelPrompt: true
+    imgprompt: true
     doTextGenerationOnTap: true
     generateImageOnTap: true
     doFunctionCallingOnTap: true
@@ -994,8 +995,8 @@
     "":
       textDisplay: !<reference.Text> 7a904028-d4c6-4b7e-b93e-cd4bb3f38913
       modelPrompt: "You are an incredibly smart but witty AI assistant who likes to answers life's greatest mysteries in under two sentences"
-      textPrompt: "Is a hotdog a sandwich?"
-      doTextGenerationOnTap: false
+      imgprompt: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      doTextGenerationOnTap: true
       imgObject: !<reference.SceneObject> d6f50b60-9b2e-4d37-814b-7cbe5abb020e
       imageGenerationPrompt: The future of augmented reality
       generateImageOnTap: false
