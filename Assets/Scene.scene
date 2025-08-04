@@ -646,7 +646,7 @@
   PrefabRemaps:
     []
   Name: ImageOutputExample
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 13.000000, y: -5.000000, z: 0.000000}
@@ -661,7 +661,7 @@
   PrefabRemaps:
     []
   Name: ImageOutputExample
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 13.000000, y: -5.000000, z: 0.000000}
@@ -1645,6 +1645,40 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<ScriptComponent/36791f30-52c2-4ba7-8902-c846a0600135>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    isSynced: true
+    acceptableSyncInteractionTypes: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      isSynced: true
+      acceptableSyncInteractionTypes: !<float> 7.000000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/3709953d-2385-4095-80fe-2cb329e5d10e>
   PrefabRemaps:
     []
@@ -2680,6 +2714,25 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/54e3e52a-48a0-47b2-b33f-83b7c5068506>
+  PrefabRemaps:
+    []
+  Name: PinchButton
+  Enabled: true
+  ScriptAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editEventCallbacks: true
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 8676c692-89ee-4e52-ad85-57d705db9adf
+      onButtonPinchedFunctionNames: !<string[]>
+        - onTap
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/568b7bb0-29fb-460a-8c80-bd1f4458e027>
   PrefabRemaps:
     []
@@ -2825,7 +2878,7 @@
   PrefabRemaps:
     []
   Name: ExampleGeminiCalls
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -5.000000, z: 0.000000}
@@ -3089,7 +3142,7 @@
   PrefabRemaps:
     []
   Name: ExampleGeminiLive
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -20.000000, z: 0.000000}
@@ -3229,6 +3282,26 @@
     - !<own> 1359fab3-6473-4326-b708-a326da9a8dc3
   Components:
     []
+- !<RenderMeshVisual/69b454a0-4db6-47e3-a9dc-a2ac9323013a>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5e6e1132-90fd-4c58-86f9-eb992e6747f5
+  Mesh: !<reference> 9d7384d9-0215-4f75-8b03-f44096507d85
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/69fb5e27-2472-49a2-b76d-92eadf02e719>
   PrefabRemaps:
     []
@@ -3585,6 +3658,25 @@
     []
   Components:
     - !<own> 0d155669-05c3-4cfa-b05f-f4b06d76b46d
+- !<SceneObject/7db66ce8-7ab8-4119-9268-29c145fe36a1>
+  PrefabRemaps:
+    []
+  Name: Query Button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 24.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 36791f30-52c2-4ba7-8902-c846a0600135
+    - !<own> 54e3e52a-48a0-47b2-b33f-83b7c5068506
+    - !<own> a7cdb88c-453c-4272-9621-f8b77b34b22e
+    - !<own> be916eca-1059-44ba-8e85-2e8e5d749ee1
+    - !<own> 69b454a0-4db6-47e3-a9dc-a2ac9323013a
 - !<RenderMeshVisual/7e20feb4-0ab4-4441-9949-8952ba691979>
   PrefabRemaps:
     []
@@ -4414,6 +4506,7 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 9f09a21c-a914-44f2-b90c-86901f6c6b58
+    - !<own> 7db66ce8-7ab8-4119-9268-29c145fe36a1
   Components:
     - !<own> 5de7207b-d96b-424e-a020-e2d6aae539cb
 - !<AudioComponent/994484f7-345a-48ff-a363-06b48e41c0a9>
@@ -4822,6 +4915,25 @@
     InvertRotation: false
   SurfaceOptions: !<SurfaceOptions>
     EnhanceWithNativeAR: false
+- !<ScriptComponent/a7cdb88c-453c-4272-9621-f8b77b34b22e>
+  PrefabRemaps:
+    []
+  Name: PinchButton
+  Enabled: true
+  ScriptAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editEventCallbacks: true
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 7b19f4aa-076f-424c-9c73-c51f8e321c42
+      onButtonPinchedFunctionNames: !<string[]>
+        - onTap
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/aa466d91-7554-42d6-ab61-fa9961d7f3e0>
   PrefabRemaps:
     []
@@ -5373,6 +5485,25 @@
       autoStart: true
       surfacePlacementObject: !<reference.SceneObject> 3098b450-be89-48ad-a015-63b1c4584618
       menuObject: !<reference.SceneObject> 38757485-0064-408b-b0b7-f5c1599ab5af
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/be916eca-1059-44ba-8e85-2e8e5d749ee1>
+  PrefabRemaps:
+    []
+  Name: InteractableSquishFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 17d0cf2d-c96b-42fd-8a63-cf7e9751e882
+  ScriptInputsDefault:
+    verticalSquish: true
+    horizontalSquish: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      squishObject: !<reference.SceneObject> 7db66ce8-7ab8-4119-9268-29c145fe36a1
+      verticalSquish: 0.500000
+      horizontalSquish: !<float> 1.000000
   ScriptTypes:
     "":
       {}
@@ -6632,7 +6763,7 @@
   PrefabRemaps:
     []
   Name: ExampleOAICalls
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -5.000000, z: 0.000000}

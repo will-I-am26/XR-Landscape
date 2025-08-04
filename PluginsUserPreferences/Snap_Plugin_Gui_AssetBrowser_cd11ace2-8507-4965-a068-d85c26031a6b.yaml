@@ -1,10 +1,11 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 915
+    size: 913
     values:
       - Camera
       - Camera/Echopark.hdr
+      - Camping Pack
       - Cloud Storage Module.cloudStorageModule
       - Filter
       - Filter/Physics Filter.filter
@@ -255,14 +256,11 @@ CollapsedEntities:
       - Prefabs/Plane Object.prefab
       - Prefabs/Stone Object.prefab
       - Prefabs/Water Object.prefab
-      - Remote Service Gateway.lspkg
       - Remote Service Gateway.lspkg/Helpers
       - Remote Service Gateway.lspkg/Helpers/AudioProcessor.ts
       - Remote Service Gateway.lspkg/Helpers/DynamicAudioOutput.ts
       - Remote Service Gateway.lspkg/Helpers/MicrophoneRecorder.ts
       - Remote Service Gateway.lspkg/Helpers/VideoController.ts
-      - Remote Service Gateway.lspkg/HostedExternal
-      - Remote Service Gateway.lspkg/HostedExternal/Examples
       - Remote Service Gateway.lspkg/HostedExternal/Examples/ExampleGeminiCalls.ts
       - Remote Service Gateway.lspkg/HostedExternal/Examples/ExampleGeminiLive.ts
       - Remote Service Gateway.lspkg/HostedExternal/Examples/ExampleOAICalls.ts
