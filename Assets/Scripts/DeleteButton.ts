@@ -24,7 +24,7 @@ export class NewScript extends BaseScriptComponent {
 
         
     }
-
+    //on pinch event for the delete button that: deletes the object from memory, disables the object and its components, and then destroys it
     private onStart() {
         this.deleteButton.onButtonPinched.add(() => {
       this.storage.remove(this.sceneObject.name);
@@ -32,13 +32,13 @@ export class NewScript extends BaseScriptComponent {
       this.sceneObject.destroy();
       
     });
-
+    //keeps track of the last time the object was hovered over
     this.noteInteractable.onHoverUpdate.add(() => {
          this.lastHoveredTime = getTime();
          });
 
     }
-
+    //logic for showing the delete button when the object is hovered over
     private onUpdate() {
     if (getTime() - this.timeToShowButtonsAfterHover < this.lastHoveredTime && this.menuObject.getTransform().getWorldPosition().distance(this.sceneObject.getTransform().getWorldPosition()) > this.distanceOffset) {
       this.deleteButton.getSceneObject().enabled = true;

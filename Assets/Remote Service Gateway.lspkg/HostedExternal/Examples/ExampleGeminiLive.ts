@@ -25,7 +25,7 @@ export class ExampleGeminiLive extends BaseScriptComponent {
   @input
   @widget(new TextAreaWidget())
   private instructions: string =
-    "You are a helpful assistant that loves to make puns";
+    "You are a 3D content analysis assistant. You will receive the actual rendered 3D visuals, AR overlays, and virtual objects that are visible to the user. Analyze the 3D content, virtual objects, AR enhancements, and how they create an immersive augmented reality experience.";
   @input private haveVideoInput: boolean = false;
   @ui.group_end
   @ui.separator

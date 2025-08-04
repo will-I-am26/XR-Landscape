@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 916
+    size: 915
     values:
       - Camera
       - Camera/Echopark.hdr
@@ -248,7 +248,6 @@ CollapsedEntities:
       - Packs/Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/plane_bi_color.png
       - Packs/Vehicle Pack/Bitmoji Vehicle Pack Resources/Textures/shopping_cart_trash_color.png
       - Packs/Vehicle Pack/BitmojiVehicle__PLACE_IN_OBJECTS_PANEL.prefab
-      - Prefabs
       - Prefabs/Apple Tree Object.prefab
       - Prefabs/Flower Object.prefab
       - Prefabs/FlowerBouquet Object.prefab
@@ -256,11 +255,14 @@ CollapsedEntities:
       - Prefabs/Plane Object.prefab
       - Prefabs/Stone Object.prefab
       - Prefabs/Water Object.prefab
+      - Remote Service Gateway.lspkg
       - Remote Service Gateway.lspkg/Helpers
       - Remote Service Gateway.lspkg/Helpers/AudioProcessor.ts
       - Remote Service Gateway.lspkg/Helpers/DynamicAudioOutput.ts
       - Remote Service Gateway.lspkg/Helpers/MicrophoneRecorder.ts
       - Remote Service Gateway.lspkg/Helpers/VideoController.ts
+      - Remote Service Gateway.lspkg/HostedExternal
+      - Remote Service Gateway.lspkg/HostedExternal/Examples
       - Remote Service Gateway.lspkg/HostedExternal/Examples/ExampleGeminiCalls.ts
       - Remote Service Gateway.lspkg/HostedExternal/Examples/ExampleGeminiLive.ts
       - Remote Service Gateway.lspkg/HostedExternal/Examples/ExampleOAICalls.ts
@@ -314,15 +316,12 @@ CollapsedEntities:
       - Remote Service Gateway.lspkg/Utils/Event.ts
       - Remote Service Gateway.lspkg/Utils/Promisfy.ts
       - Remote Service Gateway.lspkg/package.native
-      - Scripts
       - Scripts/CollisionLogger.ts
       - Scripts/DebugScript.ts
       - Scripts/DeleteButton.ts
       - Scripts/Persistent Storage.ts
       - Scripts/objectSpawner.ts
       - Scripts/spawnPoints.ts
-      - Scripts/stoneSpawnPoint.ts
-      - Scripts/treeSpawnPoint.ts
       - SpectaclesInteractionKit
       - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/Assets

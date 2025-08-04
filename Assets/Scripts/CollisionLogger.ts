@@ -37,18 +37,6 @@ export class CollisionLogger extends BaseScriptComponent {
         }
 
 
-        // if (this.storage.has(this.positionKey)) {
-        //     let savedRelative = this.storage.getVec3(this.positionKey);
-        //     let anchorPos = this.anchorObj.getTransform().getWorldPosition();
-        //     let worldPos = new vec3(
-        //         savedRelative.x + anchorPos.x,
-        //         savedRelative.y + anchorPos.y,
-        //         savedRelative.z + anchorPos.z
-        //     );
-        //     this.getTransform().setLocalPosition(worldPos);
-        //     print(`🔶 World Position: ${worldPos}`);
-        // }
-
         if (this.collider) {
             this.collider.onOverlapEnter.add((eventArgs: any) => {
                 if (this.reset == true) {
@@ -57,12 +45,14 @@ export class CollisionLogger extends BaseScriptComponent {
                         .name;
                     var result: Boolean
                     result = true;
+
+                    //debug printing
                     print(`🔶 Overlapped with: ${otherName}`);
                     print(`${this.sceneObject.name} is at: ${this.getTransform().getWorldPosition()}`);
                     print(`${this.sceneObject.name} has a rotation of ${this.getTransform().getWorldRotation().toEulerAngles().y}`);
                     print(`Anchor is at ${this.anchorObj.getTransform().getWorldPosition()}`);
                     print(`Anchor has a rotation of ${this.anchorObj.getTransform().getWorldRotation().toEulerAngles().y}`);
-
+                    //logic for collision detection, ineteractability disabling and offset storage
                     if (otherName == 'Terrain' && this.InManip) {
                         this.InManip.setCanTranslate(false);
                         this.collider.enabled = false;
@@ -82,16 +72,17 @@ export class CollisionLogger extends BaseScriptComponent {
                         this.storage.putVec3(positionKey, relativePos)
                     }
 
+                    //debug printing for interactability
                     if (this.InManip) {
                         result = this.InManip.canTranslate();
                         print(result);
                     }
 
-                    // Reset the collider to allow the same object to trigger again
+                    // Reset the collider to allow the same object to trigger again, this is for debugging, mostly
                     this.reset = false;
                 }
             });
-
+            //debug section for overlap exit
             this.collider.onOverlapExit.add((eventArgs: any) => {
                 if (this.reset == false) {
                     const otherName: string = eventArgs.overlap.collider
@@ -106,8 +97,4 @@ export class CollisionLogger extends BaseScriptComponent {
         }
     }
 
-    startPlacement() {
-
-        print(`Starting placement`);
-    }
 }

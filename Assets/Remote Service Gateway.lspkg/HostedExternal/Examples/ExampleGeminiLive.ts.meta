@@ -65,7 +65,7 @@
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"separator"}'
     - '// @ui {"widget":"group_start", "label":"Inputs"}'
-    - '// @input string instructions = "You are a helpful assistant that loves to make puns" {"widget":"text_area"}'
+    - '// @input string instructions = "You are a 3D content analysis assistant. You will receive the actual rendered 3D visuals, AR overlays, and virtual objects that are visible to the user. Analyze the 3D content, virtual objects, AR enhancements, and how they create an immersive augmented reality experience." {"widget":"text_area"}'
     - // @input bool haveVideoInput
     - '// @ui {"widget":"group_end"}'
     - '// @ui {"widget":"separator"}'

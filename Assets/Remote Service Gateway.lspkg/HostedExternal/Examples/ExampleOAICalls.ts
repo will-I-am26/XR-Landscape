@@ -57,17 +57,17 @@ export class ExampleOAICalls extends BaseScriptComponent {
   private gestureModule: GestureModule = require("LensStudio:GestureModule");
 
   onAwake() {
-    if (global.deviceInfoSystem.isEditor()) {
-      this.createEvent("TapEvent").bind(() => {
-        this.onTap();
-      });
-    } else {
-      this.gestureModule
-        .getPinchDownEvent(GestureModule.HandType.Right)
-        .add(() => {
-          this.onTap();
-        });
-    }
+    // if (global.deviceInfoSystem.isEditor()) {
+    //   this.createEvent("TapEvent").bind(() => {
+    //     this.onTap();
+    //   });
+    // } else {
+    //   this.gestureModule
+    //     .getPinchDownEvent(GestureModule.HandType.Right)
+    //     .add(() => {
+    //       this.onTap();
+    //     });
+    // }
   }
   private onTap() {
     if (this.generateVoiceOnTap) {

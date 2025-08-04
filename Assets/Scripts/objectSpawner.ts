@@ -30,16 +30,16 @@ export class ToolPickerBehavior extends BaseScriptComponent {
 
     onAwake() {
         
-        //this.storage.clear()
+        
         this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this))
 
         
-
+        //this populates an array with all the keys in the storage
         let keys: string[] = this.storage.getAllKeys()
         this.toolPrefabs.forEach((value, ind) => {
             this.counter.push(0)
         })
-
+        //this cycles through all the keys in the storage and calls the firstSpawn function for each key
         keys.forEach((value, ind) => {
             let objType = value.split("_")[0]
             let objCount = value.split("_")[1]
@@ -52,14 +52,14 @@ export class ToolPickerBehavior extends BaseScriptComponent {
         })
         this.init()
     }
-
+    //this initializes the arrays for the tool spawn points, latest objects, and latest object transforms
     init() {
         this.toolSpawnPointsT = []
         this.latestObj = []
         this.latestObjT = []
         this.spanwAllTools()
     }
-
+    //this spawns the objects at each spawn point
     spanwAllTools() {
         this.toolSpawnPoints.forEach((value, ind) => {
             let spawnPoint = value
@@ -67,7 +67,7 @@ export class ToolPickerBehavior extends BaseScriptComponent {
             this.spawnAndReplace(ind)
         })
     }
-
+    //this checks to see if an object is too far from its spawn point and if so, it spawns a new one by calling the spawnAndReplace function
     onUpdate() {
         this.toolSpawnPoints.forEach((value, ind) => {
             let spawnPointT = this.toolSpawnPointsT[ind]
@@ -80,7 +80,7 @@ export class ToolPickerBehavior extends BaseScriptComponent {
             }
         })
     }
-
+    //this instantiates a new object at the spawn point after the old one was removed
     spawnAndReplace(ind) {
         let spawnPos = this.toolSpawnPointsT[ind].getWorldPosition()
         spawnPos.y += this.yOffset
@@ -96,7 +96,7 @@ export class ToolPickerBehavior extends BaseScriptComponent {
 
         print(nObject.name)
     }
-
+    //this is the function for respawning all the objects that were saved in the storage
     firstSpawn(ind, key) {
         let nObject = this.toolPrefabs[ind].instantiate(this.containerObj)
         

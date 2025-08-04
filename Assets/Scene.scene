@@ -2825,7 +2825,7 @@
   PrefabRemaps:
     []
   Name: ExampleGeminiCalls
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -5.000000, z: 0.000000}
@@ -3089,7 +3089,7 @@
   PrefabRemaps:
     []
   Name: ExampleGeminiLive
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -20.000000, z: 0.000000}
@@ -5479,8 +5479,7 @@
   Enabled: true
   ScriptAsset: !<reference> bca6de36-829d-4a57-ad4e-4c68fe77688d
   ScriptInputsDefault:
-    haveVideoInput: true
-    haveAudioOutput: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -5489,9 +5488,12 @@
       dynamicAudioOutput: !<MappingBased.AssignableType> 67e6517f-3576-4735-8ae8-e84c0f6098a8
       microphoneRecorder: !<MappingBased.AssignableType_1> 4f08233b-087d-479d-a06c-d3dd6f573d8e
       textDisplay: !<reference.Text> 95bfa9cd-192b-47bc-b1c5-7a1959c74db1
-      instructions: You are a helpful assistant that loves to make puns
-      haveVideoInput: false
-      haveAudioOutput: false
+      instructions: |-
+        You are an assistant to a landscape designer, your job is to respond to their questions in that context. Make concise suggestions about the sorts of additions or ideas they should consider when designing a sustainable park. 
+        
+        What you will be observing is a simulation of a park, and not an actual one. Disregard any aspects that make it seem fake or artificial when considering the quality of the design choices.
+      haveVideoInput: true
+      haveAudioOutput: true
       voice: Puck
   ScriptTypes:
     "":
@@ -5513,28 +5515,7 @@
     []
 - !<SceneObject/c5e4d175-3faa-4720-94e0-4ab143cc8c2b>
   PrefabRemaps:
-    - 01043090-dbba-4298-ab70-4a5f8490ad69: ad34aac7-d8d1-41c7-a626-f8db42f37c4e
-    - 0932b38d-4148-447b-ac45-ecff7dc2fe28: 4ec4b02d-6fca-4bc6-9cbd-39d9ef1dc8ca
-    - 1a2239d6-91bf-4e6d-9a69-171d35163309: 2c6caf8c-c83b-4fd7-92e1-bec883d26613
-    - 1a7fbb75-b792-4e09-9eef-a3ee26696713: d7e33ee0-4d41-4217-a49e-5e443752f5a3
-    - 1beed169-b75c-49f8-8b5f-0103b9ae6ae5: db1b470b-3b49-420e-a06f-b63c1bfe5478
-    - 2b4851ad-86cf-4e9e-8054-5763e9ba1598: fe3dd5d3-77f9-4be8-9beb-4fb158655794
-    - 2e9febd4-91b1-4415-b8a8-1aeaec564683: 004dd628-a211-4280-8bec-20fca5421249
-    - 4473ed16-7ad6-4ae9-95de-7add179c6dc7: 55c2ef1f-74e2-46ec-a7d8-6e542a05d09e
-    - 4ec4813a-f4ea-4057-a11f-1bdfc01cf440: 4813f322-0828-41ce-80cd-9ae2e90d0539
-    - 59ddeee9-205e-4074-b10b-1628b1db9d5e: 2ed7118b-1235-4293-9740-a902b4fc8c06
-    - 73f3c7d5-490b-42ba-9c65-9c2754b43b21: a1c783c6-1c7e-47b1-b1d0-33bf50961b85
-    - 7c1992c7-f0fb-4fce-80ef-51d541872585: 3f6540a8-1159-4504-97ec-f902519f2b6e
-    - 85bfbb2b-8bd3-47f8-a4e8-a947f0d535ef: 91cc9609-42d4-4933-8bd2-1fb9f3a55f74
-    - 8c0f65d9-5f14-4ecb-acb2-c98789f8bf4b: 7596b54b-fe50-4bc2-b080-016445821367
-    - 959f629d-79fd-4c77-b8f6-2dae99d2d902: d6408f1c-0ec3-44e2-9efa-3965e753cc90
-    - bd16e923-3e9a-4677-a0f7-a1e5ba5693aa: a51bf56b-5e47-4d4d-822d-6f166a3d8da1
-    - c5e4d175-3faa-4720-94e0-4ab143cc8c2b: e9454b10-529c-4154-bbb2-cc6f77294be4
-    - ca6e7890-52ec-463a-91f0-dd88a207066a: a7b1370a-745a-4cfd-9259-7e7571936218
-    - d6c70a6c-d933-4a8d-81c9-e3dfdb64176c: e6c4120f-585f-462f-8e6e-67de58a7e9a9
-    - e8f996e7-50a9-4aa8-ae2b-ffa09d2b6d18: 73b6e7d7-1d71-4cab-8384-024cafdd682d
-    - eef7028e-f718-4530-a027-4199efc958b0: 9783435a-7bb2-449b-807e-65fcad72be45
-    - f8b589a0-4a86-49eb-be92-6e92557a9951: 216799d5-dac9-470f-90ca-ee4a655ce265
+    []
   Name: "Premade Object [DUPLICATE and RENAME]"
   Enabled: false
   Layers: 2
@@ -6651,7 +6632,7 @@
   PrefabRemaps:
     []
   Name: ExampleOAICalls
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -5.000000, z: 0.000000}

@@ -27,7 +27,7 @@ metaInfo:
     []
   lensName: XR Landscape
   lensDescriptors:
-    []
+    - EXPERIMENTAL_API
   lensApplicability:
     - Front
     - Back
