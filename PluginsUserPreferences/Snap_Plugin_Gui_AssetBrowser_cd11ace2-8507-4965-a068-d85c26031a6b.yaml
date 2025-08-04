@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1408
+    size: 1411
     values:
       - ""
       - Camera
@@ -1325,6 +1325,7 @@ CollapsedEntities:
       - Surface Placement.lspkg/package_dependencies.json
       - Text Logger.lsc
       - Untitled TypeScript.ts
+      - Utilities
       - Utilities/Move Along Path
       - Utilities/Move Along Path/.hidden
       - Utilities/Move Along Path/.hidden/Textures
@@ -1368,6 +1369,7 @@ CollapsedEntities:
       - Utilities/Surface Detection.lspkg/Textures
       - Utilities/Surface Detection.lspkg/Textures/groundIcon.png
       - Utilities/Surface Detection.lspkg/package.native
+      - Utilities/Tap To Add To Mesh
       - Utilities/Tap To Add To Mesh/.hidden
       - Utilities/Tap To Add To Mesh/.hidden/Wood.ss_graph
       - Utilities/Tap To Add To Mesh/.hidden/center.ss_graph
@@ -1375,6 +1377,7 @@ CollapsedEntities:
       - Utilities/Tap To Add To Mesh/.hidden/flower1.ss_graph
       - Utilities/Tap To Add To Mesh/.hidden/leaf1.ss_graph
       - Utilities/Tap To Add To Mesh/.hidden/renderUV.ss_graph
+      - Utilities/Tap To Add To Mesh/Tap To Add Resources
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/Flower Assets
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Materials/center 2.mat
@@ -1398,14 +1401,14 @@ CollapsedEntities:
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/Flower Assets/Textures/Normal.png
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/READ_ME.js
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/Sphere.mesh
+      - Utilities/Tap To Add To Mesh/Tap To Add Resources/TapToAdd.js
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/UVSamplerRT.renderTarget
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/Wood.mat
       - Utilities/Tap To Add To Mesh/Tap To Add Resources/renderUV.mat
-      - VirtualCamera
+      - Utilities/Tap To Add To Mesh/TapToAdd__PUT_IN_OBJECTS_PANEL.prefab
       - VirtualCamera/CameraModule.cameraModule
       - VirtualCamera/CameraService.ts
       - VirtualCamera/Cloud Storage Module.cloudStorageModule
-      - VirtualCamera/CompImage.renderTarget
       - VirtualCamera/Composite Image.mat
       - VirtualCamera/Depth Render Target.renderTarget
       - VirtualCamera/Device Camera Texture.depthStencilRenderTarget

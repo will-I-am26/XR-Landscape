@@ -1,6 +1,6 @@
 - !<RenderTarget/1b4243e9-cf42-4e49-bc0f-c662dd7e4dcd>
   PackagePath: ""
-  UseScreenResolution: true
+  UseScreenResolution: false
   Resolution:
     x: 900
     y: 1600

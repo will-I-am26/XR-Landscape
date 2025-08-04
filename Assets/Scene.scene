@@ -666,7 +666,7 @@
   Enabled: true
   Layers: 1048576
   LocalTransform:
-    position: {x: -120.000000, y: 167.607712, z: 66.493759}
+    position: {x: -120.000000, y: 16.914200, z: 66.493759}
     rotation: {x: -90.617378, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -3162,10 +3162,10 @@
   UnitType: Points
   SortingType: Hierarchy
   WorldSpaceRect:
-    left: -15.000000
-    bottom: -20.000000
-    right: 15.000000
-    top: 20.000000
+    left: -150.000000
+    bottom: -200.000000
+    right: 150.000000
+    top: 200.000000
 - !<ColliderComponent/550f3b77-293d-47ab-bc93-dfce4428a95d>
   PrefabRemaps:
     []
@@ -6118,7 +6118,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> c45654ae-6dca-4aee-a7dc-e2e36e5abd45
+    - !<reference> 982c52b9-3499-4e6c-b0f7-a46a335d7a95
   FlipX: false
   FlipY: false
   RotationAngle: 0
@@ -9597,12 +9597,12 @@
     []
   Name: Camera
   Enabled: true
-  renderLayer: 1048576
+  renderLayer: 1835007
   MipmapLevel: 0
   RenderOrder: 1
   Size: 20.000000
   Near: -1.000000
-  Far: 200.000000
+  Far: 1000.000000
   Fov: 63.541019
   ClearColor: !<CameraClearColor>
     Mode: None
